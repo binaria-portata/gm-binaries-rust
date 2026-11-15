@@ -1,0 +1,15 @@
+Eukaryotic GeneMark.hmm version 3.68
+Sequence name: t3.fa
+FASTA defline: >t
+Sequence length: 6 bp
+G+C content: 50.00%
+Matrices file: es.mod
+Sun Nov 15 12:22:01 2026
+
+
+Predicted genes/exons
+
+Gene Exon Strand Exon           Exon Range         Exon      Start/End
+  #    #         Type                             Length       Frame
+
+

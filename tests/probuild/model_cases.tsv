@@ -1,0 +1,442 @@
+# Model-mode calls for tests/probuild/run_cases.py (--cases model_cases.tsv).
+# name<TAB>arguments; inputs: tests/probuild/data/m_*.  Generated from the
+# hand-made case scripts of the models.md analysis (see re-notes/probuild/models.md
+# section 18); the original probuild is the oracle.
+#
+# ---- euk --------------------------------------------------
+euk_o0	--cod m_cod --non m_non --mkmod_euk out --ORDM 0
+euk_o0_rc	--cod m_cod --non m_non --mkmod_euk out --ORDM 0 --revcomp_non
+euk_o1	--cod m_cod --non m_non --mkmod_euk out --ORDM 1
+euk_o1_rc	--cod m_cod --non m_non --mkmod_euk out --ORDM 1 --revcomp_non
+euk_o2	--cod m_cod --non m_non --mkmod_euk out --ORDM 2
+euk_o2_rc	--cod m_cod --non m_non --mkmod_euk out --ORDM 2 --revcomp_non
+euk_o3	--cod m_cod --non m_non --mkmod_euk out --ORDM 3
+euk_o3_rc	--cod m_cod --non m_non --mkmod_euk out --ORDM 3 --revcomp_non
+euk_o5	--cod m_cod --non m_non --mkmod_euk out --ORDM 5
+euk_o5_rc	--cod m_cod --non m_non --mkmod_euk out --ORDM 5 --revcomp_non
+euk_on0	--cod m_cod --non m_non --mkmod_euk out --ORDM 4 --order_non 0 --revcomp_non 1
+euk_on0_norc	--cod m_cod --non m_non --mkmod_euk out --ORDM 4 --order_non 0
+euk_on1	--cod m_cod --non m_non --mkmod_euk out --ORDM 4 --order_non 1 --revcomp_non 1
+euk_on1_norc	--cod m_cod --non m_non --mkmod_euk out --ORDM 4 --order_non 1
+euk_on2	--cod m_cod --non m_non --mkmod_euk out --ORDM 4 --order_non 2 --revcomp_non 1
+euk_on2_norc	--cod m_cod --non m_non --mkmod_euk out --ORDM 4 --order_non 2
+euk_on4	--cod m_cod --non m_non --mkmod_euk out --ORDM 4 --order_non 4 --revcomp_non 1
+euk_on4_norc	--cod m_cod --non m_non --mkmod_euk out --ORDM 4 --order_non 4
+euk_on_neg	--cod m_cod --non m_non --mkmod_euk out --ORDM 3 --order_non -1
+euk_on_neg2	--cod m_cod --non m_non --mkmod_euk out --ORDM 3 --order_non -2
+euk_on_hi	--cod m_cod --non m_non --mkmod_euk out --ORDM 3 --order_non 5
+euk_ord15	--cod m_cod --non m_non --mkmod_euk out --ORDM 15
+euk_pc0	--cod m_cod --non m_non --mkmod_euk out --ORDM 2 --MKCHAIN_PSEUDOCOUNTS 0
+euk_pc3	--cod m_cod --non m_non --mkmod_euk out --ORDM 2 --MKCHAIN_PSEUDOCOUNTS 3
+euk_pc-1	--cod m_cod --non m_non --mkmod_euk out --ORDM 2 --MKCHAIN_PSEUDOCOUNTS -1
+euk_pcx	--cod m_cod --non m_non --mkmod_euk out --ORDM 2 --MKCHAIN_PSEUDOCOUNTS x
+euk_pr0	--cod m_cod --non m_non --mkmod_euk out --ORDM 2 --MKCHAIN_PRECISION 0
+euk_pr1	--cod m_cod --non m_non --mkmod_euk out --ORDM 2 --MKCHAIN_PRECISION 1
+euk_pr3	--cod m_cod --non m_non --mkmod_euk out --ORDM 2 --MKCHAIN_PRECISION 3
+euk_pr10	--cod m_cod --non m_non --mkmod_euk out --ORDM 2 --MKCHAIN_PRECISION 10
+euk_pr11	--cod m_cod --non m_non --mkmod_euk out --ORDM 2 --MKCHAIN_PRECISION 11
+euk_margins	--cod m_cod --non m_non --mkmod_euk out --ORDM 2 --MKCHAIN_L_MARGING 7 --MKCHAIN_R_MARGING 9
+euk_fa	--cod m_fa --non m_fa --mkmod_euk out --ORDM 2 --revcomp_non 0
+euk_empty	--cod m_empty --non m_short --mkmod_euk out --ORDM 2 --revcomp_non 0.5
+euk_nofile	--cod nofile --non m_non --mkmod_euk out --ORDM 2
+euk_noout	--cod m_cod --non m_non --mkmod_euk --ORDM 2
+euk_nonon	--cod m_cod --mkmod_euk o --ORDM 2
+euk_badord	--cod m_cod --non m_non --mkmod_euk out --ORDM -1
+euk_badrc	--cod m_cod --non m_non --mkmod_euk out --ORDM 1 --revcomp_non yes
+non_o0	--non m_non --mkmod_non out --ORDM 0
+non_o0_rc	--non m_non --mkmod_non out --ORDM 0 --revcomp_non
+non_o0_on	--non m_non --mkmod_non out --ORDM 0 --order_non 0 --revcomp_non
+non_o1	--non m_non --mkmod_non out --ORDM 1
+non_o1_rc	--non m_non --mkmod_non out --ORDM 1 --revcomp_non
+non_o1_on	--non m_non --mkmod_non out --ORDM 1 --order_non 0 --revcomp_non
+non_o4	--non m_non --mkmod_non out --ORDM 4
+non_o4_rc	--non m_non --mkmod_non out --ORDM 4 --revcomp_non
+non_o4_on	--non m_non --mkmod_non out --ORDM 4 --order_non 0 --revcomp_non
+non_pr	--non m_non --mkmod_non out --ORDM 2 --MKCHAIN_PRECISION 2 --MKCHAIN_PSEUDOCOUNTS 0
+non_fa	--non m_fa --mkmod_non out --ORDM 2
+non_missing	--mkmod_non out --ORDM 2
+#
+# ---- mkmod --------------------------------------------------
+mk_nofix	--par m_par --mkmod m.mod --seq m_sequence --geneset m_g.lst --ORDM 4 --order_non 2 --revcomp_non 1
+mk_nolog	--par m_par --mkmod m.mod --seq m_sequence --geneset m_g.lst --ORDM 4 --fixmotif --PRE_START_WIDTH 6 --width 12
+mk_o2	--par m_par --mkmod m.mod --seq m_sequence --geneset m_g.lst --ORDM 2 --fixmotif --PRE_START_WIDTH 6 --width 12 --log new.log
+mk_o5_on0	--par m_par --mkmod m.mod --seq m_sequence --geneset m_g.lst --ORDM 5 --order_non 0 --revcomp_non
+mk_o3_norc	--par m_par --mkmod m.mod --seq m_sequence --geneset m_g.lst --ORDM 3 --order_non 1
+mk_w20	--par m_par --mkmod m.mod --seq m_sequence --geneset m_g.lst --ORDM 4 --fixmotif --PRE_START_WIDTH 20 --width 26 --log l
+mk_w0	--par m_par --mkmod m.mod --seq m_sequence --geneset m_g.lst --ORDM 4 --fixmotif --PRE_START_WIDTH 0 --width 3 --log l
+mk_inter0	--par m_par --mkmod m.mod --seq m_sequence --geneset m_g.lst --ORDM 4 --order_non 2 --revcomp_non 1 --fixmotif --PRE_START_WIDTH 6 --width 12 --log m_gms.log --PRE_START_INTERGENIC 0
+mk_gibbs_opts	--par m_par --mkmod m.mod --seq m_sequence --geneset m_g.lst --ORDM 4 --order_non 2 --revcomp_non 1 --fixmotif --PRE_START_WIDTH 6 --width 12 --log m_gms.log --GIBBS_PSEUDOCOUNTS_MAT 0 --GIBBS_PRECISION_MAT 6
+mk_gibbs_prec0	--par m_par --mkmod m.mod --seq m_sequence --geneset m_g.lst --ORDM 4 --order_non 2 --revcomp_non 1 --fixmotif --PRE_START_WIDTH 6 --width 12 --log m_gms.log --GIBBS_PRECISION_MAT 0 --START_PRECISION 0
+mk_starts	--par m_par --mkmod m.mod --seq m_sequence --geneset m_g.lst --ORDM 4 --order_non 2 --revcomp_non 1 --fixmotif --PRE_START_WIDTH 6 --width 12 --log m_gms.log --GTG_ 1 --TTG_ 0.5 --CTG_ '' --START_PSEUDOCOUNTS 5
+mk_minc	--par m_par --mkmod m.mod --seq m_sequence --geneset m_g.lst --ORDM 4 --order_non 2 --revcomp_non 1 --fixmotif --PRE_START_WIDTH 6 --width 12 --log m_gms.log --MIN_COD 900 --MIN_NON 30 --EXCLUDE_PARTIAL 0
+mk_chainopts	--par m_par --mkmod m.mod --seq m_sequence --geneset m_g.lst --ORDM 4 --order_non 2 --revcomp_non 1 --fixmotif --PRE_START_WIDTH 6 --width 12 --log m_gms.log --MKCHAIN_L_MARGING 0 --MKCHAIN_R_MARGING 7 --MKCHAIN_PSEUDOCOUNTS 3 --MKCHAIN_PRECISION 9
+mk_rand	--par m_par --mkmod m.mod --seq m_sequence --geneset m_g.lst --ORDM 4 --order_non 2 --revcomp_non 1 --fixmotif --PRE_START_WIDTH 6 --width 12 --log m_gms.log --RANDOM_NONCOD 1
+mk_rand_gc	--par m_par --mkmod m.mod --seq m_sequence --geneset m_g.lst --ORDM 4 --order_non 2 --revcomp_non 1 --fixmotif --PRE_START_WIDTH 6 --width 12 --log m_gms.log --RANDOM_NONCOD 1 --RANDOM_NONCOD_GC 0.3
+mk_rand0	--par m_par --mkmod m.mod --seq m_sequence --geneset m_g.lst --ORDM 4 --order_non 2 --revcomp_non 1 --fixmotif --PRE_START_WIDTH 6 --width 12 --log m_gms.log --RANDOM_NONCOD 0.0
+mk_rand_bad	--par m_par --mkmod m.mod --seq m_sequence --geneset m_g.lst --ORDM 4 --order_non 2 --revcomp_non 1 --fixmotif --PRE_START_WIDTH 6 --width 12 --log m_gms.log --RANDOM_NONCOD x
+mk_rbss_twice	--par m_par --mkmod m.mod --seq m_sequence --geneset m_g.lst --ORDM 4 --order_non 2 --revcomp_non 1 --fixmotif --PRE_START_WIDTH 6 --width 12 --log m_gms.log --RBSS 1
+mk_sep_noclass2	--par m_par --mkmod m.mod --seq m_sequence --geneset m_g.lst --ORDM 4 --order_non 2 --revcomp_non 1 --fixmotif --PRE_START_WIDTH 6 --width 12 --log m_gms.log --SEPARATE_COD 1
+mk_prestart	--par m_par --mkmod m.mod --seq m_sequence --geneset m_g.lst --ORDM 4 --pre_start ps.fa
+mk_prestart_fix	--par m_par --mkmod m.mod --seq m_sequence --geneset m_g.lst --ORDM 4 --order_non 2 --revcomp_non 1 --fixmotif --PRE_START_WIDTH 6 --width 12 --log m_gms.log --pre_start ps.fa
+mk_noseq	--par m_par --mkmod m.mod --geneset m_g.lst --ORDM 4
+mk_nogs_file	--par m_par --mkmod m.mod --seq m_sequence --geneset none --ORDM 4
+mk_gs_empty	--par m_par --mkmod m.mod --seq m_sequence --geneset --ORDM 4
+mk_nopar	--mkmod m.mod --seq m_sequence --geneset m_g.lst --ORDM 4
+mk_badphmm	--par m_par --mkmod m.mod --seq m_sequence --geneset m_g.lst --ORDM 4 --order_non 2 --revcomp_non 1 --fixmotif --PRE_START_WIDTH 6 --width 12 --log m_gms.log --PHMM 'a b'
+mk_badatg	--par m_par --mkmod m.mod --seq m_sequence --geneset m_g.lst --ORDM 4 --order_non 2 --revcomp_non 1 --fixmotif --PRE_START_WIDTH 6 --width 12 --log m_gms.log --ATG_ -1
+mk_badatg2	--par m_par --mkmod m.mod --seq m_sequence --geneset m_g.lst --ORDM 4 --order_non 2 --revcomp_non 1 --fixmotif --PRE_START_WIDTH 6 --width 12 --log m_gms.log --ATG_ z
+mk_badminc	--par m_par --mkmod m.mod --seq m_sequence --geneset m_g.lst --ORDM 4 --order_non 2 --revcomp_non 1 --fixmotif --PRE_START_WIDTH 6 --width 12 --log m_gms.log --MINC 1.5
+mk_noout	--par m_par --seq m_sequence --geneset m_g.lst --ORDM 4 --order_non 2 --revcomp_non 1 --fixmotif --PRE_START_WIDTH 6 --width 12 --log m_gms.log --mkmod
+mk_badwidth	--par m_par --mkmod m.mod --seq m_sequence --geneset m_g.lst --ORDM 4 --order_non 2 --revcomp_non 1 --fixmotif --PRE_START_WIDTH 6 --width 12 --log m_gms.log --width -3
+syn0_pipe	--par m_par --mkmod m.mod --seq m_s.fa --geneset m_g.lst_1 --ORDM 2 --order_non 1 --revcomp_non 1 --fixmotif --PRE_START_WIDTH 6 --width 12 --log l --MIN_COD 60
+syn0_sep	--par m_par --mkmod m.mod --seq m_s.fa --geneset m_g.lst_1 --ORDM 1 --SEPARATE_COD 1 --MIN_COD 0 --EXCLUDE_PARTIAL 0 --GTG_ 1 --TTG_ 1 --CTG_ 1
+syn0_pre	--par m_par --mkmod m.mod --seq m_s.fa --geneset m_g.lst_1 --ORDM 1 --pre_start p.fa --PRE_START_WIDTH 10 --PRE_START_RELATIVE_POS 4 --PRE_START_INTERGENIC 0 --MIN_COD 0
+syn0_pre_ps	--pre_start p.fa --seq m_s.fa --geneset m_g.lst_1 --PRE_START_WIDTH 8 --PRE_START_LINES 0
+syn1_pipe	--par m_par --mkmod m.mod --seq m_s.fa_1 --geneset m_g.lst_2 --ORDM 2 --order_non 1 --revcomp_non 1 --fixmotif --PRE_START_WIDTH 6 --width 12 --log l --MIN_COD 60
+syn1_sep	--par m_par --mkmod m.mod --seq m_s.fa_1 --geneset m_g.lst_2 --ORDM 1 --SEPARATE_COD 1 --MIN_COD 0 --EXCLUDE_PARTIAL 0 --GTG_ 1 --TTG_ 1 --CTG_ 1
+syn1_pre	--par m_par --mkmod m.mod --seq m_s.fa_1 --geneset m_g.lst_2 --ORDM 1 --pre_start p.fa --PRE_START_WIDTH 10 --PRE_START_RELATIVE_POS 4 --PRE_START_INTERGENIC 0 --MIN_COD 0
+syn1_pre_ps	--pre_start p.fa --seq m_s.fa_1 --geneset m_g.lst_2 --PRE_START_WIDTH 8 --PRE_START_LINES 1
+syn2_pipe	--par m_par --mkmod m.mod --seq m_s.fa_2 --geneset m_g.lst_3 --ORDM 2 --order_non 1 --revcomp_non 1 --fixmotif --PRE_START_WIDTH 6 --width 12 --log l --MIN_COD 60
+syn2_sep	--par m_par --mkmod m.mod --seq m_s.fa_2 --geneset m_g.lst_3 --ORDM 1 --SEPARATE_COD 1 --MIN_COD 0 --EXCLUDE_PARTIAL 0 --GTG_ 1 --TTG_ 1 --CTG_ 1
+syn2_pre	--par m_par --mkmod m.mod --seq m_s.fa_2 --geneset m_g.lst_3 --ORDM 1 --pre_start p.fa --PRE_START_WIDTH 10 --PRE_START_RELATIVE_POS 4 --PRE_START_INTERGENIC 0 --MIN_COD 0
+syn2_pre_ps	--pre_start p.fa --seq m_s.fa_2 --geneset m_g.lst_3 --PRE_START_WIDTH 8 --PRE_START_LINES 2
+syn3_pipe	--par m_par --mkmod m.mod --seq m_s.fa_3 --geneset m_g.lst_4 --ORDM 2 --order_non 1 --revcomp_non 1 --fixmotif --PRE_START_WIDTH 6 --width 12 --log l --MIN_COD 60
+syn3_sep	--par m_par --mkmod m.mod --seq m_s.fa_3 --geneset m_g.lst_4 --ORDM 1 --SEPARATE_COD 1 --MIN_COD 0 --EXCLUDE_PARTIAL 0 --GTG_ 1 --TTG_ 1 --CTG_ 1
+syn3_pre	--par m_par --mkmod m.mod --seq m_s.fa_3 --geneset m_g.lst_4 --ORDM 1 --pre_start p.fa --PRE_START_WIDTH 10 --PRE_START_RELATIVE_POS 4 --PRE_START_INTERGENIC 0 --MIN_COD 0
+syn3_pre_ps	--pre_start p.fa --seq m_s.fa_3 --geneset m_g.lst_4 --PRE_START_WIDTH 8 --PRE_START_LINES 3
+syn4_pipe	--par m_par --mkmod m.mod --seq m_s.fa_4 --geneset m_g.lst_5 --ORDM 2 --order_non 1 --revcomp_non 1 --fixmotif --PRE_START_WIDTH 6 --width 12 --log l --MIN_COD 60
+syn4_sep	--par m_par --mkmod m.mod --seq m_s.fa_4 --geneset m_g.lst_5 --ORDM 1 --SEPARATE_COD 1 --MIN_COD 0 --EXCLUDE_PARTIAL 0 --GTG_ 1 --TTG_ 1 --CTG_ 1
+syn4_pre	--par m_par --mkmod m.mod --seq m_s.fa_4 --geneset m_g.lst_5 --ORDM 1 --pre_start p.fa --PRE_START_WIDTH 10 --PRE_START_RELATIVE_POS 4 --PRE_START_INTERGENIC 0 --MIN_COD 0
+syn4_pre_ps	--pre_start p.fa --seq m_s.fa_4 --geneset m_g.lst_5 --PRE_START_WIDTH 8 --PRE_START_LINES 4
+syn5_pipe	--par m_par --mkmod m.mod --seq m_s.fa_5 --geneset m_g.lst_6 --ORDM 2 --order_non 1 --revcomp_non 1 --fixmotif --PRE_START_WIDTH 6 --width 12 --log l --MIN_COD 60
+syn5_sep	--par m_par --mkmod m.mod --seq m_s.fa_5 --geneset m_g.lst_6 --ORDM 1 --SEPARATE_COD 1 --MIN_COD 0 --EXCLUDE_PARTIAL 0 --GTG_ 1 --TTG_ 1 --CTG_ 1
+syn5_pre	--par m_par --mkmod m.mod --seq m_s.fa_5 --geneset m_g.lst_6 --ORDM 1 --pre_start p.fa --PRE_START_WIDTH 10 --PRE_START_RELATIVE_POS 4 --PRE_START_INTERGENIC 0 --MIN_COD 0
+syn5_pre_ps	--pre_start p.fa --seq m_s.fa_5 --geneset m_g.lst_6 --PRE_START_WIDTH 8 --PRE_START_LINES 5
+cn_plain	--par m_par --mkmod m.mod --cod m_cod_1 --non m_non_1 --ORDM 2
+cn_on	--par m_par --mkmod m.mod --cod m_cod_1 --non m_non_1 --ORDM 3 --order_non 1 --revcomp_non
+cn_fix	--par m_par --mkmod m.mod --cod m_cod_1 --non m_non_1 --ORDM 2 --fixmotif
+cn_rand	--par m_par --mkmod m.mod --cod m_cod_1 --non m_non_1 --ORDM 2 --RANDOM_NONCOD 1
+cn_rand_gc	--par m_par --mkmod m.mod --cod m_cod_1 --non m_non_1 --ORDM 2 --RANDOM_NONCOD 1 --RANDOM_NONCOD_GC 0.6
+cn_nonon	--par m_par --mkmod m.mod --cod m_cod_1 --ORDM 2
+#
+# ---- parse --------------------------------------------------
+parse_par	--par m_par --parse --cod c --non n --seq m_sequence --geneset m_g.lst
+parse_plain	--parse --cod c --non n --seq m_sequence --geneset m_g.lst
+parse_marg	--par m_par --parse --cod c --non n --COD_L_MARGIN 6 --COD_R_MARGIN 3 --MIN_NON 50 --MIN_COD 300 --seq m_sequence --geneset m_g.lst
+parse_sep	--par m_par --parse --cod c --non n --SEPARATE_COD 1 --seq m_sequence --geneset m_g.lst
+parse_nocod	--parse --non n --seq m_sequence --geneset m_g.lst
+parse_codempty	--parse --cod --non n --seq m_sequence --geneset m_g.lst
+parse_nonon	--parse --cod c --seq m_sequence --geneset m_g.lst
+parse_badm	--parse --cod c --non n --COD_L_MARGIN -1 --seq m_sequence --geneset m_g.lst
+mkchain_par	--par m_par --mkchain --chain_cod cc --chain_non cn --order 3 --seq m_sequence --geneset m_g.lst
+mkchain_opts	--mkchain --chain_cod cc --chain_non cn --order 2 --order_non 1 --revcomp_non --MKCHAIN_PRECISION 4 --MKCHAIN_L_MARGING 0 --MIN_COD 600 --seq m_sequence --geneset m_g.lst
+mkchain_ordm	--mkchain --chain_cod cc --chain_non cn --ORDM 3 --seq m_sequence --geneset m_g.lst
+mkchain_bado	--mkchain --chain_cod cc --chain_non cn --order x --seq m_sequence --geneset m_g.lst
+mkchain_nocc	--mkchain --chain_non cn --order 1 --seq m_sequence --geneset m_g.lst
+mkchain_ccempty	--mkchain --chain_cod --chain_non cn --order 1 --seq m_sequence --geneset m_g.lst
+mkchain_nocn	--mkchain --chain_cod cc --order 1 --seq m_sequence --geneset m_g.lst
+stat_nva	--STAT_NON_VS_ALL --seq m_sequence --geneset m_g.lst
+stat_nva_min	--STAT_NON_VS_ALL --MIN_NON 100 --seq m_sequence --geneset m_g.lst
+gss	--GENE_SET_STAT --geneset m_g.lst
+gss_none	--GENE_SET_STAT --geneset none
+gss_empty	--GENE_SET_STAT --geneset m_empty
+ps_par	--par m_par --pre_start p.fa --seq m_sequence --geneset m_g.lst
+ps_rel	--pre_start p.fa --PRE_START_WIDTH 30 --PRE_START_RELATIVE_POS 9 --PRE_START_LINES 50 --MIN_COD 600 --seq m_sequence --geneset m_g.lst
+ps_bad	--pre_start --PRE_START_WIDTH 30 --seq m_sequence --geneset m_g.lst
+ps_lines_neg	--pre_start p.fa --PRE_START_WIDTH 12 --PRE_START_LINES -5 --seq m_sequence --geneset m_g.lst
+syn0_parse	--parse --cod c --non n --TAA_ --TGA_ --TAG_ --EXCLUDE_PARTIAL 0 --SEPARATE_COD 1 --COD_L_MARGIN 0 --COD_R_MARGIN 0 --seq m_s.fa_6 --geneset m_g.lst_7
+syn0_mkchain	--mkchain --chain_cod cc --chain_non cn --order 0 --SEPARATE_COD 0 --revcomp_non 0 --seq m_s.fa_6 --geneset m_g.lst_7
+syn0_stat	--STAT_NON_VS_ALL --MIN_NON 0 --seq m_s.fa_6 --geneset m_g.lst_7
+syn0_gss	--GENE_SET_STAT --geneset m_g.lst_7
+syn0_inter	--intergenic --non n --seq m_s.fa_6 --geneset m_r.txt --shift_zero -10 --MIN_NON 0
+syn1_parse	--parse --cod c --non n --TAA_ --TGA_ --TAG_ --EXCLUDE_PARTIAL 1 --SEPARATE_COD 0 --COD_L_MARGIN 1 --COD_R_MARGIN 3 --seq m_s.fa_7 --geneset m_g.lst_8
+syn1_mkchain	--mkchain --chain_cod cc --chain_non cn --order 1 --SEPARATE_COD 1 --revcomp_non 1 --seq m_s.fa_7 --geneset m_g.lst_8
+syn1_stat	--STAT_NON_VS_ALL --MIN_NON 10 --seq m_s.fa_7 --geneset m_g.lst_8
+syn1_gss	--GENE_SET_STAT --geneset m_g.lst_8
+syn1_inter	--intergenic --non n --seq m_s.fa_7 --geneset m_r.txt_1 --shift_zero -3 --MIN_NON 1
+syn2_parse	--parse --cod c --non n --TAA_ --TGA_ --TAG_ --EXCLUDE_PARTIAL 0 --SEPARATE_COD 0 --COD_L_MARGIN 2 --COD_R_MARGIN 6 --seq m_s.fa_8 --geneset m_g.lst_9
+syn2_mkchain	--mkchain --chain_cod cc --chain_non cn --order 2 --SEPARATE_COD 0 --revcomp_non 0 --seq m_s.fa_8 --geneset m_g.lst_9
+syn2_stat	--STAT_NON_VS_ALL --MIN_NON 20 --seq m_s.fa_8 --geneset m_g.lst_9
+syn2_gss	--GENE_SET_STAT --geneset m_g.lst_9
+syn2_inter	--intergenic --non n --seq m_s.fa_8 --geneset m_r.txt_2 --shift_zero 4 --MIN_NON 2
+syn3_parse	--parse --cod c --non n --TAA_ --TGA_ --TAG_ --EXCLUDE_PARTIAL 1 --SEPARATE_COD 1 --COD_L_MARGIN 3 --COD_R_MARGIN 9 --seq m_s.fa_9 --geneset m_g.lst_10
+syn3_mkchain	--mkchain --chain_cod cc --chain_non cn --order 0 --SEPARATE_COD 1 --revcomp_non 1 --seq m_s.fa_9 --geneset m_g.lst_10
+syn3_stat	--STAT_NON_VS_ALL --MIN_NON 30 --seq m_s.fa_9 --geneset m_g.lst_10
+syn3_gss	--GENE_SET_STAT --geneset m_g.lst_10
+syn3_inter	--intergenic --non n --seq m_s.fa_9 --geneset m_r.txt_3 --shift_zero 11 --MIN_NON 3
+syn4_parse	--parse --cod c --non n --TAA_ --TGA_ --TAG_ --EXCLUDE_PARTIAL 0 --SEPARATE_COD 0 --COD_L_MARGIN 4 --COD_R_MARGIN 12 --seq m_s.fa_10 --geneset m_g.lst_11
+syn4_mkchain	--mkchain --chain_cod cc --chain_non cn --order 1 --SEPARATE_COD 0 --revcomp_non 0 --seq m_s.fa_10 --geneset m_g.lst_11
+syn4_stat	--STAT_NON_VS_ALL --MIN_NON 40 --seq m_s.fa_10 --geneset m_g.lst_11
+syn4_gss	--GENE_SET_STAT --geneset m_g.lst_11
+syn4_inter	--intergenic --non n --seq m_s.fa_10 --geneset m_r.txt_4 --shift_zero 18 --MIN_NON 4
+syn5_parse	--parse --cod c --non n --TAA_ --TGA_ --TAG_ --EXCLUDE_PARTIAL 1 --SEPARATE_COD 0 --COD_L_MARGIN 5 --COD_R_MARGIN 15 --seq m_s.fa_11 --geneset m_g.lst_12
+syn5_mkchain	--mkchain --chain_cod cc --chain_non cn --order 2 --SEPARATE_COD 1 --revcomp_non 1 --seq m_s.fa_11 --geneset m_g.lst_12
+syn5_stat	--STAT_NON_VS_ALL --MIN_NON 50 --seq m_s.fa_11 --geneset m_g.lst_12
+syn5_gss	--GENE_SET_STAT --geneset m_g.lst_12
+syn5_inter	--intergenic --non n --seq m_s.fa_11 --geneset m_r.txt_5 --shift_zero 25 --MIN_NON 5
+inter_noshift	--intergenic --non n --seq m_sequence --geneset m_g.lst
+inter_badshift	--intergenic --non n --seq m_sequence --geneset m_g.lst --shift_zero q
+inter_nonon	--intergenic --seq m_sequence --geneset m_g.lst
+#
+# ---- extra --------------------------------------------------
+x_ctor_err_parse	--parse --cod c --non n --MIN_COD x --EXCLUDE_PARTIAL q --ATG_ w --seq m_sequence --geneset m_g.lst
+x_ctor_err_mkmod	--par m_par --mkmod m.mod --seq m_sequence --geneset m_g.lst --ORDM 4 --order_non 2 --revcomp_non 1 --fixmotif --PRE_START_WIDTH 6 --width 12 --log l --MIN_NON -4 --SEPARATE_COD z --START_PRECISION 1.5
+x_prec11	--par m_par --mkmod m.mod --seq m_sequence --geneset m_g.lst --ORDM 4 --order_non 2 --revcomp_non 1 --fixmotif --PRE_START_WIDTH 6 --width 12 --log l --MKCHAIN_PRECISION 11
+x_on_hi	--par m_par --mkmod m.mod --seq m_sequence --geneset m_g.lst --ORDM 4 --order_non 2 --revcomp_non 1 --fixmotif --PRE_START_WIDTH 6 --width 12 --log l --order_non 7
+x_ord15	--par m_par --mkmod m.mod --seq m_sequence --geneset m_g.lst --ORDM 4 --order_non 2 --revcomp_non 1 --fixmotif --PRE_START_WIDTH 6 --width 12 --log l --ORDM 15
+x_gibbsprec_neg	--par m_par --mkmod m.mod --seq m_sequence --geneset m_g.lst --ORDM 4 --order_non 2 --revcomp_non 1 --fixmotif --PRE_START_WIDTH 6 --width 12 --log l --GIBBS_PRECISION_MAT -2
+x_rnc_gc_bad	--par m_par --mkmod m.mod --seq m_sequence --geneset m_g.lst --ORDM 4 --order_non 2 --revcomp_non 1 --fixmotif --PRE_START_WIDTH 6 --width 12 --log l --RANDOM_NONCOD 1 --RANDOM_NONCOD_GC 0.2.3
+x_stop_flags	--par m_par --mkmod m.mod --seq m_sequence --geneset m_g.lst --ORDM 4 --order_non 2 --revcomp_non 1 --fixmotif --PRE_START_WIDTH 6 --width 12 --log l --TAA_ 0 --TGA_ 0 --TAG_ 0
+x_nostarts	--par m_par --mkmod m.mod --seq m_sequence --geneset m_g.lst --ORDM 4 --order_non 2 --revcomp_non 1 --fixmotif --PRE_START_WIDTH 6 --width 12 --log l --ATG_ 0
+x_mkchain_sep	--mkchain --chain_cod a --chain_non b --order 2 --SEPARATE_COD --seq m_sequence --geneset m_g.lst
+x_pre_neg_lines	--pre_start p --PRE_START_LINES 0 --seq m_sequence --geneset m_g.lst
+x_gss_par	--par m_par --GENE_SET_STAT --geneset m_g.lst
+x_stat_empty	--STAT_NON_VS_ALL --seq m_e --geneset m_g.lst
+#
+# ---- compare --------------------------------------------------
+cmp_cap	--par m_par --compare --source m_l1 --target m_g.lst
+cmp_cap_noPar	--compare --source m_l1 --target m_g.lst
+cmp_A_B	--compare --source m_A --target m_B
+cmp_A_B_se	--compare --source m_A --target m_B --COMPARE_END 1 --COMPARE_PRECISION 6
+cmp_B_A	--compare --source m_B --target m_A
+cmp_B_A_se	--compare --source m_B --target m_A --COMPARE_END 1 --COMPARE_PRECISION 6
+cmp_A_C	--compare --source m_A --target m_C
+cmp_A_C_se	--compare --source m_A --target m_C --COMPARE_END 1 --COMPARE_PRECISION 6
+cmp_C_A	--compare --source m_C --target m_A
+cmp_C_A_se	--compare --source m_C --target m_A --COMPARE_END 1 --COMPARE_PRECISION 6
+cmp_A_A	--compare --source m_A --target m_A
+cmp_A_A_se	--compare --source m_A --target m_A --COMPARE_END 1 --COMPARE_PRECISION 6
+cmp_An_Cn	--compare --source m_An --target m_Cn
+cmp_An_Cn_se	--compare --source m_An --target m_Cn --COMPARE_END 1 --COMPARE_PRECISION 6
+cmp_A_An	--compare --source m_A --target m_An
+cmp_A_An_se	--compare --source m_A --target m_An --COMPARE_END 1 --COMPARE_PRECISION 6
+cmp_odd_odd	--compare --source m_odd --target m_odd
+cmp_odd_odd_se	--compare --source m_odd --target m_odd --COMPARE_END 1 --COMPARE_PRECISION 6
+cmp_odd_A	--compare --source m_odd --target m_A
+cmp_odd_A_se	--compare --source m_odd --target m_A --COMPARE_END 1 --COMPARE_PRECISION 6
+cmp_crlf_A	--compare --source m_crlf --target m_A
+cmp_crlf_A_se	--compare --source m_crlf --target m_A --COMPARE_END 1 --COMPARE_PRECISION 6
+cmp_crlf_crlf	--compare --source m_crlf --target m_crlf
+cmp_crlf_crlf_se	--compare --source m_crlf --target m_crlf --COMPARE_END 1 --COMPARE_PRECISION 6
+cmp_hdr_A	--compare --source m_hdr --target m_A
+cmp_hdr_A_se	--compare --source m_hdr --target m_A --COMPARE_END 1 --COMPARE_PRECISION 6
+cmp_empty_A	--compare --source m_empty --target m_A
+cmp_empty_A_se	--compare --source m_empty --target m_A --COMPARE_END 1 --COMPARE_PRECISION 6
+cmp_A_empty	--compare --source m_A --target m_empty
+cmp_A_empty_se	--compare --source m_A --target m_empty --COMPARE_END 1 --COMPARE_PRECISION 6
+cmp_empty_empty	--compare --source m_empty --target m_empty
+cmp_empty_empty_se	--compare --source m_empty --target m_empty --COMPARE_END 1 --COMPARE_PRECISION 6
+cmp_nl_nl	--compare --source m_nl --target m_nl
+cmp_nl_nl_se	--compare --source m_nl --target m_nl --COMPARE_END 1 --COMPARE_PRECISION 6
+cmp_nl_empty	--compare --source m_nl --target m_empty
+cmp_nl_empty_se	--compare --source m_nl --target m_empty --COMPARE_END 1 --COMPARE_PRECISION 6
+cmp_hdr_hdr	--compare --source m_hdr --target m_hdr
+cmp_hdr_hdr_se	--compare --source m_hdr --target m_hdr --COMPARE_END 1 --COMPARE_PRECISION 6
+cmp_opt_COMPARE_START_0	--compare --source m_A --target m_B --COMPARE_START 0
+cmp_opt_COMPARE_START_0_COMPARE_END_0	--compare --source m_A --target m_B --COMPARE_START 0 --COMPARE_END 0
+cmp_opt_COMPARE_END_1_COMPARE_START_0	--compare --source m_A --target m_B --COMPARE_END 1 --COMPARE_START 0
+cmp_opt_COMPARE_PRECISION_0	--compare --source m_A --target m_B --COMPARE_PRECISION 0
+cmp_opt_COMPARE_PRECISION_12	--compare --source m_A --target m_B --COMPARE_PRECISION 12
+cmp_opt_COMPARE_PRECISION_1	--compare --source m_A --target m_B --COMPARE_PRECISION -1
+cmp_opt_COMPARE_PRECISION_x	--compare --source m_A --target m_B --COMPARE_PRECISION x
+cmp_opt_COMPARE_START_yes	--compare --source m_A --target m_B --COMPARE_START yes
+cmp_opt_COMPARE_END_z	--compare --source m_A --target m_B --COMPARE_END z
+cmp_opt_COMPARE_START_0.0	--compare --source m_A --target m_B --COMPARE_START 0.0
+cmp_opt_COMPARE_START_2e0	--compare --source m_A --target m_B --COMPARE_START 2e0
+cmp_opt_COMPARE_END	--compare --source m_A --target m_B --COMPARE_END
+cmp_par_opts	--par m_par --compare --source m_A --target m_C --COMPARE_END 1
+cmp_tofile	--compare res.txt --source m_A --target m_B --COMPARE_END 1
+cmp_tofile_empty	--compare res.txt --source m_empty --target m_empty
+cmp_nosrc	--compare --target m_B
+cmp_notgt	--compare --source m_B
+cmp_missing	--compare --source nofile --target m_B
+cmp_missing2	--compare --source m_A --target nofile
+cmp_badsrc	--compare --source --target m_B
+cmp_rbs_A	--compare --source m_rbs --target m_A
+cmp_rbs_rbs	--compare --source m_rbs --target m_rbs --COMPARE_PRECISION 3
+#
+# ---- orf --------------------------------------------------
+orf_small	--orf --seq m_small --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+orf_fa	--orf --seq m_fa_1 --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+orf_short	--orf --seq m_short_1 --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+orf_tiny	--orf --seq m_tiny --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+orf_empty	--orf --seq m_empty --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+orf_lc	--orf --seq m_lc --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+orf_nostop	--orf --seq m_nostop --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+orf_par	--par m_par --orf --seq m_small
+orf_nostops	--orf --seq m_small --ATG_ 1
+orf_nothing	--orf --seq m_small
+orf_allstarts	--orf --seq m_small --GTG_ --TTG_ 1 --CTG_ 1 --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+orf_min0	--orf --seq m_small --MIN_ORF_SIZE 0 --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+orf_min30	--orf --seq m_small --MIN_ORF_SIZE 30 --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+orf_min100	--orf --seq m_small --MIN_ORF_SIZE 100 --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+orf_min2999	--orf --seq m_small --MIN_ORF_SIZE 2999 --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+orf_min3000	--orf --seq m_small --MIN_ORF_SIZE 3000 --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+orf_min5000	--orf --seq m_small --MIN_ORF_SIZE 5000 --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+orf_min-3	--orf --seq m_small --MIN_ORF_SIZE -3 --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+orf_minx	--orf --seq m_small --MIN_ORF_SIZE x --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+orf_m3_0	--orf --seq m_small --ORF_MARGIN_LEFT 3 --ORF_MARGIN_RIGHT 0 --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+orf_m0_6	--orf --seq m_small --ORF_MARGIN_LEFT 0 --ORF_MARGIN_RIGHT 6 --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+orf_m4_8	--orf --seq m_small --ORF_MARGIN_LEFT 4 --ORF_MARGIN_RIGHT 8 --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+orf_m-3_0	--orf --seq m_small --ORF_MARGIN_LEFT -3 --ORF_MARGIN_RIGHT 0 --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+orf_m-4_-5	--orf --seq m_small --ORF_MARGIN_LEFT -4 --ORF_MARGIN_RIGHT -5 --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+orf_m30_30	--orf --seq m_small --ORF_MARGIN_LEFT 30 --ORF_MARGIN_RIGHT 30 --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+orf_my_1	--orf --seq m_small --ORF_MARGIN_LEFT y --ORF_MARGIN_RIGHT 1 --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+orf_out1	--orf --seq m_small --ORF_OUT 1 --MIN_ORF_SIZE 60 --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+orf_out1m	--orf --seq m_small --ORF_OUT 1 --ORF_MARGIN_LEFT 6 --ORF_MARGIN_RIGHT 9 --MIN_ORF_SIZE 60 --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+orf_out-1	--orf --seq m_small --ORF_OUT -1 --MIN_ORF_SIZE 90 --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+orf_tofile	--orf o.txt --seq m_small --MIN_ORF_SIZE 90 --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+orf_bigseq	--par m_par --orf --seq m_sequence --MIN_ORF_SIZE 300
+orf_badbool	--orf --seq m_small --TAA_ q
+orf_badbool2	--orf --seq m_small --ATG_ q --TAA_ 1 --TGA_ 1 --TAG_ 1
+orf_noseq	--orf --TAA_ 1 --TGA_ 1 --TAG_ 1
+orf_missingseq	--orf --seq nofile --TAA_ 1 --TGA_ 1 --TAG_ 1
+ops_par	--par m_par --ORF_PER_SEQ --seq m_sequence --geneset m_g.lst
+ops_par_out	--par m_par --ORF_PER_SEQ --seq m_sequence --geneset m_g.lst --ORF_OUT 1
+ops_par_min	--par m_par --ORF_PER_SEQ --seq m_sequence --geneset m_g.lst --MIN_ORF_SIZE 150 --MIN_NON 100
+ops_small_0	--ORF_PER_SEQ --seq m_small --geneset m_glist --MIN_ORF_SIZE 0 --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+ops_small_out_0	--ORF_PER_SEQ --seq m_small --geneset m_glist --MIN_ORF_SIZE 0 --ORF_OUT 1 --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+ops_small_60	--ORF_PER_SEQ --seq m_small --geneset m_glist --MIN_ORF_SIZE 60 --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+ops_small_out_60	--ORF_PER_SEQ --seq m_small --geneset m_glist --MIN_ORF_SIZE 60 --ORF_OUT 1 --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+ops_small_300	--ORF_PER_SEQ --seq m_small --geneset m_glist --MIN_ORF_SIZE 300 --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+ops_small_out_300	--ORF_PER_SEQ --seq m_small --geneset m_glist --MIN_ORF_SIZE 300 --ORF_OUT 1 --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+ops_minnon	--ORF_PER_SEQ --seq m_small --geneset m_glist --MIN_NON 500 --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+ops_minnon_all	--ORF_PER_SEQ --seq m_small --geneset m_glist --MIN_NON 50000 --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+ops_nostops	--ORF_PER_SEQ --seq m_small --geneset m_glist --ATG_ 1
+ops_nothing	--ORF_PER_SEQ --seq m_small --geneset m_glist
+ops_emptyset	--ORF_PER_SEQ --seq m_small --geneset m_empty --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+ops_emptyseq	--ORF_PER_SEQ --seq m_empty --geneset m_glist --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+ops_nogeneset	--ORF_PER_SEQ --seq m_small --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+ops_missinggs	--ORF_PER_SEQ --seq m_small --geneset nofile --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+ops_noseq	--ORF_PER_SEQ --geneset m_glist --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+ops_badint	--ORF_PER_SEQ --seq m_small --geneset m_glist --MIN_COD x --MIN_NON y --EXCLUDE_PARTIAL z --SEPARATE_COD w --START_PRECISION v --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+ops_badmin	--ORF_PER_SEQ --seq m_small --geneset m_glist --MIN_ORF_SIZE x --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+ops_badout	--ORF_PER_SEQ --seq m_small --geneset m_glist --ORF_OUT x --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+ops_badbool	--ORF_PER_SEQ --seq m_small --geneset m_glist --GTG_ x --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1
+#
+# ---- gibbs --------------------------------------------------
+gb_r1	--par m_par --gibbs m_g --mod m_m --seq m_s --log m_log
+gb_r1_nopar	--gibbs m_g --mod m_m --seq m_s --log m_log
+gb_r1_nomod	--gibbs m_g --seq m_s --log newlog
+gb_r1_bare	--gibbs m_g --seq m_s
+gb_r1_chi	--gibbs m_g --seq m_s --mod m_m --chi chi.txt
+gb_r12	--par m_par --gibbs m_g_1 --mod m_m --seq m_s_1 --log m_log
+gb_r12_nopar	--gibbs m_g_1 --mod m_m --seq m_s_1 --log m_log
+gb_r12_nomod	--gibbs m_g_1 --seq m_s_1 --log newlog
+gb_r12_bare	--gibbs m_g_1 --seq m_s_1
+gb_r12_chi	--gibbs m_g_1 --seq m_s_1 --mod m_m --chi chi.txt
+gb_r20	--par m_par --gibbs m_g_2 --mod m_m --seq m_s_2 --log m_log
+gb_r20_nopar	--gibbs m_g_2 --mod m_m --seq m_s_2 --log m_log
+gb_r20_nomod	--gibbs m_g_2 --seq m_s_2 --log newlog
+gb_r20_bare	--gibbs m_g_2 --seq m_s_2
+gb_r20_chi	--gibbs m_g_2 --seq m_s_2 --mod m_m --chi chi.txt
+gb_r40	--par m_par --gibbs m_g_3 --mod m_m --seq m_s_3 --log m_log
+gb_r40_nopar	--gibbs m_g_3 --mod m_m --seq m_s_3 --log m_log
+gb_r40_nomod	--gibbs m_g_3 --seq m_s_3 --log newlog
+gb_r40_bare	--gibbs m_g_3 --seq m_s_3
+gb_r40_chi	--gibbs m_g_3 --seq m_s_3 --mod m_m --chi chi.txt
+gb_opt--GIBBS_PRECISION_MAT0	--gibbs m_g_3 --seq m_s_3 --mod m_m --log l --GIBBS_PRECISION_MAT 0
+gb_opt--GIBBS_PRECISION_MAT7	--gibbs m_g_3 --seq m_s_3 --mod m_m --log l --GIBBS_PRECISION_MAT 7
+gb_opt--GIBBS_PRECISION_DUR1	--gibbs m_g_3 --seq m_s_3 --mod m_m --log l --GIBBS_PRECISION_DUR 1
+gb_opt--GIBBS_PRECISION_DUR12	--gibbs m_g_3 --seq m_s_3 --mod m_m --log l --GIBBS_PRECISION_DUR 12
+gb_opt--GIBBS_PSEUDOCOUNTS_MAT0	--gibbs m_g_3 --seq m_s_3 --mod m_m --log l --GIBBS_PSEUDOCOUNTS_MAT 0
+gb_opt--GIBBS_PSEUDOCOUNTS_MAT5	--gibbs m_g_3 --seq m_s_3 --mod m_m --log l --GIBBS_PSEUDOCOUNTS_MAT 5
+gb_opt--GIBBS_PSEUDOCOUNTS_DUR0	--gibbs m_g_3 --seq m_s_3 --mod m_m --log l --GIBBS_PSEUDOCOUNTS_DUR 0
+gb_opt--GIBBS_PSEUDOCOUNTS_DUR9	--gibbs m_g_3 --seq m_s_3 --mod m_m --log l --GIBBS_PSEUDOCOUNTS_DUR 9
+gb_opt--GIBBS_PRECISION_MAT-1	--gibbs m_g_3 --seq m_s_3 --mod m_m --log l --GIBBS_PRECISION_MAT -1
+gb_opt--GIBBS_PSEUDOCOUNTS_DURx	--gibbs m_g_3 --seq m_s_3 --mod m_m --log l --GIBBS_PSEUDOCOUNTS_DUR x
+gb_chi_bad	--gibbs m_g_3 --seq m_s_3 --chi ''
+gb_chi_dir	--gibbs m_g_3 --seq m_s_3 --chi nodir/c
+gb_mod_bad	--gibbs m_g_3 --seq m_s_3 --mod
+gb_log_bad	--gibbs m_g_3 --seq m_s_3 --log
+gb_noseq	--gibbs m_g_3 --mod m_m
+gb_seqmissing	--gibbs m_g_3 --seq nope
+gb_gmissing	--gibbs nope --seq m_s_3
+gb_gempty	--gibbs '' --seq m_s_3
+gb_v3	--gibbs m_g_4 --seq m_s_4 --mod m_m_1 --log l
+gb_v3_crlf	--gibbs m_g_5 --seq m_s_4 --mod m_empty --log l
+gb_v3_noF	--gibbs m_g_6 --seq m_s_4 --log l
+gb_v3_lenmis	--gibbs m_g_7 --seq m_s_4 --log l
+gb_v3_cntmis	--gibbs m_g_8 --seq m_s_4 --log l
+gb_v3_reclen	--gibbs m_g_9 --seq m_s_5 --log l
+gb_v3_posbig	--gibbs m_g_10 --seq m_s_6 --log l
+gb_v3_pos0	--gibbs m_g_11 --seq m_s_6 --log l
+gb_v3_short	--gibbs m_g_12 --seq m_s_7 --log l
+gb_v3_empty	--gibbs m_g_13 --seq m_s_4 --log m_l --mod m_m_2
+gb_v3_empty_nolog	--gibbs m_g_14 --seq m_s_4 --mod m_m_2
+gb_v3_matzero	--gibbs m_g_15 --seq m_s_6 --log l --GIBBS_PSEUDOCOUNTS_MAT 0
+gb_v3_durzero	--gibbs m_g_8 --seq m_s_6 --log l --GIBBS_PSEUDOCOUNTS_DUR 0 --chi c
+gb_v3_lower	--gibbs m_g_16 --seq m_s_8 --log l --mod m
+gb_v3_noeol	--gibbs m_g_17 --seq m_s_9 --log l
+gb_v3_late	--gibbs m_g_18 --seq m_s_6 --log l
+gb_v3_late9	--gibbs m_g_19 --seq m_s_6 --log l
+gb_v10	--gibbs m_g_20 --seq m_s_4 --log l --mod m_empty
+gb_v10b	--gibbs m_g_21 --seq m_s_4 --log l --mod m_empty
+gb_v10_x	--gibbs m_g_22 --seq m_s_4 --log l
+gb_v1	--gibbs m_g_23 --seq m_s_4 --log l --mod m_empty
+gb_v1_paren	--gibbs m_g_24 --seq m_s_6 --log l
+gb_rand0	--gibbs m_g_25 --seq m_s_10 --log l --mod m --chi c --GIBBS_PRECISION_MAT 17 --GIBBS_PRECISION_DUR 17 --GIBBS_PSEUDOCOUNTS_MAT 1 --GIBBS_PSEUDOCOUNTS_DUR 2
+gb_rand1	--gibbs m_g_26 --seq m_s_11 --log l --mod m --chi c --GIBBS_PRECISION_MAT 10 --GIBBS_PRECISION_DUR 3 --GIBBS_PSEUDOCOUNTS_MAT 1 --GIBBS_PSEUDOCOUNTS_DUR 0
+gb_rand2	--gibbs m_g_27 --seq m_s_12 --log l --mod m --chi c --GIBBS_PRECISION_MAT 17 --GIBBS_PRECISION_DUR 10 --GIBBS_PSEUDOCOUNTS_MAT 3 --GIBBS_PSEUDOCOUNTS_DUR 3
+gb_rand3	--gibbs m_g_28 --seq m_s_13 --log l --mod m --chi c --GIBBS_PRECISION_MAT 17 --GIBBS_PRECISION_DUR 3 --GIBBS_PSEUDOCOUNTS_MAT 0 --GIBBS_PSEUDOCOUNTS_DUR 0
+gb_rand4	--gibbs m_g_29 --seq m_s_14 --log l --mod m --chi c --GIBBS_PRECISION_MAT 10 --GIBBS_PRECISION_DUR 10 --GIBBS_PSEUDOCOUNTS_MAT 1 --GIBBS_PSEUDOCOUNTS_DUR 0
+gb_rand5	--gibbs m_g_30 --seq m_s_15 --log l --mod m --chi c --GIBBS_PRECISION_MAT 17 --GIBBS_PRECISION_DUR 3 --GIBBS_PSEUDOCOUNTS_MAT 0 --GIBBS_PSEUDOCOUNTS_DUR 1
+gb_rand6	--gibbs m_g_31 --seq m_s_16 --log l --mod m --chi c --GIBBS_PRECISION_MAT 17 --GIBBS_PRECISION_DUR 3 --GIBBS_PSEUDOCOUNTS_MAT 0 --GIBBS_PSEUDOCOUNTS_DUR 1
+gb_rand7	--gibbs m_g_32 --seq m_s_17 --log l --mod m --chi c --GIBBS_PRECISION_MAT 10 --GIBBS_PRECISION_DUR 10 --GIBBS_PSEUDOCOUNTS_MAT 3 --GIBBS_PSEUDOCOUNTS_DUR 1
+#
+# ---- gc_hmm --------------------------------------------------
+gc_a.fa	--gc_hmm out.gff --seq m_a.fa
+gc_b.fa	--gc_hmm out.gff --seq m_b.fa
+gc_c.fa	--gc_hmm out.gff --seq m_c.fa
+gc_d.fa	--gc_hmm out.gff --seq m_d.fa
+gc_g.fa	--gc_hmm out.gff --seq m_sequence
+gc_opt--gchigh0.6	--gc_hmm out.gff --seq m_a.fa --gchigh 0.6
+gc_opt--gclow0.4	--gc_hmm out.gff --seq m_a.fa --gclow 0.4
+gc_opt--trhigh0.9	--gc_hmm out.gff --seq m_a.fa --trhigh 0.9
+gc_opt--trlow0.5	--gc_hmm out.gff --seq m_a.fa --trlow 0.5
+gc_opt--gchigh1	--gc_hmm out.gff --seq m_a.fa --gchigh 1
+gc_opt--gclow0	--gc_hmm out.gff --seq m_a.fa --gclow 0
+gc_opt--trhigh1	--gc_hmm out.gff --seq m_a.fa --trhigh 1
+gc_opt--trlow1.5	--gc_hmm out.gff --seq m_a.fa --trlow 1.5
+gc_opt--gchigh5e-1	--gc_hmm out.gff --seq m_a.fa --gchigh 5e-1
+gc_opt--gclowx	--gc_hmm out.gff --seq m_a.fa --gclow x
+gc_opt--trhigh	--gc_hmm out.gff --seq m_a.fa --trhigh ''
+gc_all	--gc_hmm out.gff --seq m_a.fa --gchigh 0.55 --gclow 0.35 --trhigh 0.99 --trlow 0.995
+gc_pre	--gc_hmm m_a.fa --seq m_c.fa
+gc_noseq	--gc_hmm out.gff
+gc_missing	--gc_hmm out.gff --seq nope.fa
+gc_noout	--gc_hmm --seq m_a.fa
+gc_baddir	--gc_hmm nodir/out.gff --seq m_a.fa
+#
+# ---- combine --------------------------------------------------
+comb_ab	--combine out.mod --first m_a --second m_b
+comb_ba	--combine out.mod --first m_b --second m_a
+comb_first_non	--combine out.mod --first m_a --second m_b --first_NON
+comb_first_non0	--combine out.mod --first m_a --second m_b --first_NON 0
+comb_first_non_bad	--combine out.mod --first m_a --second m_b --first_NON z
+comb_norbs	--combine out.mod --first m_norbs --second m_a
+comb_rbsm_only	--combine out.mod --first m_rbsm --second m_a
+comb_badphmm	--combine out.mod --first m_badphmm --second m_a
+comb_negatg	--combine out.mod --first m_a --second m_negatg
+comb_nocod2	--combine out.mod --first m_nocod2 --second m_b
+comb_unquoted	--combine out.mod --first m_a --second m_unq
+comb_fix	--combine out.mod --first m_fix --second m_b
+comb_comment	--combine out.mod --first m_comment --second m_a
+comb_dup	--combine out.mod --first m_dup --second m_b
+comb_empty	--combine out.mod --first m_empty --second m_b
+comb_nofile	--combine out.mod --first nope --second m_b
+comb_nofile2	--combine out.mod --first m_a --second nope
+comb_nosecond	--combine out.mod --first m_a
+comb_nofirst	--combine out.mod --second m_a
+comb_noout	--combine --first m_a --second m_b
+comb_real	--combine out.mod --first m_real --second m_real
+comb_real2	--combine out.mod --first m_a --second m_real
+#
+# ---- geneset value with white space ----------------------------------------
+gs_badval	--par m_par --mkmod m --seq m_sequence --geneset 'a b' --ORDM 2
+gs_badval2	--GENE_SET_STAT --geneset 'm_g.lst x'
+#
+# ---- robustness audit (2026-11-15): huge precision, margins that wrap to a
+# negative copy length ("Out of memory!")
+cmp_prec_huge	--compare --source m_g.lst --target m_g.lst --COMPARE_PRECISION 80000
+parse_marg_wrap	--parse --cod c --non n --COD_L_MARGIN 2147483647 --COD_R_MARGIN -2147483648 --seq m_sequence --geneset m_g.lst

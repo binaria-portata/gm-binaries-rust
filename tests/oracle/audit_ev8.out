@@ -1,0 +1,16 @@
+# Eukaryotic GeneMark.hmm version 3.68
+# Sequence name: short.fa
+# FASTA defline: >short
+# Sequence length: 600 bp
+# G+C content: 43.00%
+# Matrices file: es.mod
+# Sun Nov 15 09:34:41 2026
+# FASTA definition line: >short
+# sequence-region short 1 600
+short	GeneMark.hmm3	gene	520	571	.	+	.	gene_id "1_g"; transcript_id "1_t";
+short	GeneMark.hmm3	mRNA	520	571	.	+	.	gene_id "1_g"; transcript_id "1_t";
+short	GeneMark.hmm3	start_codon	520	522	.	+	0	gene_id "1_g"; transcript_id "1_t"; evidence "1_1";
+short	GeneMark.hmm3	CDS	520	524	.	+	0	gene_id "1_g"; transcript_id "1_t"; evidence "1_0"; cds_type "Initial"; count "1_2";
+short	GeneMark.hmm3	intron	525	555	.	+	2	gene_id "1_g"; transcript_id "1_t";
+short	GeneMark.hmm3	CDS	556	571	.	+	1	gene_id "1_g"; transcript_id "1_t"; cds_type "Terminal"; count "2_2";
+short	GeneMark.hmm3	stop_codon	569	571	.	+	0	gene_id "1_g"; transcript_id "1_t";

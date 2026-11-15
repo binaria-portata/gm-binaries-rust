@@ -1,0 +1,4 @@
+Data format error, check start and/or end coordinates: short	s	Intron	300	þ400	.	+	.	x
+gmhmme3 : warning, file audit_ev8.gff line ignored : short	s	Intron	300	þ400	.	+	.	x
+Data format error, 9 columns is expected but 1 was found in: ÿ€bad line
+gmhmme3 : warning, file audit_ev8.gff line ignored : ÿ€bad line

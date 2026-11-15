@@ -1,0 +1,15 @@
+Data format error, unexpected feature CDS in : X1	src	CDS	4000	4100	.	+	0	x
+gmhmme3 : warning, file ev1.gff line ignored : X1	src	CDS	4000	4100	.	+	0	x
+Data format error, check start and/or end coordinates: X1	src	Intron	6100	6000	.	+	.	x
+gmhmme3 : warning, file ev1.gff line ignored : X1	src	Intron	6100	6000	.	+	.	x
+Data format error, 9 columns is expected but 5 was found in: X1	src	Intron	7000	7100
+gmhmme3 : warning, file ev1.gff line ignored : X1	src	Intron	7000	7100
+Data format error, unexpected symbol found in strand field: X1	src	Intron	7000	7100	.	?	.	x
+gmhmme3 : warning, file ev1.gff line ignored : X1	src	Intron	7000	7100	.	?	.	x
+Data format error, check start and/or end coordinates: X1	src	Intron	0	10	.	+	.	x
+gmhmme3 : warning, file ev1.gff line ignored : X1	src	Intron	0	10	.	+	.	x
+Data format error, check start and/or end coordinates: X1	src	Intron	125000	125041	.	+	.	x
+gmhmme3 : warning, file ev1.gff line ignored : X1	src	Intron	125000	125041	.	+	.	x
+Data format error, 9 columns is expected but 1 was found in: X1 src Intron 1 2 . + . x
+gmhmme3 : warning, file ev1.gff line ignored : X1 src Intron 1 2 . + . x
+# best path probability: -167361.989020

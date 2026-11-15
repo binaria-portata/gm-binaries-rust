@@ -1,0 +1,81 @@
+
+
+
+-------------------------------------------------
+start time            : Sat Nov 14 21:46:28 2026
+working directory     : /w
+command line          : --format GFF transcripts.fa
+output file with predictions : transcripts.fa.gff
+input sequence        : transcripts.fa
+number of bins        : 0
+filter                : 1
+strand                : both
+markov chain order    : cod = 4, non = 2
+genetic code          : 1
+search for motif      : 1
+motif width           : 12
+prestart length       : 6
+fixed motif position  : 1
+off overlap           : 1
+identity threshold    : 0.99
+maximum iteration     : 10
+gene overlap off      : 1
+strand to predict on  : both
+GeneMarkS parameters  : /opt/ETP/bin/gmst/par_1.default
+initial hmm model     : 
+output format         : GFF
+output nucleotides    : 
+output proteins       : 
+gibbs_version         : 3
+
+         run starts here:
+prepare sequence
+/opt/ETP/bin/gmst/probuild --par /opt/ETP/bin/gmst/par_1.default --clean_join sequence --seq transcripts.fa --log gms.log
+Clean-Join      IN   OUT
+Contigs - 334 183
+All letters - 413343   326185
+Unambiguous letters - 413343 317085
+A - 119257 91546
+C - 85867 65107
+G - 98912 75655
+T - 109307 84777
+N - 0 0
+Parameters:
+  Minimum of unambiguous letters per record: 1000
+  Trim down substrings "N...N" to maximum length: 50
+  Connect records using gap filler: NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+  Minimum of unambiguous letters in output: 50000
+system call done
+do_iterations = 1
+/opt/ETP/bin/gmst/probuild --par /opt/ETP/bin/gmst/par_1.default --stat_fasta --seq transcripts.fa > initial.meta.lst.feature 
+system call done
+min_GC=36  max_GC=59 total_seq_length=413343
+(43)->(162471)
+(44)->(218823)
+(46)->(317967)
+bin number = 1
+GC range = 36,59
+prepare sequence
+/opt/ETP/bin/gmst/probuild --par /opt/ETP/bin/gmst/par_1.default --clean_join sequence --seq transcripts.fa --log gms.log
+Clean-Join      IN   OUT
+Contigs - 334 183
+All letters - 413343   326185
+Unambiguous letters - 413343 317085
+A - 119257 91546
+C - 85867 65107
+G - 98912 75655
+T - 109307 84777
+N - 0 0
+Parameters:
+  Minimum of unambiguous letters per record: 1000
+  Trim down substrings "N...N" to maximum length: 50
+  Connect records using gap filler: NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+  Minimum of unambiguous letters in output: 50000
+system call done
+do_iterations = 1
+run initial prediction
+/opt/ETP/bin/gmst/gmhmmp -p 0  sequence  -m /opt/ETP/bin/gmst/MetaGeneMark_v1.mod  -o itr_0.lst
+system call done
+entering iteration loop
+build model: itr_1.mod for iteration: 1
+/opt/ETP/bin/gmst/probuild --par /opt/ETP/bin/gmst/par_1.default --mkmod itr_1.mod --seq sequence --geneset itr_0.lst --ORDM 4 --order_non 2 --revcomp_non 1 --fixmotif --PRE_START_WIDTH 6 --width 12 --log gms.log

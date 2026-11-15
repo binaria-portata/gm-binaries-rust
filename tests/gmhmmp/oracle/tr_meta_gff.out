@@ -1,0 +1,1363 @@
+##gff-version 2
+##source-version GeneMark.hmm_PROKARYOTIC 3.20
+##date: Sat Nov 14 21:24:44 2026
+# Sequence file name: transcripts.fa
+# Model file name: MetaGeneMark_v1.mod
+# RBS: false
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_41
+
+g1.t1 CDS=1-609	GeneMark.hmm	CDS	1	609	-811.518785	+	0	gene_id=1, length=609, gene_score=-811.518785, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=14.353227
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g2.t1 CDS=1-309	GeneMark.hmm	CDS	1	309	-418.137856	+	0	gene_id=2, length=309, gene_score=-418.137856, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=-5.942962
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_42
+
+g3.t2 CDS=1-537	GeneMark.hmm	CDS	1	537	-714.994921	+	0	gene_id=3, length=537, gene_score=-714.994921, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=15.050624
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g3.t1 CDS=1-591	GeneMark.hmm	CDS	1	591	-787.071447	+	0	gene_id=4, length=591, gene_score=-787.071447, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=20.679092
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g4.t1 CDS=1-591	GeneMark.hmm	CDS	1	591	-779.826705	+	0	gene_id=5, length=591, gene_score=-779.826705, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=25.368833
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g5.t1 CDS=1-603	GeneMark.hmm	CDS	1	603	-799.591617	+	0	gene_id=6, length=603, gene_score=-799.591617, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=22.670867
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g6.t1 CDS=1-597	GeneMark.hmm	CDS	1	597	-780.350241	+	0	gene_id=7, length=597, gene_score=-780.350241, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=33.690089
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_41
+
+g7.t1 CDS=1-1635	GeneMark.hmm	CDS	1	1635	-2204.231565	+	0	gene_id=8, length=1635, gene_score=-2204.231565, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=18.718516
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g8.t1 CDS=1-1674	GeneMark.hmm	CDS	1	1674	-2259.824070	+	0	gene_id=9, length=1674, gene_score=-2259.824070, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=-0.419532
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g9.t1 CDS=1-2079	GeneMark.hmm	CDS	1	2079	-2814.239908	+	0	gene_id=10, length=2079, gene_score=-2814.239908, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=39.289917
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_41
+
+g10.t1 CDS=1-954	GeneMark.hmm	CDS	1	954	-1267.437726	+	0	gene_id=11, length=954, gene_score=-1267.437726, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=16.150893
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g11.t1 CDS=1-840	GeneMark.hmm	CDS	1	840	-1135.656434	+	0	gene_id=12, length=840, gene_score=-1135.656434, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=6.622591
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_42
+
+g12.t1 CDS=1-1113	GeneMark.hmm	CDS	1	1113	-1490.293261	+	0	gene_id=13, length=1113, gene_score=-1490.293261, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=26.736474
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_50
+
+g13.t2 CDS=1-528	GeneMark.hmm	CDS	1	528	-723.183327	+	0	gene_id=14, length=528, gene_score=-723.183327, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=-5.499166
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g13.t1 CDS=1-579	GeneMark.hmm	CDS	1	579	-793.221315	+	0	gene_id=15, length=579, gene_score=-793.221315, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=-1.272989
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_47
+
+g14.t1 CDS=1-1782	GeneMark.hmm	CDS	1	1782	-2424.051867	+	0	gene_id=16, length=1782, gene_score=-2424.051867, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=18.806807
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g15.t1 CDS=1-930	GeneMark.hmm	CDS	1	930	-1275.322672	+	0	gene_id=17, length=930, gene_score=-1275.322672, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=-0.549590
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g15.t2 CDS=1-912	GeneMark.hmm	CDS	1	912	-1251.150221	+	0	gene_id=18, length=912, gene_score=-1251.150221, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=-1.693628
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g16.t1 CDS=1-1089	GeneMark.hmm	CDS	1	1089	-1494.130791	+	0	gene_id=19, length=1089, gene_score=-1494.130791, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=-10.781215
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g17.t1 CDS=1-1320	GeneMark.hmm	CDS	1	1320	-1765.455054	+	0	gene_id=20, length=1320, gene_score=-1765.455054, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=33.705284
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_47
+
+g18.t1 CDS=1-1671	GeneMark.hmm	CDS	1	1671	-2293.534817	+	0	gene_id=21, length=1671, gene_score=-2293.534817, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=9.287715
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g19.t1 CDS=1-858	GeneMark.hmm	CDS	1	858	-1148.611600	+	0	gene_id=22, length=858, gene_score=-1148.611600, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=24.428863
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g20.t1 CDS=1-1107	GeneMark.hmm	CDS	1	1107	-1498.020055	+	0	gene_id=23, length=1107, gene_score=-1498.020055, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=-4.845706
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_48
+
+g21.t1 CDS=1-522	GeneMark.hmm	CDS	175	522	-454.591047	+	0	gene_id=24, length=348, gene_score=-454.591047, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=18.301509
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g22.t1 CDS=1-933	GeneMark.hmm	CDS	1	933	-1262.330868	+	0	gene_id=25, length=933, gene_score=-1262.330868, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=7.090965
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_42
+
+g23.t1 CDS=1-1824	GeneMark.hmm	CDS	1	1824	-2425.239675	+	0	gene_id=26, length=1824, gene_score=-2425.239675, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=69.393765
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_47
+
+g24.t1 CDS=1-903	GeneMark.hmm	CDS	3	158	-206.028890	-	0	gene_id=27, length=156, gene_score=-206.028890, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=7.367981
+g24.t1 CDS=1-903	GeneMark.hmm	CDS	280	903	-840.279759	+	0	gene_id=28, length=624, gene_score=-840.279759, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=2, logodd=10.101921
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_47
+
+g25.t1 CDS=1-663	GeneMark.hmm	CDS	1	663	-872.604384	+	0	gene_id=29, length=663, gene_score=-872.604384, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=37.752793
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g26.t1 CDS=1-681	GeneMark.hmm	CDS	1	681	-915.255108	+	0	gene_id=30, length=681, gene_score=-915.255108, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=13.244467
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g27.t1 CDS=1-408	GeneMark.hmm	CDS	1	408	-541.123281	+	0	gene_id=31, length=408, gene_score=-541.123281, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=13.244384
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_49
+
+g28.t1 CDS=1-1302	GeneMark.hmm	CDS	1	1302	-1784.895227	+	0	gene_id=32, length=1302, gene_score=-1784.895227, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=12.248231
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_42
+
+g29.t1 CDS=1-2202	GeneMark.hmm	CDS	1	2202	-2969.691288	+	0	gene_id=33, length=2202, gene_score=-2969.691288, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=46.301618
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g30.t1 CDS=1-453	GeneMark.hmm	CDS	2	58	-67.883393	+	0	gene_id=34, length=57, gene_score=-67.883393, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=6.682412
+g30.t1 CDS=1-453	GeneMark.hmm	CDS	196	453	-338.502916	+	0	gene_id=35, length=258, gene_score=-338.502916, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=6.715110
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_49
+
+g31.t1 CDS=1-939	GeneMark.hmm	CDS	1	939	-1255.970880	+	0	gene_id=36, length=939, gene_score=-1255.970880, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=12.065308
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g32.t2 CDS=1-828	GeneMark.hmm	CDS	1	828	-1121.924127	+	0	gene_id=37, length=828, gene_score=-1121.924127, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=-4.334878
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g32.t1 CDS=1-891	GeneMark.hmm	CDS	1	891	-1206.645306	+	0	gene_id=38, length=891, gene_score=-1206.645306, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=-4.617406
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g33.t1 CDS=1-1026	GeneMark.hmm	CDS	1	1026	-1382.698705	+	0	gene_id=39, length=1026, gene_score=-1382.698705, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=1.888429
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_47
+
+g34.t1 CDS=1-762	GeneMark.hmm	CDS	1	762	-1043.870056	+	0	gene_id=40, length=762, gene_score=-1043.870056, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=-8.558782
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_49
+
+g35.t1 CDS=1-420	GeneMark.hmm	CDS	1	420	-565.933255	+	0	gene_id=41, length=420, gene_score=-565.933255, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=8.210387
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_51
+
+g36.t1 CDS=1-411	GeneMark.hmm	CDS	1	411	-548.759850	+	0	gene_id=42, length=411, gene_score=-548.759850, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=12.546358
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_38
+
+g37.t1 CDS=1-888	GeneMark.hmm	CDS	1	888	-1184.705987	+	0	gene_id=43, length=888, gene_score=-1184.705987, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=2.824369
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g38.t1 CDS=1-1461	GeneMark.hmm	CDS	1	1461	-1983.704084	+	0	gene_id=44, length=1461, gene_score=-1983.704084, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=12.815604
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_59
+
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g40.t1 CDS=1-813	GeneMark.hmm	CDS	1	813	-1092.549501	+	0	gene_id=45, length=813, gene_score=-1092.549501, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=21.556049
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_51
+
+g41.t1 CDS=1-840	GeneMark.hmm	CDS	1	840	-1149.214956	+	0	gene_id=46, length=840, gene_score=-1149.214956, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=7.557109
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_40
+
+g42.t1 CDS=1-927	GeneMark.hmm	CDS	1	927	-1226.826032	+	0	gene_id=47, length=927, gene_score=-1226.826032, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=32.959313
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_46
+
+g43.t1 CDS=1-747	GeneMark.hmm	CDS	1	747	-990.106649	+	0	gene_id=48, length=747, gene_score=-990.106649, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=35.050559
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_42
+
+g44.t1 CDS=1-3276	GeneMark.hmm	CDS	1	3276	-4407.542325	+	0	gene_id=49, length=3276, gene_score=-4407.542325, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=85.801937
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_42
+
+g45.t1 CDS=1-2049	GeneMark.hmm	CDS	1	2049	-2771.180712	+	0	gene_id=50, length=2049, gene_score=-2771.180712, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=17.259302
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g46.t1 CDS=1-3804	GeneMark.hmm	CDS	1	3804	-5114.431309	+	0	gene_id=51, length=3804, gene_score=-5114.431309, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=114.247295
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g46.t2 CDS=1-3714	GeneMark.hmm	CDS	1	3714	-4996.648335	+	0	gene_id=52, length=3714, gene_score=-4996.648335, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=111.021243
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g47.t1 CDS=1-1515	GeneMark.hmm	CDS	1	1515	-2039.346076	+	0	gene_id=53, length=1515, gene_score=-2039.346076, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=20.689342
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g48.t1 CDS=1-462	GeneMark.hmm	CDS	1	462	-613.287844	+	0	gene_id=54, length=462, gene_score=-613.287844, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=16.672298
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g49.t1 CDS=1-1932	GeneMark.hmm	CDS	2	118	-149.362306	-	0	gene_id=55, length=117, gene_score=-149.362306, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=1, logodd=9.091751
+g49.t1 CDS=1-1932	GeneMark.hmm	CDS	610	1932	-1724.999075	+	0	gene_id=56, length=1323, gene_score=-1724.999075, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=84.781660
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_51
+
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_41
+
+g51.t1 CDS=1-2400	GeneMark.hmm	CDS	1	2400	-3177.133585	+	0	gene_id=57, length=2400, gene_score=-3177.133585, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=101.735925
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_41
+
+g51.t2 CDS=1-2394	GeneMark.hmm	CDS	1	2394	-3168.187721	+	0	gene_id=58, length=2394, gene_score=-3168.187721, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=102.636775
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g52.t1 CDS=1-1488	GeneMark.hmm	CDS	1	1488	-2002.041469	+	0	gene_id=59, length=1488, gene_score=-2002.041469, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=29.841008
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_52
+
+g53.t1 CDS=1-621	GeneMark.hmm	CDS	1	621	-837.449026	+	0	gene_id=60, length=621, gene_score=-837.449026, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=2.732180
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g54.t1 CDS=1-1356	GeneMark.hmm	CDS	1	1356	-1835.448164	+	0	gene_id=61, length=1356, gene_score=-1835.448164, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=19.512588
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g54.t2 CDS=1-1371	GeneMark.hmm	CDS	1	1371	-1852.952161	+	0	gene_id=62, length=1371, gene_score=-1852.952161, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=22.921310
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g55.t1 CDS=1-1818	GeneMark.hmm	CDS	1	1818	-2465.996452	+	0	gene_id=63, length=1818, gene_score=-2465.996452, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=2.279966
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_47
+
+g56.t1 CDS=1-1401	GeneMark.hmm	CDS	1	1401	-1897.152861	+	0	gene_id=64, length=1401, gene_score=-1897.152861, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=33.729892
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_40
+
+g57.t2 CDS=1-393	GeneMark.hmm	CDS	1	393	-517.105921	+	0	gene_id=65, length=393, gene_score=-517.105921, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=9.837265
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_40
+
+g57.t1 CDS=1-2748	GeneMark.hmm	CDS	505	2748	-2984.398377	+	0	gene_id=66, length=2244, gene_score=-2984.398377, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=57.845158
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_41
+
+g58.t1 CDS=1-2217	GeneMark.hmm	CDS	271	2217	-2596.845007	+	0	gene_id=67, length=1947, gene_score=-2596.845007, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=61.499742
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_41
+
+g58.t2 CDS=1-2163	GeneMark.hmm	CDS	1	2163	-2900.029102	+	0	gene_id=68, length=2163, gene_score=-2900.029102, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=55.233524
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g59.t1 CDS=1-309	GeneMark.hmm	CDS	1	309	-402.113658	+	0	gene_id=69, length=309, gene_score=-402.113658, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=10.744845
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g60.t1 CDS=1-951	GeneMark.hmm	CDS	358	951	-796.861795	+	0	gene_id=70, length=594, gene_score=-796.861795, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=10.352124
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_41
+
+g61.t1 CDS=1-1983	GeneMark.hmm	CDS	1	1983	-2644.853088	+	0	gene_id=71, length=1983, gene_score=-2644.853088, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=64.383080
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_42
+
+g62.t1 CDS=1-2313	GeneMark.hmm	CDS	2	88	-112.285572	-	0	gene_id=72, length=87, gene_score=-112.285572, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=4.745240
+g62.t1 CDS=1-2313	GeneMark.hmm	CDS	162	254	-113.341746	-	0	gene_id=73, length=93, gene_score=-113.341746, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=8.168474
+g62.t1 CDS=1-2313	GeneMark.hmm	CDS	262	2313	-2734.003684	+	0	gene_id=74, length=2052, gene_score=-2734.003684, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=1, logodd=72.402872
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g63.t1 CDS=1-342	GeneMark.hmm	CDS	1	342	-465.051461	+	0	gene_id=75, length=342, gene_score=-465.051461, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=-7.050548
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_46
+
+g64.t2 CDS=1-2220	GeneMark.hmm	CDS	129	275	-178.723481	-	0	gene_id=76, length=147, gene_score=-178.723481, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=17.430738
+g64.t2 CDS=1-2220	GeneMark.hmm	CDS	274	2220	-2607.047600	+	0	gene_id=77, length=1947, gene_score=-2607.047600, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=66.183888
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_46
+
+g64.t1 CDS=1-2331	GeneMark.hmm	CDS	129	275	-178.723481	-	0	gene_id=78, length=147, gene_score=-178.723481, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=17.430738
+g64.t1 CDS=1-2331	GeneMark.hmm	CDS	274	2331	-2752.707919	+	0	gene_id=79, length=2058, gene_score=-2752.707919, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=80.336441
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_46
+
+g65.t1 CDS=1-1770	GeneMark.hmm	CDS	1	1770	-2387.428901	+	0	gene_id=80, length=1770, gene_score=-2387.428901, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=52.620414
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_46
+
+g65.t2 CDS=1-1773	GeneMark.hmm	CDS	1	1773	-2391.537274	+	0	gene_id=81, length=1773, gene_score=-2391.537274, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=52.769431
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_42
+
+g66.t1 CDS=1-1056	GeneMark.hmm	CDS	1	1056	-1416.155301	+	0	gene_id=82, length=1056, gene_score=-1416.155301, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=13.112667
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_49
+
+g67.t1 CDS=1-558	GeneMark.hmm	CDS	1	558	-751.070155	+	0	gene_id=83, length=558, gene_score=-751.070155, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=12.351522
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_50
+
+g68.t1 CDS=1-411	GeneMark.hmm	CDS	1	411	-563.354026	+	0	gene_id=84, length=411, gene_score=-563.354026, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=-11.841076
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_46
+
+g69.t1 CDS=1-1017	GeneMark.hmm	CDS	1	1017	-1359.139746	+	0	gene_id=85, length=1017, gene_score=-1359.139746, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=39.224442
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_46
+
+g69.t2 CDS=1-1011	GeneMark.hmm	CDS	1	1011	-1351.843934	+	0	gene_id=86, length=1011, gene_score=-1351.843934, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=37.977170
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_48
+
+g70.t1 CDS=1-2154	GeneMark.hmm	CDS	417	596	-235.273481	+	0	gene_id=87, length=180, gene_score=-235.273481, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=-2.907103
+g70.t1 CDS=1-2154	GeneMark.hmm	CDS	667	2154	-2032.480596	+	0	gene_id=88, length=1488, gene_score=-2032.480596, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=1, logodd=-1.625473
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_47
+
+g71.t1 CDS=1-2013	GeneMark.hmm	CDS	1	2013	-2734.694147	+	0	gene_id=89, length=2013, gene_score=-2734.694147, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=45.158591
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_41
+
+g72.t1 CDS=1-1479	GeneMark.hmm	CDS	1	1479	-1953.186509	+	0	gene_id=90, length=1479, gene_score=-1953.186509, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=64.271429
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_40
+
+g73.t1 CDS=1-1383	GeneMark.hmm	CDS	112	1383	-1681.023197	+	0	gene_id=91, length=1272, gene_score=-1681.023197, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=2, logodd=46.449190
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_40
+
+g73.t2 CDS=1-1386	GeneMark.hmm	CDS	112	1386	-1684.712101	+	0	gene_id=92, length=1275, gene_score=-1684.712101, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=2, logodd=47.138554
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_46
+
+g74.t1 CDS=1-3012	GeneMark.hmm	CDS	1	3012	-4092.053316	+	0	gene_id=93, length=3012, gene_score=-4092.053316, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=66.501180
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g75.t1 CDS=1-2982	GeneMark.hmm	CDS	1	2982	-4048.378347	+	0	gene_id=94, length=2982, gene_score=-4048.378347, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=21.902491
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_46
+
+g76.t1 CDS=1-1362	GeneMark.hmm	CDS	1	1362	-1826.432263	+	0	gene_id=95, length=1362, gene_score=-1826.432263, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=48.384554
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g77.t1 CDS=1-879	GeneMark.hmm	CDS	151	879	-986.243417	+	0	gene_id=96, length=729, gene_score=-986.243417, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=11.100728
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_41
+
+g78.t1 CDS=1-903	GeneMark.hmm	CDS	1	903	-1221.870344	+	0	gene_id=97, length=903, gene_score=-1221.870344, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=8.362575
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g79.t1 CDS=1-3078	GeneMark.hmm	CDS	1	3078	-4177.649401	+	0	gene_id=98, length=3078, gene_score=-4177.649401, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=64.319173
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g80.t1 CDS=1-1548	GeneMark.hmm	CDS	1	1548	-2095.137077	+	0	gene_id=99, length=1548, gene_score=-2095.137077, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=29.810747
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_42
+
+g81.t1 CDS=1-3048	GeneMark.hmm	CDS	1	3048	-4019.214335	+	0	gene_id=100, length=3048, gene_score=-4019.214335, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=159.835684
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_42
+
+g81.t2 CDS=1-3066	GeneMark.hmm	CDS	3	119	-151.840203	-	0	gene_id=101, length=117, gene_score=-151.840203, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=3.386815
+g81.t2 CDS=1-3066	GeneMark.hmm	CDS	118	3066	-3875.311903	+	0	gene_id=102, length=2949, gene_score=-3875.311903, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=169.946655
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g82.t1 CDS=1-1248	GeneMark.hmm	CDS	1	1248	-1672.664025	+	0	gene_id=103, length=1248, gene_score=-1672.664025, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=30.661218
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g83.t1 CDS=1-1125	GeneMark.hmm	CDS	1	1125	-1511.174798	+	0	gene_id=104, length=1125, gene_score=-1511.174798, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=27.366485
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g84.t1 CDS=1-1413	GeneMark.hmm	CDS	1	1413	-1914.056669	+	0	gene_id=105, length=1413, gene_score=-1914.056669, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=28.392180
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_39
+
+g85.t1 CDS=1-252	GeneMark.hmm	CDS	1	252	-323.697685	+	0	gene_id=106, length=252, gene_score=-323.697685, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=11.196301
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g85.t2 CDS=1-375	GeneMark.hmm	CDS	217	375	-193.524655	+	0	gene_id=107, length=159, gene_score=-193.524655, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=9.643609
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_46
+
+g86.t1 CDS=1-777	GeneMark.hmm	CDS	1	777	-1061.469400	+	0	gene_id=108, length=777, gene_score=-1061.469400, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=0.417368
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_40
+
+g87.t1 CDS=1-1893	GeneMark.hmm	CDS	436	1893	-1912.901538	+	0	gene_id=109, length=1458, gene_score=-1912.901538, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=69.891191
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g88.t1 CDS=1-840	GeneMark.hmm	CDS	1	840	-1142.857586	+	0	gene_id=110, length=840, gene_score=-1142.857586, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=1.748338
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_46
+
+g89.t1 CDS=1-804	GeneMark.hmm	CDS	3	80	-99.183051	-	0	gene_id=111, length=78, gene_score=-99.183051, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=4.232378
+g89.t1 CDS=1-804	GeneMark.hmm	CDS	187	804	-827.690971	+	0	gene_id=112, length=618, gene_score=-827.690971, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=1, logodd=16.533925
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_41
+
+g90.t1 CDS=1-1179	GeneMark.hmm	CDS	514	1179	-889.326398	+	0	gene_id=113, length=666, gene_score=-889.326398, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=1, logodd=8.750212
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_40
+
+g91.t1 CDS=1-981	GeneMark.hmm	CDS	1	981	-1276.300942	+	0	gene_id=114, length=981, gene_score=-1276.300942, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=35.920806
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_47
+
+g92.t1 CDS=1-1434	GeneMark.hmm	CDS	1	1434	-1958.526055	+	0	gene_id=115, length=1434, gene_score=-1958.526055, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=19.794958
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_41
+
+g93.t1 CDS=1-1902	GeneMark.hmm	CDS	1	1902	-2481.823727	+	0	gene_id=116, length=1902, gene_score=-2481.823727, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=116.219527
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g94.t1 CDS=1-1299	GeneMark.hmm	CDS	1	1299	-1719.677593	+	0	gene_id=117, length=1299, gene_score=-1719.677593, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=52.412350
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_41
+
+g95.t1 CDS=1-1335	GeneMark.hmm	CDS	1	1335	-1781.908126	+	0	gene_id=118, length=1335, gene_score=-1781.908126, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=25.297451
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_47
+
+g96.t1 CDS=1-453	GeneMark.hmm	CDS	1	453	-602.705413	+	0	gene_id=119, length=453, gene_score=-602.705413, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=-0.933247
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_41
+
+g97.t1 CDS=1-3783	GeneMark.hmm	CDS	1	3783	-5006.180886	+	0	gene_id=120, length=3783, gene_score=-5006.180886, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=100.877116
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_47
+
+g98.t1 CDS=1-1137	GeneMark.hmm	CDS	1	1137	-1530.465939	+	0	gene_id=121, length=1137, gene_score=-1530.465939, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=35.857617
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_51
+
+g99.t1 CDS=1-237	GeneMark.hmm	CDS	1	237	-315.087757	+	0	gene_id=122, length=237, gene_score=-315.087757, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=5.243473
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g100.t1 CDS=1-3573	GeneMark.hmm	CDS	1	3573	-4848.517522	+	0	gene_id=123, length=3573, gene_score=-4848.517522, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=80.170349
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g101.t1 CDS=1-1188	GeneMark.hmm	CDS	1	1188	-1595.998109	+	0	gene_id=124, length=1188, gene_score=-1595.998109, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=32.866540
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g101.t2 CDS=1-1266	GeneMark.hmm	CDS	1	1266	-1694.890565	+	0	gene_id=125, length=1266, gene_score=-1694.890565, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=37.602631
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_46
+
+g102.t1 CDS=1-1710	GeneMark.hmm	CDS	1	1710	-2327.840387	+	0	gene_id=126, length=1710, gene_score=-2327.840387, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=29.836321
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_49
+
+g103.t1 CDS=1-1188	GeneMark.hmm	CDS	1	1188	-1615.237341	+	0	gene_id=127, length=1188, gene_score=-1615.237341, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=23.906848
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_54
+
+g104.t1 CDS=1-1284	GeneMark.hmm	CDS	1	1284	-1721.565375	+	0	gene_id=128, length=1284, gene_score=-1721.565375, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=45.927161
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_48
+
+g105.t1 CDS=1-648	GeneMark.hmm	CDS	1	648	-860.449086	+	0	gene_id=129, length=648, gene_score=-860.449086, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=29.448854
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_46
+
+g106.t1 CDS=1-579	GeneMark.hmm	CDS	1	579	-773.704994	+	0	gene_id=130, length=579, gene_score=-773.704994, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=7.712173
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_53
+
+g107.t1 CDS=1-747	GeneMark.hmm	CDS	1	747	-997.887391	+	0	gene_id=131, length=747, gene_score=-997.887391, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=28.316836
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g108.t1 CDS=1-1863	GeneMark.hmm	CDS	1	1863	-2530.383759	+	0	gene_id=132, length=1863, gene_score=-2530.383759, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=26.665178
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g108.t2 CDS=1-1944	GeneMark.hmm	CDS	1	1944	-2643.401723	+	0	gene_id=133, length=1944, gene_score=-2643.401723, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=23.085308
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g109.t1 CDS=1-2367	GeneMark.hmm	CDS	1	2367	-3121.651020	+	0	gene_id=134, length=2367, gene_score=-3121.651020, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=129.771260
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_54
+
+g110.t1 CDS=1-363	GeneMark.hmm	CDS	1	363	-484.950635	+	0	gene_id=135, length=363, gene_score=-484.950635, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=8.663506
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g111.t2 CDS=1-729	GeneMark.hmm	CDS	1	729	-972.108357	+	0	gene_id=136, length=729, gene_score=-972.108357, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=26.266019
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_47
+
+g111.t1 CDS=1-1023	GeneMark.hmm	CDS	3	137	-167.893307	-	0	gene_id=137, length=135, gene_score=-167.893307, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=1, logodd=15.985240
+g111.t1 CDS=1-1023	GeneMark.hmm	CDS	325	1023	-928.504252	+	0	gene_id=138, length=699, gene_score=-928.504252, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=28.963056
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_49
+
+g112.t1 CDS=1-1308	GeneMark.hmm	CDS	1	1308	-1743.738707	+	0	gene_id=139, length=1308, gene_score=-1743.738707, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=61.598288
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_46
+
+g113.t1 CDS=1-870	GeneMark.hmm	CDS	1	870	-1177.036414	+	0	gene_id=140, length=870, gene_score=-1177.036414, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=18.567932
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_51
+
+g114.t2 CDS=1-558	GeneMark.hmm	CDS	1	558	-751.570972	+	0	gene_id=141, length=558, gene_score=-751.570972, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=13.788077
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_51
+
+g114.t1 CDS=1-666	GeneMark.hmm	CDS	1	666	-907.540188	+	0	gene_id=142, length=666, gene_score=-907.540188, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=7.656912
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_49
+
+g115.t1 CDS=1-1158	GeneMark.hmm	CDS	4	315	-399.903399	-	0	gene_id=143, length=312, gene_score=-399.903399, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=24.498245
+g115.t1 CDS=1-1158	GeneMark.hmm	CDS	346	1158	-1084.805866	+	0	gene_id=144, length=813, gene_score=-1084.805866, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=34.268034
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_51
+
+g116.t1 CDS=1-633	GeneMark.hmm	CDS	1	633	-842.934205	+	0	gene_id=145, length=633, gene_score=-842.934205, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=26.634332
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_49
+
+g117.t1 CDS=1-1359	GeneMark.hmm	CDS	201	572	-478.436557	-	0	gene_id=146, length=372, gene_score=-478.436557, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=1, logodd=20.825410
+g117.t1 CDS=1-1359	GeneMark.hmm	CDS	599	790	-249.247314	+	0	gene_id=147, length=192, gene_score=-249.247314, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=1, logodd=8.845243
+g117.t1 CDS=1-1359	GeneMark.hmm	CDS	847	1359	-694.645416	+	0	gene_id=148, length=513, gene_score=-694.645416, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=7.519107
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_54
+
+g118.t1 CDS=1-444	GeneMark.hmm	CDS	1	444	-594.986367	+	0	gene_id=149, length=444, gene_score=-594.986367, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=9.352107
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_54
+
+g118.t2 CDS=1-441	GeneMark.hmm	CDS	1	441	-591.119252	+	0	gene_id=150, length=441, gene_score=-591.119252, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=8.286197
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_48
+
+g119.t1 CDS=1-1329	GeneMark.hmm	CDS	1	1329	-1789.289536	+	0	gene_id=151, length=1329, gene_score=-1789.289536, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=43.614936
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g120.t1 CDS=1-1800	GeneMark.hmm	CDS	1	1800	-2428.096170	+	0	gene_id=152, length=1800, gene_score=-2428.096170, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=49.134875
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g120.t2 CDS=1-1803	GeneMark.hmm	CDS	1	1803	-2432.526629	+	0	gene_id=153, length=1803, gene_score=-2432.526629, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=48.929362
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_51
+
+g121.t1 CDS=1-753	GeneMark.hmm	CDS	1	753	-1006.967496	+	0	gene_id=154, length=753, gene_score=-1006.967496, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=28.734138
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_46
+
+g122.t1 CDS=1-3096	GeneMark.hmm	CDS	1	3096	-4188.645986	+	0	gene_id=155, length=3096, gene_score=-4188.645986, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=83.257152
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_49
+
+g123.t1 CDS=1-933	GeneMark.hmm	CDS	1	933	-1290.327710	+	0	gene_id=156, length=933, gene_score=-1290.327710, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=-5.015894
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_47
+
+g124.t1 CDS=1-411	GeneMark.hmm	CDS	1	411	-544.521048	+	0	gene_id=157, length=411, gene_score=-544.521048, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=16.841543
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_46
+
+g125.t1 CDS=1-1188	GeneMark.hmm	CDS	1	1188	-1602.977688	+	0	gene_id=158, length=1188, gene_score=-1602.977688, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=31.476627
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_47
+
+g126.t1 CDS=1-1083	GeneMark.hmm	CDS	1	1083	-1423.198420	+	0	gene_id=159, length=1083, gene_score=-1423.198420, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=68.005669
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_55
+
+g127.t1 CDS=1-1956	GeneMark.hmm	CDS	1	1956	-2624.265519	+	0	gene_id=160, length=1956, gene_score=-2624.265519, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=66.534265
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_46
+
+g128.t1 CDS=1-1572	GeneMark.hmm	CDS	1	243	-320.619715	-	0	gene_id=161, length=243, gene_score=-320.619715, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=1, logodd=11.177602
+g128.t1 CDS=1-1572	GeneMark.hmm	CDS	292	1572	-1713.710918	+	0	gene_id=162, length=1281, gene_score=-1713.710918, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=44.922345
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_57
+
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g130.t1 CDS=1-525	GeneMark.hmm	CDS	1	525	-691.191307	+	0	gene_id=163, length=525, gene_score=-691.191307, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=25.689185
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_47
+
+g131.t1 CDS=1-990	GeneMark.hmm	CDS	1	990	-1322.988274	+	0	gene_id=164, length=990, gene_score=-1322.988274, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=40.088950
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_46
+
+g132.t1 CDS=1-1311	GeneMark.hmm	CDS	1	1311	-1796.431997	+	0	gene_id=165, length=1311, gene_score=-1796.431997, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=8.949472
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_49
+
+g133.t1 CDS=1-234	GeneMark.hmm	CDS	1	234	-314.655145	+	0	gene_id=166, length=234, gene_score=-314.655145, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=-5.654451
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g134.t1 CDS=1-921	GeneMark.hmm	CDS	1	921	-1217.208594	+	0	gene_id=167, length=921, gene_score=-1217.208594, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=46.475684
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_48
+
+g135.t1 CDS=1-300	GeneMark.hmm	CDS	1	300	-405.268917	+	0	gene_id=168, length=300, gene_score=-405.268917, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=2.460793
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_46
+
+g136.t1 CDS=1-1146	GeneMark.hmm	CDS	1	1146	-1566.222316	+	0	gene_id=169, length=1146, gene_score=-1566.222316, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=10.876484
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g136.t2 CDS=1-1347	GeneMark.hmm	CDS	1	1347	-1840.779026	+	0	gene_id=170, length=1347, gene_score=-1840.779026, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=13.159228
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_54
+
+g137.t1 CDS=1-1086	GeneMark.hmm	CDS	1	1086	-1436.944519	+	0	gene_id=171, length=1086, gene_score=-1436.944519, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=56.317356
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g138.t1 CDS=1-609	GeneMark.hmm	CDS	1	609	-816.890898	+	0	gene_id=172, length=609, gene_score=-816.890898, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=12.588039
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_47
+
+g139.t1 CDS=1-879	GeneMark.hmm	CDS	1	879	-1192.327976	+	0	gene_id=173, length=879, gene_score=-1192.327976, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=16.590041
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g140.t1 CDS=1-3192	GeneMark.hmm	CDS	1	3192	-4323.978032	+	0	gene_id=174, length=3192, gene_score=-4323.978032, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=69.101689
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g140.t2 CDS=1-3387	GeneMark.hmm	CDS	1	3387	-4583.573000	+	0	gene_id=175, length=3387, gene_score=-4583.573000, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=78.954207
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_55
+
+g141.t1 CDS=1-1020	GeneMark.hmm	CDS	1	1020	-1394.516209	+	0	gene_id=176, length=1020, gene_score=-1394.516209, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=5.051750
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_51
+
+g142.t1 CDS=1-1257	GeneMark.hmm	CDS	1	1257	-1721.046575	+	0	gene_id=177, length=1257, gene_score=-1721.046575, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=13.645579
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_51
+
+g143.t1 CDS=1-996	GeneMark.hmm	CDS	685	996	-419.467665	+	0	gene_id=178, length=312, gene_score=-419.467665, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=1, logodd=5.248798
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_42
+
+g144.t1 CDS=1-1143	GeneMark.hmm	CDS	148	1143	-1326.317231	+	0	gene_id=179, length=996, gene_score=-1326.317231, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=1, logodd=33.124538
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_46
+
+g145.t1 CDS=1-1323	GeneMark.hmm	CDS	1	1323	-1799.391249	+	0	gene_id=180, length=1323, gene_score=-1799.391249, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=22.246238
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_46
+
+g145.t2 CDS=1-1491	GeneMark.hmm	CDS	1	1491	-2040.417243	+	0	gene_id=181, length=1491, gene_score=-2040.417243, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=13.845378
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_47
+
+g146.t1 CDS=1-1011	GeneMark.hmm	CDS	1	1011	-1383.991218	+	0	gene_id=182, length=1011, gene_score=-1383.991218, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=8.051861
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_57
+
+g147.t1 CDS=1-561	GeneMark.hmm	CDS	71	391	-408.851471	+	0	gene_id=183, length=321, gene_score=-408.851471, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=22.362379
+g147.t1 CDS=1-561	GeneMark.hmm	CDS	451	561	-131.814116	+	0	gene_id=184, length=111, gene_score=-131.814116, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=11.441044
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g148.t1 CDS=1-693	GeneMark.hmm	CDS	1	693	-910.884351	+	0	gene_id=185, length=693, gene_score=-910.884351, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=37.723709
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g149.t1 CDS=1-2265	GeneMark.hmm	CDS	1	2265	-3010.034561	+	0	gene_id=186, length=2265, gene_score=-3010.034561, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=108.090494
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_42
+
+g150.t1 CDS=1-882	GeneMark.hmm	CDS	1	882	-1206.758512	+	0	gene_id=187, length=882, gene_score=-1206.758512, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=-3.872012
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_41
+
+g150.t2 CDS=1-1038	GeneMark.hmm	CDS	1	1038	-1398.153332	+	0	gene_id=188, length=1038, gene_score=-1398.153332, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=16.229271
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_47
+
+g151.t1 CDS=1-759	GeneMark.hmm	CDS	1	759	-1019.980638	+	0	gene_id=189, length=759, gene_score=-1019.980638, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=19.706959
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_46
+
+g152.t1 CDS=1-861	GeneMark.hmm	CDS	1	861	-1174.548039	+	0	gene_id=190, length=861, gene_score=-1174.548039, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=-0.864778
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_42
+
+g153.t1 CDS=1-909	GeneMark.hmm	CDS	73	909	-1120.489529	+	0	gene_id=191, length=837, gene_score=-1120.489529, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=1, logodd=21.854141
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_42
+
+g153.t2 CDS=1-930	GeneMark.hmm	CDS	1	930	-1251.024968	+	0	gene_id=192, length=930, gene_score=-1251.024968, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=17.839548
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_47
+
+g154.t1 CDS=1-1296	GeneMark.hmm	CDS	1	1296	-1762.081191	+	0	gene_id=193, length=1296, gene_score=-1762.081191, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=23.332649
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g155.t1 CDS=1-1284	GeneMark.hmm	CDS	217	1284	-1389.316564	+	0	gene_id=194, length=1068, gene_score=-1389.316564, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=70.979505
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_47
+
+g156.t1 CDS=1-1335	GeneMark.hmm	CDS	3	140	-180.038036	-	0	gene_id=195, length=138, gene_score=-180.038036, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=1, logodd=3.231611
+g156.t1 CDS=1-1335	GeneMark.hmm	CDS	280	1335	-1423.413945	+	0	gene_id=196, length=1056, gene_score=-1423.413945, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=1, logodd=31.162443
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_48
+
+g157.t1 CDS=1-330	GeneMark.hmm	CDS	1	330	-430.992980	+	0	gene_id=197, length=330, gene_score=-430.992980, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=18.192284
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g158.t1 CDS=1-1599	GeneMark.hmm	CDS	1	1599	-2168.821090	+	0	gene_id=198, length=1599, gene_score=-2168.821090, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=13.994774
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_47
+
+g159.t1 CDS=1-777	GeneMark.hmm	CDS	1	777	-1041.914242	+	0	gene_id=199, length=777, gene_score=-1041.914242, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=25.769411
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_41
+
+g160.t1 CDS=1-1863	GeneMark.hmm	CDS	316	1863	-2045.078311	+	0	gene_id=200, length=1548, gene_score=-2045.078311, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=65.355987
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_46
+
+g161.t1 CDS=1-924	GeneMark.hmm	CDS	85	924	-1126.511401	+	0	gene_id=201, length=840, gene_score=-1126.511401, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=26.752155
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g162.t1 CDS=1-1575	GeneMark.hmm	CDS	1	1575	-2012.938108	+	0	gene_id=202, length=1575, gene_score=-2012.938108, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=147.738879
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_41
+
+g163.t1 CDS=1-543	GeneMark.hmm	CDS	1	543	-689.925779	+	0	gene_id=203, length=543, gene_score=-689.925779, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=46.746794
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_41
+
+g163.t2 CDS=1-627	GeneMark.hmm	CDS	1	627	-799.246562	+	0	gene_id=204, length=627, gene_score=-799.246562, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=52.362363
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g164.t1 CDS=1-300	GeneMark.hmm	CDS	2	85	-108.865545	+	0	gene_id=205, length=84, gene_score=-108.865545, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=2.191346
+g164.t1 CDS=1-300	GeneMark.hmm	CDS	85	300	-283.801201	+	0	gene_id=206, length=216, gene_score=-283.801201, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=5.283475
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_48
+
+g165.t1 CDS=1-2007	GeneMark.hmm	CDS	1	2007	-2738.303995	+	0	gene_id=207, length=2007, gene_score=-2738.303995, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=35.838876
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_53
+
+g166.t1 CDS=1-999	GeneMark.hmm	CDS	1	999	-1336.768372	+	0	gene_id=208, length=999, gene_score=-1336.768372, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=38.461997
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_52
+
+g167.t1 CDS=1-471	GeneMark.hmm	CDS	1	471	-632.962240	+	0	gene_id=209, length=471, gene_score=-632.962240, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=10.715055
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_50
+
+g168.t1 CDS=1-558	GeneMark.hmm	CDS	1	558	-762.320135	+	0	gene_id=210, length=558, gene_score=-762.320135, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=2.931458
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g169.t1 CDS=1-1845	GeneMark.hmm	CDS	1	1845	-2502.300542	+	0	gene_id=211, length=1845, gene_score=-2502.300542, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=26.062878
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_42
+
+g170.t1 CDS=1-306	GeneMark.hmm	CDS	1	306	-402.096297	+	0	gene_id=212, length=306, gene_score=-402.096297, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=10.304093
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_40
+
+g171.t2 CDS=1-429	GeneMark.hmm	CDS	1	429	-556.011761	+	0	gene_id=213, length=429, gene_score=-556.011761, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=22.253370
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_37
+
+g171.t1 CDS=1-375	GeneMark.hmm	CDS	1	375	-479.448865	+	0	gene_id=214, length=375, gene_score=-479.448865, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=17.380523
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g172.t1 CDS=1-1683	GeneMark.hmm	CDS	1	1683	-2246.233714	+	0	gene_id=215, length=1683, gene_score=-2246.233714, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=48.971698
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g173.t1 CDS=1-1911	GeneMark.hmm	CDS	1	1911	-2543.989351	+	0	gene_id=216, length=1911, gene_score=-2543.989351, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=80.755901
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g173.t2 CDS=1-1908	GeneMark.hmm	CDS	1	1908	-2540.273844	+	0	gene_id=217, length=1908, gene_score=-2540.273844, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=80.137923
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g174.t1 CDS=1-2109	GeneMark.hmm	CDS	1	2109	-2844.508206	+	0	gene_id=218, length=2109, gene_score=-2844.508206, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=53.186049
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g174.t3 CDS=1-4149	GeneMark.hmm	CDS	1	4149	-5600.196787	+	0	gene_id=219, length=4149, gene_score=-5600.196787, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=105.889732
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g174.t2 CDS=1-1986	GeneMark.hmm	CDS	1	105	-131.109208	-	0	gene_id=220, length=105, gene_score=-131.109208, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=1, logodd=9.608104
+g174.t2 CDS=1-1986	GeneMark.hmm	CDS	430	1986	-2075.711552	+	0	gene_id=221, length=1557, gene_score=-2075.711552, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=59.639837
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_41
+
+g175.t1 CDS=1-873	GeneMark.hmm	CDS	1	873	-1161.649279	+	0	gene_id=222, length=873, gene_score=-1161.649279, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=25.363920
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_41
+
+g175.t2 CDS=1-711	GeneMark.hmm	CDS	1	711	-945.986206	+	0	gene_id=223, length=711, gene_score=-945.986206, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=19.734095
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g176.t1 CDS=1-609	GeneMark.hmm	CDS	37	609	-761.251719	+	0	gene_id=224, length=573, gene_score=-761.251719, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=18.625275
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g176.t2 CDS=1-528	GeneMark.hmm	CDS	1	528	-699.640867	+	0	gene_id=225, length=528, gene_score=-699.640867, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=18.423352
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_47
+
+g177.t1 CDS=1-966	GeneMark.hmm	CDS	1	966	-1303.933180	+	0	gene_id=226, length=966, gene_score=-1303.933180, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=25.425759
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g178.t1 CDS=1-1197	GeneMark.hmm	CDS	1	1197	-1597.742623	+	0	gene_id=227, length=1197, gene_score=-1597.742623, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=43.364559
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_42
+
+g179.t1 CDS=1-1227	GeneMark.hmm	CDS	1	1227	-1627.885926	+	0	gene_id=228, length=1227, gene_score=-1627.885926, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=51.214972
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g180.t1 CDS=1-1239	GeneMark.hmm	CDS	1	1239	-1653.630711	+	0	gene_id=229, length=1239, gene_score=-1653.630711, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=42.129254
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g181.t1 CDS=1-1314	GeneMark.hmm	CDS	1	1314	-1776.595120	+	0	gene_id=230, length=1314, gene_score=-1776.595120, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=30.855168
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_51
+
+g182.t1 CDS=1-1446	GeneMark.hmm	CDS	1	1446	-1970.252729	+	0	gene_id=231, length=1446, gene_score=-1970.252729, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=24.712109
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_46
+
+g183.t1 CDS=1-687	GeneMark.hmm	CDS	1	687	-912.067376	+	0	gene_id=232, length=687, gene_score=-912.067376, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=29.757754
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g184.t1 CDS=1-1218	GeneMark.hmm	CDS	1	1218	-1636.450383	+	0	gene_id=233, length=1218, gene_score=-1636.450383, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=31.786684
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_46
+
+g185.t1 CDS=1-1245	GeneMark.hmm	CDS	1	1245	-1688.118493	+	0	gene_id=234, length=1245, gene_score=-1688.118493, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=11.371351
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g186.t1 CDS=1-1503	GeneMark.hmm	CDS	1	1503	-2049.635874	+	0	gene_id=235, length=1503, gene_score=-2049.635874, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=5.408965
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_49
+
+g187.t1 CDS=1-1113	GeneMark.hmm	CDS	1	1113	-1519.390390	+	0	gene_id=236, length=1113, gene_score=-1519.390390, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=15.617044
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g188.t1 CDS=1-2295	GeneMark.hmm	CDS	1	2295	-3051.642369	+	0	gene_id=237, length=2295, gene_score=-3051.642369, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=99.377005
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_47
+
+g189.t1 CDS=1-1905	GeneMark.hmm	CDS	1	1905	-2585.206515	+	0	gene_id=238, length=1905, gene_score=-2585.206515, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=45.275808
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_49
+
+g190.t1 CDS=1-1755	GeneMark.hmm	CDS	1	1755	-2404.894626	+	0	gene_id=239, length=1755, gene_score=-2404.894626, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=8.536828
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_46
+
+g191.t1 CDS=1-366	GeneMark.hmm	CDS	1	366	-486.016608	+	0	gene_id=240, length=366, gene_score=-486.016608, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=11.620279
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_46
+
+g191.t2 CDS=1-369	GeneMark.hmm	CDS	1	369	-490.448360	+	0	gene_id=241, length=369, gene_score=-490.448360, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=11.442336
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_46
+
+g192.t1 CDS=1-1869	GeneMark.hmm	CDS	1	1869	-2565.757314	+	0	gene_id=242, length=1869, gene_score=-2565.757314, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=1.942115
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g193.t1 CDS=1-552	GeneMark.hmm	CDS	1	552	-726.023794	+	0	gene_id=243, length=552, gene_score=-726.023794, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=25.946943
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g194.t1 CDS=1-2085	GeneMark.hmm	CDS	1	2085	-2804.086147	+	0	gene_id=244, length=2085, gene_score=-2804.086147, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=37.113892
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_46
+
+g195.t1 CDS=1-267	GeneMark.hmm	CDS	1	267	-351.162712	+	0	gene_id=245, length=267, gene_score=-351.162712, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=6.004096
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g196.t1 CDS=1-306	GeneMark.hmm	CDS	1	306	-403.199206	+	0	gene_id=246, length=306, gene_score=-403.199206, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=5.617274
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_47
+
+g198.t1 CDS=1-264	GeneMark.hmm	CDS	1	264	-347.613543	+	0	gene_id=247, length=264, gene_score=-347.613543, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=9.646436
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g199.t1 CDS=1-1560	GeneMark.hmm	CDS	1	1560	-2103.843143	+	0	gene_id=248, length=1560, gene_score=-2103.843143, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=36.538363
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g199.t2 CDS=1-1545	GeneMark.hmm	CDS	1	1545	-2084.596812	+	0	gene_id=249, length=1545, gene_score=-2084.596812, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=35.585277
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_42
+
+g200.t1 CDS=1-1185	GeneMark.hmm	CDS	1	1185	-1600.097890	+	0	gene_id=250, length=1185, gene_score=-1600.097890, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=11.476000
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g201.t1 CDS=1-1656	GeneMark.hmm	CDS	1	1656	-2240.266967	+	0	gene_id=251, length=1656, gene_score=-2240.266967, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=33.802018
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_48
+
+g202.t1 CDS=1-2151	GeneMark.hmm	CDS	3	83	-104.892284	+	0	gene_id=252, length=81, gene_score=-104.892284, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=1.785203
+g202.t1 CDS=1-2151	GeneMark.hmm	CDS	1024	2151	-1541.044865	+	0	gene_id=253, length=1128, gene_score=-1541.044865, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=12.071695
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_49
+
+g203.t2 CDS=1-864	GeneMark.hmm	CDS	1	864	-1188.325666	+	0	gene_id=254, length=864, gene_score=-1188.325666, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=-5.687622
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_49
+
+g203.t1 CDS=1-750	GeneMark.hmm	CDS	1	750	-1021.480831	+	0	gene_id=255, length=750, gene_score=-1021.480831, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=-0.227843
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g204.t2 CDS=1-942	GeneMark.hmm	CDS	1	942	-1282.820571	+	0	gene_id=256, length=942, gene_score=-1282.820571, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=-10.925849
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_46
+
+g204.t1 CDS=1-597	GeneMark.hmm	CDS	1	597	-808.190896	+	0	gene_id=257, length=597, gene_score=-808.190896, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=-11.320249
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g205.t1 CDS=1-1086	GeneMark.hmm	CDS	1	1086	-1463.773671	+	0	gene_id=258, length=1086, gene_score=-1463.773671, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=23.755261
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_37
+
+g206.t2 CDS=1-1182	GeneMark.hmm	CDS	1	1182	-1571.235242	+	0	gene_id=259, length=1182, gene_score=-1571.235242, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=18.877350
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_38
+
+g206.t1 CDS=1-1248	GeneMark.hmm	CDS	1	1248	-1664.432106	+	0	gene_id=260, length=1248, gene_score=-1664.432106, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=18.066607
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_40
+
+g207.t1 CDS=1-2430	GeneMark.hmm	CDS	1	2430	-3260.216015	+	0	gene_id=261, length=2430, gene_score=-3260.216015, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=55.709319
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_41
+
+g208.t1 CDS=1-2448	GeneMark.hmm	CDS	1	2448	-3312.126116	+	0	gene_id=262, length=2448, gene_score=-3312.126116, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=33.287643
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_42
+
+g209.t1 CDS=1-1641	GeneMark.hmm	CDS	1	1641	-2205.409059	+	0	gene_id=263, length=1641, gene_score=-2205.409059, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=29.708546
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g210.t1 CDS=1-615	GeneMark.hmm	CDS	1	615	-829.366908	+	0	gene_id=264, length=615, gene_score=-829.366908, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=8.178784
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g210.t2 CDS=1-615	GeneMark.hmm	CDS	1	615	-829.366908	+	0	gene_id=265, length=615, gene_score=-829.366908, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=8.178784
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_52
+
+g211.t1 CDS=1-678	GeneMark.hmm	CDS	1	678	-932.662265	+	0	gene_id=266, length=678, gene_score=-932.662265, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=-12.174551
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g212.t1 CDS=1-2613	GeneMark.hmm	CDS	1	2613	-3509.191943	+	0	gene_id=267, length=2613, gene_score=-3509.191943, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=78.015052
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g213.t1 CDS=1-2379	GeneMark.hmm	CDS	2	115	-149.555927	-	0	gene_id=268, length=114, gene_score=-149.555927, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=6.626559
+g213.t1 CDS=1-2379	GeneMark.hmm	CDS	187	2379	-2932.777957	+	0	gene_id=269, length=2193, gene_score=-2932.777957, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=70.804253
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g214.t2 CDS=1-840	GeneMark.hmm	CDS	1	840	-1136.011910	+	0	gene_id=270, length=840, gene_score=-1136.011910, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=15.359683
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g214.t1 CDS=1-606	GeneMark.hmm	CDS	1	606	-815.472490	+	0	gene_id=271, length=606, gene_score=-815.472490, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=13.669454
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_40
+
+g215.t1 CDS=1-1005	GeneMark.hmm	CDS	1	1005	-1345.292088	+	0	gene_id=272, length=1005, gene_score=-1345.292088, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=17.739740
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_46
+
+g216.t1 CDS=1-252	GeneMark.hmm	CDS	1	252	-331.109416	+	0	gene_id=273, length=252, gene_score=-331.109416, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=-2.599715
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_41
+
+g217.t1 CDS=1-834	GeneMark.hmm	CDS	1	834	-1103.338144	+	0	gene_id=274, length=834, gene_score=-1103.338144, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=30.713200
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_49
+
+g218.t1 CDS=1-483	GeneMark.hmm	CDS	1	483	-655.624536	+	0	gene_id=275, length=483, gene_score=-655.624536, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=5.421537
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_49
+
+g219.t1 CDS=1-489	GeneMark.hmm	CDS	1	489	-660.955137	+	0	gene_id=276, length=489, gene_score=-660.955137, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=8.533274
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_51
+
+g220.t1 CDS=1-1185	GeneMark.hmm	CDS	1	1185	-1628.813642	+	0	gene_id=277, length=1185, gene_score=-1628.813642, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=3.520679
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g221.t1 CDS=1-2004	GeneMark.hmm	CDS	1	2004	-2688.241755	+	0	gene_id=278, length=2004, gene_score=-2688.241755, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=70.177859
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_47
+
+g222.t1 CDS=1-339	GeneMark.hmm	CDS	1	339	-455.816655	+	0	gene_id=279, length=339, gene_score=-455.816655, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=5.620732
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_46
+
+g223.t1 CDS=1-678	GeneMark.hmm	CDS	1	678	-920.478040	+	0	gene_id=280, length=678, gene_score=-920.478040, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=8.582262
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_42
+
+g224.t2 CDS=1-1728	GeneMark.hmm	CDS	1	1728	-2330.578614	+	0	gene_id=281, length=1728, gene_score=-2330.578614, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=34.966010
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_42
+
+g224.t1 CDS=1-1434	GeneMark.hmm	CDS	1	1434	-1927.099792	+	0	gene_id=282, length=1434, gene_score=-1927.099792, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=34.473151
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_49
+
+g225.t1 CDS=1-726	GeneMark.hmm	CDS	1	726	-970.302682	+	0	gene_id=283, length=726, gene_score=-970.302682, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=27.716280
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_50
+
+g226.t1 CDS=1-390	GeneMark.hmm	CDS	3	98	-121.712627	-	0	gene_id=284, length=96, gene_score=-121.712627, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=1, logodd=6.818378
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_47
+
+g227.t1 CDS=1-1035	GeneMark.hmm	CDS	1	1035	-1401.008199	+	0	gene_id=285, length=1035, gene_score=-1401.008199, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=14.432821
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g228.t1 CDS=1-2211	GeneMark.hmm	CDS	1	2211	-3006.246848	+	0	gene_id=286, length=2211, gene_score=-3006.246848, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=39.595282
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g229.t1 CDS=1-4575	GeneMark.hmm	CDS	1	4575	-6143.020023	+	0	gene_id=287, length=4575, gene_score=-6143.020023, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=143.852616
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_46
+
+g230.t1 CDS=1-633	GeneMark.hmm	CDS	1	633	-857.762690	+	0	gene_id=288, length=633, gene_score=-857.762690, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=7.982884
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g231.t1 CDS=1-819	GeneMark.hmm	CDS	1	819	-1092.822543	+	0	gene_id=289, length=819, gene_score=-1092.822543, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=25.760741
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_42
+
+g231.t2 CDS=1-801	GeneMark.hmm	CDS	1	801	-1067.932881	+	0	gene_id=290, length=801, gene_score=-1067.932881, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=25.248674
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g232.t1 CDS=1-1281	GeneMark.hmm	CDS	3	227	-298.929223	-	0	gene_id=291, length=225, gene_score=-298.929223, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=10.098428
+g232.t1 CDS=1-1281	GeneMark.hmm	CDS	265	1281	-1367.386386	+	0	gene_id=292, length=1017, gene_score=-1367.386386, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=23.932175
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g233.t1 CDS=1-687	GeneMark.hmm	CDS	1	687	-921.228825	+	0	gene_id=293, length=687, gene_score=-921.228825, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=7.866362
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g234.t1 CDS=1-1347	GeneMark.hmm	CDS	1	1347	-1825.970475	+	0	gene_id=294, length=1347, gene_score=-1825.970475, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=13.244057
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g235.t1 CDS=1-1305	GeneMark.hmm	CDS	1	1305	-1733.387079	+	0	gene_id=295, length=1305, gene_score=-1733.387079, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=41.769990
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_42
+
+g236.t1 CDS=1-1128	GeneMark.hmm	CDS	1	1128	-1493.183568	+	0	gene_id=296, length=1128, gene_score=-1493.183568, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=34.225749
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_47
+
+g237.t1 CDS=1-1059	GeneMark.hmm	CDS	358	1059	-945.714153	+	0	gene_id=297, length=702, gene_score=-945.714153, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=1, logodd=15.181163
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_51
+
+g238.t1 CDS=1-555	GeneMark.hmm	CDS	1	555	-741.027234	+	0	gene_id=298, length=555, gene_score=-741.027234, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=19.882833
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g239.t1 CDS=1-2010	GeneMark.hmm	CDS	1	2010	-2741.395504	+	0	gene_id=299, length=2010, gene_score=-2741.395504, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=10.768183
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_47
+
+g240.t1 CDS=1-954	GeneMark.hmm	CDS	1	954	-1291.590431	+	0	gene_id=300, length=954, gene_score=-1291.590431, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=14.608387
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g241.t1 CDS=1-1272	GeneMark.hmm	CDS	1	1272	-1706.822246	+	0	gene_id=301, length=1272, gene_score=-1706.822246, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=42.753576
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_46
+
+g242.t1 CDS=1-1479	GeneMark.hmm	CDS	532	1479	-1272.427958	+	0	gene_id=302, length=948, gene_score=-1272.427958, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=15.469744
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_40
+
+g243.t1 CDS=1-2349	GeneMark.hmm	CDS	1	2349	-3064.569718	+	0	gene_id=303, length=2349, gene_score=-3064.569718, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=142.582591
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g244.t1 CDS=1-1584	GeneMark.hmm	CDS	1	1584	-2155.290064	+	0	gene_id=304, length=1584, gene_score=-2155.290064, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=12.284161
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_41
+
+g245.t1 CDS=1-1104	GeneMark.hmm	CDS	1	1104	-1470.171525	+	0	gene_id=305, length=1104, gene_score=-1470.171525, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=35.022746
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g246.t1 CDS=1-990	GeneMark.hmm	CDS	1	990	-1327.458634	+	0	gene_id=306, length=990, gene_score=-1327.458634, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=30.002014
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_48
+
+g247.t1 CDS=1-2253	GeneMark.hmm	CDS	1	2253	-3095.113396	+	0	gene_id=307, length=2253, gene_score=-3095.113396, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=19.507830
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_48
+
+g248.t1 CDS=1-1221	GeneMark.hmm	CDS	1	1221	-1664.856713	+	0	gene_id=308, length=1221, gene_score=-1664.856713, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=11.319595
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_51
+
+g249.t1 CDS=1-918	GeneMark.hmm	CDS	1	918	-1259.556918	+	0	gene_id=309, length=918, gene_score=-1259.556918, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=0.749837
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_47
+
+g250.t2 CDS=1-1491	GeneMark.hmm	CDS	1	1491	-2025.413346	+	0	gene_id=310, length=1491, gene_score=-2025.413346, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=31.862295
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_47
+
+g250.t1 CDS=1-1503	GeneMark.hmm	CDS	1	1503	-2044.343152	+	0	gene_id=311, length=1503, gene_score=-2044.343152, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=29.458251
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g251.t1 CDS=1-1842	GeneMark.hmm	CDS	1	1842	-2440.147682	+	0	gene_id=312, length=1842, gene_score=-2440.147682, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=86.461298
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g252.t1 CDS=1-1539	GeneMark.hmm	CDS	1	1539	-2073.102831	+	0	gene_id=313, length=1539, gene_score=-2073.102831, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=44.319004
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g253.t1 CDS=1-2112	GeneMark.hmm	CDS	1	2112	-2842.669398	+	0	gene_id=314, length=2112, gene_score=-2842.669398, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=59.550515
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_46
+
+g254.t1 CDS=1-909	GeneMark.hmm	CDS	1	909	-1244.512078	+	0	gene_id=315, length=909, gene_score=-1244.512078, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=-1.237985
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_50
+
+g255.t1 CDS=1-2274	GeneMark.hmm	CDS	1	2274	-3112.534582	+	0	gene_id=316, length=2274, gene_score=-3112.534582, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=15.179167
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g256.t1 CDS=1-1077	GeneMark.hmm	CDS	1	1077	-1454.479336	+	0	gene_id=317, length=1077, gene_score=-1454.479336, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=23.668206
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g257.t1 CDS=1-1230	GeneMark.hmm	CDS	1	1230	-1658.058921	+	0	gene_id=318, length=1230, gene_score=-1658.058921, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=24.043925
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g258.t1 CDS=1-1815	GeneMark.hmm	CDS	1	1815	-2431.543697	+	0	gene_id=319, length=1815, gene_score=-2431.543697, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=44.039501
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_39
+
+g259.t1 CDS=1-531	GeneMark.hmm	CDS	1	531	-700.567892	+	0	gene_id=320, length=531, gene_score=-700.567892, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=14.519771
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_47
+
+g260.t1 CDS=1-990	GeneMark.hmm	CDS	1	990	-1329.743817	+	0	gene_id=321, length=990, gene_score=-1329.743817, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=19.394764
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_40
+
+g261.t1 CDS=1-864	GeneMark.hmm	CDS	1	864	-1161.150506	+	0	gene_id=322, length=864, gene_score=-1161.150506, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=10.660372
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_48
+
+g262.t1 CDS=1-1143	GeneMark.hmm	CDS	88	1143	-1428.314029	+	0	gene_id=323, length=1056, gene_score=-1428.314029, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=27.368427
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_49
+
+g263.t1 CDS=1-753	GeneMark.hmm	CDS	1	753	-1035.132516	+	0	gene_id=324, length=753, gene_score=-1035.132516, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=-14.112834
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_50
+
+g264.t1 CDS=1-1161	GeneMark.hmm	CDS	1	1161	-1576.310207	+	0	gene_id=325, length=1161, gene_score=-1576.310207, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=24.876885
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g265.t1 CDS=1-1740	GeneMark.hmm	CDS	1	1740	-2349.940840	+	0	gene_id=326, length=1740, gene_score=-2349.940840, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=39.379640
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_49
+
+g266.t1 CDS=1-738	GeneMark.hmm	CDS	1	234	-310.966846	-	0	gene_id=327, length=234, gene_score=-310.966846, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=2, logodd=9.988789
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g267.t1 CDS=1-318	GeneMark.hmm	CDS	1	318	-423.387934	+	0	gene_id=328, length=318, gene_score=-423.387934, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=-1.626143
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g268.t1 CDS=1-1143	GeneMark.hmm	CDS	1	1143	-1558.026672	+	0	gene_id=329, length=1143, gene_score=-1558.026672, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=-7.639556
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_48
+
+g269.t1 CDS=1-2700	GeneMark.hmm	CDS	837	926	-110.189471	-	0	gene_id=330, length=90, gene_score=-110.189471, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=6.549421
+g269.t1 CDS=1-2700	GeneMark.hmm	CDS	1025	1177	-187.722032	-	0	gene_id=331, length=153, gene_score=-187.722032, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=1, logodd=17.809069
+g269.t1 CDS=1-2700	GeneMark.hmm	CDS	1207	2700	-2004.653719	+	0	gene_id=332, length=1494, gene_score=-2004.653719, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=52.473043
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g270.t1 CDS=1-1119	GeneMark.hmm	CDS	1	1119	-1521.930440	+	0	gene_id=333, length=1119, gene_score=-1521.930440, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=5.055082
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_53
+
+g271.t1 CDS=1-327	GeneMark.hmm	CDS	1	327	-446.643042	+	0	gene_id=334, length=327, gene_score=-446.643042, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=-2.335087
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g272.t1 CDS=1-831	GeneMark.hmm	CDS	1	831	-1100.971178	+	0	gene_id=335, length=831, gene_score=-1100.971178, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=39.182830
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_51
+
+g273.t1 CDS=1-441	GeneMark.hmm	CDS	1	441	-587.302706	+	0	gene_id=336, length=441, gene_score=-587.302706, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=16.116154
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g274.t1 CDS=1-933	GeneMark.hmm	CDS	1	933	-1261.482687	+	0	gene_id=337, length=933, gene_score=-1261.482687, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=-6.663712
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g274.t2 CDS=1-1005	GeneMark.hmm	CDS	1	1005	-1360.571417	+	0	gene_id=338, length=1005, gene_score=-1360.571417, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=-4.870075
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_42
+
+g275.t1 CDS=1-1788	GeneMark.hmm	CDS	1	1788	-2359.293150	+	0	gene_id=339, length=1788, gene_score=-2359.293150, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=90.444567
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g276.t1 CDS=1-1416	GeneMark.hmm	CDS	1	1416	-1924.739105	+	0	gene_id=340, length=1416, gene_score=-1924.739105, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=11.703033
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g277.t1 CDS=1-1362	GeneMark.hmm	CDS	1	1362	-1858.708581	+	0	gene_id=341, length=1362, gene_score=-1858.708581, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=-4.752251
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g277.t2 CDS=1-1458	GeneMark.hmm	CDS	1	1458	-1993.579743	+	0	gene_id=342, length=1458, gene_score=-1993.579743, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=-7.289276
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g277.t3 CDS=1-1506	GeneMark.hmm	CDS	1	1506	-2061.163977	+	0	gene_id=343, length=1506, gene_score=-2061.163977, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=-8.885914
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g278.t1 CDS=1-555	GeneMark.hmm	CDS	1	555	-744.092635	+	0	gene_id=344, length=555, gene_score=-744.092635, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=11.859659
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g279.t1 CDS=1-2397	GeneMark.hmm	CDS	1	2397	-3182.329867	+	0	gene_id=345, length=2397, gene_score=-3182.329867, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=110.157073
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_44
+
+g280.t1 CDS=1-900	GeneMark.hmm	CDS	1	900	-1185.881333	+	0	gene_id=346, length=900, gene_score=-1185.881333, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=46.357484
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_48
+
+g281.t1 CDS=1-465	GeneMark.hmm	CDS	1	465	-622.523819	+	0	gene_id=347, length=465, gene_score=-622.523819, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=13.745055
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_51
+
+g282.t1 CDS=1-240	GeneMark.hmm	CDS	1	240	-321.375756	+	0	gene_id=348, length=240, gene_score=-321.375756, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=-2.084237
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_43
+
+g283.t1 CDS=1-1461	GeneMark.hmm	CDS	1	1461	-1983.862626	+	0	gene_id=349, length=1461, gene_score=-1983.862626, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=14.525630
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_51
+
+g284.t1 CDS=1-549	GeneMark.hmm	CDS	1	549	-731.478543	+	0	gene_id=350, length=549, gene_score=-731.478543, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=21.328286
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_46
+
+g285.t1 CDS=1-1410	GeneMark.hmm	CDS	1	1410	-1881.215139	+	0	gene_id=351, length=1410, gene_score=-1881.215139, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=59.353142
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_45
+
+g286.t1 CDS=1-606	GeneMark.hmm	CDS	1	606	-798.855643	+	0	gene_id=352, length=606, gene_score=-798.855643, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=29.472217
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_36
+
+g287.t1 CDS=1-462	GeneMark.hmm	CDS	1	462	-597.362099	+	0	gene_id=353, length=462, gene_score=-597.362099, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=15.235293
+
+# Model information: Heuristic_model_for_genetic_code_11_and_GC_39
+
+g288.t1 CDS=1-795	GeneMark.hmm	CDS	1	795	-1044.423092	+	0	gene_id=354, length=795, gene_score=-1044.423092, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=24.006680
+

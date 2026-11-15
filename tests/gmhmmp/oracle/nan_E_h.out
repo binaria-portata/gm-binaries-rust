@@ -1,0 +1,172 @@
+GeneMark.hmm PROKARYOTIC (Version 3.20)
+Date: Sun Nov 15 09:17:36 2026
+Sequence file name: tr_edge.fa
+Model file name: GeneMark_hmm.mod
+RBS: true
+Model information: GeneMarkS_default_gcode_1
+
+FASTA definition line: g1.t1 CDS=1-609
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class
+    #                                         Length
+
+FASTA definition line: g2.t1 CDS=1-309
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class
+    #                                         Length
+
+FASTA definition line: g3.t2 CDS=1-537
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class
+    #                                         Length
+
+FASTA definition line: g4.t1 CDS=1-591
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class
+    #                                         Length
+
+FASTA definition line: g5.t1 CDS=1-603
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class
+    #                                         Length
+
+FASTA definition line: g6.t1 CDS=1-597
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class
+    #                                         Length
+
+FASTA definition line: g7.t1 CDS=1-1635
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class
+    #                                         Length
+
+FASTA definition line: g8.t1 CDS=1-1674
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class
+    #                                         Length
+
+FASTA definition line: g9.t1 CDS=1-2079
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class
+    #                                         Length
+
+FASTA definition line: g10.t1 CDS=1-954
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class
+    #                                         Length
+
+FASTA definition line: g11.t1 CDS=1-840
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class
+    #                                         Length
+
+FASTA definition line: g12.t1 CDS=1-1113
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class
+    #                                         Length
+
+FASTA definition line: g13.t1 CDS=1-579
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class
+    #                                         Length
+
+FASTA definition line: g14.t1 CDS=1-1782
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class
+    #                                         Length
+
+FASTA definition line: g15.t1 CDS=1-930
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class
+    #                                         Length
+
+FASTA definition line: g15.t2 CDS=1-912
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class
+    #                                         Length
+
+FASTA definition line: g16.t1 CDS=1-1089
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class
+    #                                         Length
+
+FASTA definition line: g17.t1 CDS=1-1320
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class
+    #                                         Length
+
+FASTA definition line: g18.t1 CDS=1-1671
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class
+    #                                         Length
+
+FASTA definition line: g19.t1 CDS=1-858
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class
+    #                                         Length
+
+FASTA definition line: g20.t1 CDS=1-1107
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class
+    #                                         Length
+
+FASTA definition line: g22.t1 CDS=1-933
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class
+    #                                         Length
+
+FASTA definition line: g23.t1 CDS=1-1824
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class
+    #                                         Length
+
+FASTA definition line: g24.t1 CDS=1-903
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class
+    #                                         Length
+
+FASTA definition line: g25.t1 CDS=1-663
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class
+    #                                         Length
+
+FASTA definition line: g27.t1 CDS=1-408
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class
+    #                                         Length
+
+FASTA definition line: g28.t1 CDS=1-1302
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class
+    #                                         Length
+
+FASTA definition line: g29.t1 CDS=1-2202
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class
+    #                                         Length
+
+FASTA definition line: g30.t1 CDS=1-453
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class
+    #                                         Length
+
+FASTA definition line: g32.t2 CDS=1-828
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class
+    #                                         Length
+
+FASTA definition line: g32.t1 CDS=1-891
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class
+    #                                         Length
+
+FASTA definition line: g33.t1 CDS=1-1026
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class
+    #                                         Length
+
+FASTA definition line: g34.t1 CDS=1-762
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class
+    #                                         Length
+

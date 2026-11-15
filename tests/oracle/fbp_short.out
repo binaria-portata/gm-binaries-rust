@@ -1,0 +1,18 @@
+Eukaryotic GeneMark.hmm version 3.68
+Sequence name: short.fa
+FASTA defline: >short
+Sequence length: 600 bp
+G+C content: 43.00%
+Matrices file: fungus.mod
+Sat Nov 14 19:09:27 2026
+
+
+Predicted genes/exons
+
+Gene Exon Strand Exon           Exon Range         Exon      Start/End
+  #    #         Type                             Length       Frame
+
+
+  1   1   +  Initial            283        503        221          1 2 - -
+  1   2   +  Terminal           556        571         16          3 3 - -
+

@@ -1,0 +1,62 @@
+# gmhmmp (GeneMark.hmm prokaryotic 3.20) cases; run inside tests/gmhmmp/data, "-o <file>" appended.
+# A side file (-K, -L) must be named <case>.b
+tr_def	-m GeneMark_hmm.mod transcripts.fa
+tr_p0	-p 0 -m GeneMark_hmm.mod transcripts.fa
+tr_p0_r	-p 0 -m GeneMark_hmm.mod -r transcripts.fa
+tr_p0_r_gff	-p 0 -m GeneMark_hmm.mod -r -f G transcripts.fa
+tr_gff	-m GeneMark_hmm.mod -f G transcripts.fa
+tr_meta	-p 0 -m MetaGeneMark_v1.mod transcripts.fa
+tr_meta_gff	-p 0 -m MetaGeneMark_v1.mod -f G transcripts.fa
+tr_A	-p 0 -m GeneMark_hmm.mod -r -A tr_A.b transcripts.fa
+tr_D	-p 0 -m GeneMark_hmm.mod -r -D tr_D.b transcripts.fa
+tr_a_doc	-p 0 -m GeneMark_hmm.mod -a transcripts.fa
+tr_A_gff	-p 0 -m GeneMark_hmm.mod -r -A tr_A_gff.b -f G transcripts.fa
+tr_k	-p 0 -m GeneMark_hmm.mod -r -k transcripts.fa
+tr_K	-p 0 -m GeneMark_hmm.mod -r -K tr_K.b transcripts.fa
+tr_b	-p 0 -m GeneMark_hmm.mod -r -b transcripts.fa
+tr_sd	-m GeneMark_hmm.mod -s d transcripts.fa
+tr_sr	-m GeneMark_hmm.mod -s r -f G transcripts.fa
+tr_i	-m GeneMark_hmm.mod -i 0.2 transcripts.fa
+tr_n	-m GeneMark_hmm.mod -n tr_edge.fa
+tr_E	-m GeneMark_hmm.mod -E 5 transcripts.fa
+tr_L	-m GeneMark_hmm.mod -L tr_L.b transcripts.fa
+tr_v	-m GeneMark_hmm.mod -v tr_edge.fa
+edge_def	-m GeneMark_hmm.mod tr_edge.fa
+edge_p0_r	-p 0 -m GeneMark_hmm.mod -r -A edge_p0_r.b tr_edge.fa
+edge_D	-p 0 -m GeneMark_hmm.mod -r -D edge_D.b tr_edge.fa
+edge_meta	-p 0 -m MetaGeneMark_v1.mod -f G tr_edge.fa
+edge_gff	-m GeneMark_hmm.mod -f G -A edge_gff.b tr_edge.fa
+eco_meta	-m MetaGeneMark_v1.mod ecoli4.fa
+eco_meta_gff	-m MetaGeneMark_v1.mod -f G -D eco_meta_gff.b ecoli4.fa
+eco_meta_A	-m MetaGeneMark_v1.mod -A eco_meta_A.b ecoli4.fa
+eco_mod	-m GeneMark_hmm.mod -r ecoli4.fa
+eco_mod_p0	-p 0 -m GeneMark_hmm.mod ecoli4.fa
+eco_M	-m GeneMark_hmm.mod -M MetaGeneMark_v1.mod ecoli4.fa
+eco_R	-m MetaGeneMark_v1.mod -R GeneMark_hmm.mod -r ecoli4.fa
+err_nomod	transcripts.fa
+err_noseq	-m GeneMark_hmm.mod
+err_badseq	-m GeneMark_hmm.mod nonexistent.fa
+err_badmod	-m nonexistent.mod transcripts.fa
+err_badopt	-m GeneMark_hmm.mod -Q transcripts.fa
+err_badfmt	-m GeneMark_hmm.mod -f X transcripts.fa
+noargs	
+ev1_lst	-m GeneMark_hmm.mod -e gev1.gff transcripts.fa
+ev1_v	-m GeneMark_hmm.mod -v -e gev1.gff transcripts.fa
+ev2_lst	-m GeneMark_hmm.mod -e gev2.gff transcripts.fa
+ev2_gff	-m GeneMark_hmm.mod -f G -e gev2.gff transcripts.fa
+ev2_p0_r	-p 0 -r -m GeneMark_hmm.mod -e gev2.gff -k transcripts.fa
+ev2_E0	-m GeneMark_hmm.mod -E 0 -e gev2.gff transcripts.fa
+ev2_E5	-p 0 -m GeneMark_hmm.mod -E 5 -e gev2.gff -f G transcripts.fa
+ev2_meta	-m MetaGeneMark_v1.mod -e gev2.gff transcripts.fa
+ev2_b	-m GeneMark_hmm.mod -b -e gev2.gff transcripts.fa
+ev2_L	-m GeneMark_hmm.mod -L ev2_L.b -e gev2.gff transcripts.fa
+ev_missing	-m GeneMark_hmm.mod -e nonexistent.gff transcripts.fa
+gc_minc4	-m tiny_minc4.mod tr_edge.fa
+gc_minc4_K	-m tiny_minc4.mod -r -K gc_minc4_K.b tr_edge.fa
+strtol_big	-m tiny_strtol.mod tr_edge.fa
+phmm_noval	-m phmm_only.mod tr_edge.fa
+nan_i	-m GeneMark_hmm.mod -i nan tr_edge.fa
+nan_i_gff	-p 0 -m GeneMark_hmm.mod -i nan -f G -r transcripts.fa
+nan_x	-m GeneMark_hmm.mod -x nan -r -f G transcripts.fa
+nan_E_h	-m GeneMark_hmm.mod -E nan -h 1000 -r tr_edge.fa
+order8	-p 0 -m order8.mod -f G transcripts.fa

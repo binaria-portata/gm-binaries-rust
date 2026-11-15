@@ -1,0 +1,106 @@
+# Eukaryotic GeneMark.hmm version 3.68
+# Sequence name: contig1.fa
+# FASTA defline: >X1
+# Sequence length: 125040 bp
+# G+C content: 34.76%
+# Matrices file: super.mod
+# Sat Nov 14 18:47:47 2026
+# FASTA definition line: >X1
+# sequence-region X1 1 125040
+X1	GeneMark.hmm3	gene	18933	20429	.	+	.	gene_id "1_g"; transcript_id "1_t";
+X1	GeneMark.hmm3	mRNA	18933	20429	.	+	.	gene_id "1_g"; transcript_id "1_t";
+X1	GeneMark.hmm3	start_codon	18933	18935	.	+	0	gene_id "1_g"; transcript_id "1_t";
+X1	GeneMark.hmm3	CDS	18933	18989	.	+	0	gene_id "1_g"; transcript_id "1_t"; cds_type "Initial"; count "1_2";
+X1	GeneMark.hmm3	intron	18990	20324	.	+	0	gene_id "1_g"; transcript_id "1_t";
+X1	GeneMark.hmm3	CDS	20325	20429	.	+	0	gene_id "1_g"; transcript_id "1_t"; cds_type "Terminal"; count "2_2";
+X1	GeneMark.hmm3	stop_codon	20427	20429	.	+	0	gene_id "1_g"; transcript_id "1_t";
+X1	GeneMark.hmm3	gene	31957	33007	.	-	.	gene_id "2_g"; transcript_id "2_t";
+X1	GeneMark.hmm3	mRNA	31957	33007	.	-	.	gene_id "2_g"; transcript_id "2_t";
+X1	GeneMark.hmm3	stop_codon	31957	31959	.	-	0	gene_id "2_g"; transcript_id "2_t";
+X1	GeneMark.hmm3	CDS	31957	31986	.	-	0	gene_id "2_g"; transcript_id "2_t"; cds_type "Terminal"; count "2_2";
+X1	GeneMark.hmm3	intron	31987	32617	.	-	0	gene_id "2_g"; transcript_id "2_t";
+X1	GeneMark.hmm3	CDS	32618	33007	.	-	0	gene_id "2_g"; transcript_id "2_t"; cds_type "Initial"; count "1_2";
+X1	GeneMark.hmm3	start_codon	33005	33007	.	-	0	gene_id "2_g"; transcript_id "2_t";
+X1	GeneMark.hmm3	gene	35395	36994	.	+	.	gene_id "3_g"; transcript_id "3_t";
+X1	GeneMark.hmm3	mRNA	35395	36994	.	+	.	gene_id "3_g"; transcript_id "3_t";
+X1	GeneMark.hmm3	start_codon	35395	35397	.	+	0	gene_id "3_g"; transcript_id "3_t";
+X1	GeneMark.hmm3	CDS	35395	35505	.	+	0	gene_id "3_g"; transcript_id "3_t"; cds_type "Initial"; count "1_3";
+X1	GeneMark.hmm3	intron	35506	36555	.	+	0	gene_id "3_g"; transcript_id "3_t";
+X1	GeneMark.hmm3	CDS	36556	36725	.	+	0	gene_id "3_g"; transcript_id "3_t"; cds_type "Internal"; count "2_3";
+X1	GeneMark.hmm3	intron	36726	36789	.	+	2	gene_id "3_g"; transcript_id "3_t";
+X1	GeneMark.hmm3	CDS	36790	36994	.	+	1	gene_id "3_g"; transcript_id "3_t"; cds_type "Terminal"; count "3_3";
+X1	GeneMark.hmm3	stop_codon	36992	36994	.	+	0	gene_id "3_g"; transcript_id "3_t";
+X1	GeneMark.hmm3	gene	41914	42735	.	+	.	gene_id "4_g"; transcript_id "4_t";
+X1	GeneMark.hmm3	mRNA	41914	42735	.	+	.	gene_id "4_g"; transcript_id "4_t";
+X1	GeneMark.hmm3	start_codon	41914	41916	.	+	0	gene_id "4_g"; transcript_id "4_t";
+X1	GeneMark.hmm3	CDS	41914	41964	.	+	0	gene_id "4_g"; transcript_id "4_t"; cds_type "Initial"; count "1_2";
+X1	GeneMark.hmm3	intron	41965	42501	.	+	0	gene_id "4_g"; transcript_id "4_t";
+X1	GeneMark.hmm3	CDS	42502	42735	.	+	0	gene_id "4_g"; transcript_id "4_t"; cds_type "Terminal"; count "2_2";
+X1	GeneMark.hmm3	stop_codon	42733	42735	.	+	0	gene_id "4_g"; transcript_id "4_t";
+X1	GeneMark.hmm3	gene	55956	58167	.	-	.	gene_id "5_g"; transcript_id "5_t";
+X1	GeneMark.hmm3	mRNA	55956	58167	.	-	.	gene_id "5_g"; transcript_id "5_t";
+X1	GeneMark.hmm3	stop_codon	55956	55958	.	-	0	gene_id "5_g"; transcript_id "5_t";
+X1	GeneMark.hmm3	CDS	55956	56087	.	-	0	gene_id "5_g"; transcript_id "5_t"; cds_type "Terminal"; count "4_4";
+X1	GeneMark.hmm3	intron	56088	56172	.	-	0	gene_id "5_g"; transcript_id "5_t";
+X1	GeneMark.hmm3	CDS	56173	56249	.	-	2	gene_id "5_g"; transcript_id "5_t"; cds_type "Internal"; count "3_4";
+X1	GeneMark.hmm3	intron	56250	56342	.	-	1	gene_id "5_g"; transcript_id "5_t";
+X1	GeneMark.hmm3	CDS	56343	56506	.	-	1	gene_id "5_g"; transcript_id "5_t"; cds_type "Internal"; count "2_4";
+X1	GeneMark.hmm3	intron	56507	57490	.	-	2	gene_id "5_g"; transcript_id "5_t";
+X1	GeneMark.hmm3	CDS	57491	58167	.	-	0	gene_id "5_g"; transcript_id "5_t"; cds_type "Initial"; count "1_4";
+X1	GeneMark.hmm3	start_codon	58165	58167	.	-	0	gene_id "5_g"; transcript_id "5_t";
+X1	GeneMark.hmm3	gene	65717	72305	.	+	.	gene_id "6_g"; transcript_id "6_t";
+X1	GeneMark.hmm3	mRNA	65717	72305	.	+	.	gene_id "6_g"; transcript_id "6_t";
+X1	GeneMark.hmm3	start_codon	65717	65719	.	+	0	gene_id "6_g"; transcript_id "6_t";
+X1	GeneMark.hmm3	CDS	65717	66767	.	+	0	gene_id "6_g"; transcript_id "6_t"; cds_type "Initial"; count "1_2";
+X1	GeneMark.hmm3	intron	66768	71997	.	+	1	gene_id "6_g"; transcript_id "6_t";
+X1	GeneMark.hmm3	CDS	71998	72305	.	+	2	gene_id "6_g"; transcript_id "6_t"; cds_type "Terminal"; count "2_2";
+X1	GeneMark.hmm3	stop_codon	72303	72305	.	+	0	gene_id "6_g"; transcript_id "6_t";
+X1	GeneMark.hmm3	gene	72672	74319	.	-	.	gene_id "7_g"; transcript_id "7_t";
+X1	GeneMark.hmm3	mRNA	72672	74319	.	-	.	gene_id "7_g"; transcript_id "7_t";
+X1	GeneMark.hmm3	stop_codon	72672	72674	.	-	0	gene_id "7_g"; transcript_id "7_t";
+X1	GeneMark.hmm3	CDS	72672	73036	.	-	2	gene_id "7_g"; transcript_id "7_t"; cds_type "Terminal"; count "3_3";
+X1	GeneMark.hmm3	intron	73037	73636	.	-	1	gene_id "7_g"; transcript_id "7_t";
+X1	GeneMark.hmm3	CDS	73637	74149	.	-	2	gene_id "7_g"; transcript_id "7_t"; cds_type "Internal"; count "2_3";
+X1	GeneMark.hmm3	intron	74150	74210	.	-	1	gene_id "7_g"; transcript_id "7_t";
+X1	GeneMark.hmm3	CDS	74211	74319	.	-	0	gene_id "7_g"; transcript_id "7_t"; cds_type "Initial"; count "1_3";
+X1	GeneMark.hmm3	start_codon	74317	74319	.	-	0	gene_id "7_g"; transcript_id "7_t";
+X1	GeneMark.hmm3	gene	76166	76516	.	-	.	gene_id "8_g"; transcript_id "8_t";
+X1	GeneMark.hmm3	mRNA	76166	76516	.	-	.	gene_id "8_g"; transcript_id "8_t";
+X1	GeneMark.hmm3	stop_codon	76166	76168	.	-	0	gene_id "8_g"; transcript_id "8_t";
+X1	GeneMark.hmm3	CDS	76166	76516	.	-	0	gene_id "8_g"; transcript_id "8_t"; cds_type "Single"; count "1_1";
+X1	GeneMark.hmm3	start_codon	76514	76516	.	-	0	gene_id "8_g"; transcript_id "8_t";
+X1	GeneMark.hmm3	gene	76863	77084	.	-	.	gene_id "9_g"; transcript_id "9_t";
+X1	GeneMark.hmm3	mRNA	76863	77084	.	-	.	gene_id "9_g"; transcript_id "9_t";
+X1	GeneMark.hmm3	stop_codon	76863	76865	.	-	0	gene_id "9_g"; transcript_id "9_t";
+X1	GeneMark.hmm3	CDS	76863	77084	.	-	0	gene_id "9_g"; transcript_id "9_t"; cds_type "Single"; count "1_1";
+X1	GeneMark.hmm3	start_codon	77082	77084	.	-	0	gene_id "9_g"; transcript_id "9_t";
+X1	GeneMark.hmm3	gene	107110	107483	.	-	.	gene_id "10_g"; transcript_id "10_t";
+X1	GeneMark.hmm3	mRNA	107110	107483	.	-	.	gene_id "10_g"; transcript_id "10_t";
+X1	GeneMark.hmm3	stop_codon	107110	107112	.	-	0	gene_id "10_g"; transcript_id "10_t";
+X1	GeneMark.hmm3	CDS	107110	107241	.	-	0	gene_id "10_g"; transcript_id "10_t"; cds_type "Terminal"; count "2_2";
+X1	GeneMark.hmm3	intron	107242	107360	.	-	0	gene_id "10_g"; transcript_id "10_t";
+X1	GeneMark.hmm3	CDS	107361	107483	.	-	0	gene_id "10_g"; transcript_id "10_t"; cds_type "Initial"; count "1_2";
+X1	GeneMark.hmm3	start_codon	107481	107483	.	-	0	gene_id "10_g"; transcript_id "10_t";
+X1	GeneMark.hmm3	gene	107936	108172	.	+	.	gene_id "11_g"; transcript_id "11_t";
+X1	GeneMark.hmm3	mRNA	107936	108172	.	+	.	gene_id "11_g"; transcript_id "11_t";
+X1	GeneMark.hmm3	start_codon	107936	107938	.	+	0	gene_id "11_g"; transcript_id "11_t";
+X1	GeneMark.hmm3	CDS	107936	108172	.	+	0	gene_id "11_g"; transcript_id "11_t"; cds_type "Single"; count "1_1";
+X1	GeneMark.hmm3	stop_codon	108170	108172	.	+	0	gene_id "11_g"; transcript_id "11_t";
+X1	GeneMark.hmm3	gene	110657	112568	.	-	.	gene_id "12_g"; transcript_id "12_t";
+X1	GeneMark.hmm3	mRNA	110657	112568	.	-	.	gene_id "12_g"; transcript_id "12_t";
+X1	GeneMark.hmm3	stop_codon	110657	110659	.	-	0	gene_id "12_g"; transcript_id "12_t";
+X1	GeneMark.hmm3	CDS	110657	110698	.	-	0	gene_id "12_g"; transcript_id "12_t"; cds_type "Terminal"; count "4_4";
+X1	GeneMark.hmm3	intron	110699	110885	.	-	0	gene_id "12_g"; transcript_id "12_t";
+X1	GeneMark.hmm3	CDS	110886	111066	.	-	1	gene_id "12_g"; transcript_id "12_t"; cds_type "Internal"; count "3_4";
+X1	GeneMark.hmm3	intron	111067	112094	.	-	2	gene_id "12_g"; transcript_id "12_t";
+X1	GeneMark.hmm3	CDS	112095	112297	.	-	0	gene_id "12_g"; transcript_id "12_t"; cds_type "Internal"; count "2_4";
+X1	GeneMark.hmm3	intron	112298	112352	.	-	0	gene_id "12_g"; transcript_id "12_t";
+X1	GeneMark.hmm3	CDS	112353	112568	.	-	0	gene_id "12_g"; transcript_id "12_t"; cds_type "Initial"; count "1_4";
+X1	GeneMark.hmm3	start_codon	112566	112568	.	-	0	gene_id "12_g"; transcript_id "12_t";
+X1	GeneMark.hmm3	gene	114313	120132	.	+	.	gene_id "13_g"; transcript_id "13_t";
+X1	GeneMark.hmm3	mRNA	114313	120132	.	+	.	gene_id "13_g"; transcript_id "13_t";
+X1	GeneMark.hmm3	start_codon	114313	114315	.	+	0	gene_id "13_g"; transcript_id "13_t";
+X1	GeneMark.hmm3	CDS	114313	114480	.	+	0	gene_id "13_g"; transcript_id "13_t"; cds_type "Initial"; count "1_2";
+X1	GeneMark.hmm3	intron	114481	120012	.	+	0	gene_id "13_g"; transcript_id "13_t";
+X1	GeneMark.hmm3	CDS	120013	120132	.	+	0	gene_id "13_g"; transcript_id "13_t"; cds_type "Terminal"; count "2_2";
+X1	GeneMark.hmm3	stop_codon	120130	120132	.	+	0	gene_id "13_g"; transcript_id "13_t";

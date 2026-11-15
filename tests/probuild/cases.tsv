@@ -1,0 +1,271 @@
+# Hand-written probuild calls for tests/probuild/run_cases.py.
+# name<TAB>arguments (shell syntax; the text <TAB> inside an argument
+# becomes a tab character).  Inputs: tests/probuild/data/.
+#
+# ---- core: argv, --par, dispatch, usage -----------------------------------
+core_noargs
+core_nokey	x
+core_unknown	--foo
+core_help	--help
+core_value_value	--foo a b
+core_dash_value	--split_fasta -- --seq g1.fa --split_numfile 2
+core_key_then_key	--stat --seq g1.fa --details --allow_x
+core_dup_key	--stat --seq odd.fa --seq g1.fa
+core_neg_value	--split x --seq g1.fa --min_contig -5
+core_par	--par p1.par --gc --seq g1.fa
+core_par_override	--par p1.par --gc --seq g1.fa --GC_PRECISION 1
+core_par_missing	--par nofile.par --gc --seq g1.fa
+core_par_empty	--par --gc --seq g1.fa
+core_par_space	--par 'p1 .par' --gc --seq g1.fa
+core_par_bad	--par bad.par --gc --seq g1.fa
+core_par_bad2	--par bad2.par --gc --seq g1.fa
+core_par_clean_join	--par p1.par --clean_join out.fa --seq g1.fa --log
+core_par_dir	--par . --gc --seq g1.fa
+core_order_stat_fasta_first	--clean_join x --stat_fasta --seq g1.fa
+core_order_clean_fasta_first	--stat_fasta --clean_fasta g1.fa --clean_fasta_out o.fa --clean_fasta_index i.txt --clean_fasta_label L
+core_order_stat_gc	--stat --gc --seq g1.fa
+core_order_cut_last	--cut --select_fasta --seq prot.fa --fasta_list list.txt
+core_model_not_first	--reformat_fasta --in g1.fa --out o.fa --count_substring_n --seq g1.fa
+# ---- --clean_fasta ----------------------------------------------------------
+cf_help	--clean_fasta x --help
+cf_basic	--clean_fasta g1.fa --clean_fasta_out o.fa --clean_fasta_index i.txt --clean_fasta_label LBL
+cf_odd	--clean_fasta odd.fa --clean_fasta_out o.fa --clean_fasta_index i.txt --clean_fasta_label L
+cf_crlf	--clean_fasta g1crlf.fa --clean_fasta_out o.fa --clean_fasta_index i.txt --clean_fasta_label L
+cf_missing_label	--clean_fasta g1.fa --clean_fasta_out o.fa --clean_fasta_index i.txt
+cf_missing_index	--clean_fasta g1.fa --clean_fasta_out o.fa --clean_fasta_label L
+cf_nofile	--clean_fasta nofile.fa --clean_fasta_out o.fa --clean_fasta_index i.txt --clean_fasta_label L
+cf_empty	--clean_fasta empty.fa --clean_fasta_out o.fa --clean_fasta_index i.txt --clean_fasta_label L
+cf_ws	--clean_fasta ws.fa --clean_fasta_out o.fa --clean_fasta_index i.txt --clean_fasta_label L
+cf_nodef	--clean_fasta nodef.fa --clean_fasta_out o.fa --clean_fasta_index i.txt --clean_fasta_label L
+cf_outdir	--clean_fasta g1.fa --clean_fasta_out nodir/o.fa --clean_fasta_index i.txt --clean_fasta_label L
+# ---- --stat_fasta ------------------------------------------------------------
+sf_stdout	--stat_fasta --seq g1.fa
+sf_file	--stat_fasta out.txt --seq g1.fa
+sf_allow_x	--stat_fasta --seq g1.fa --allow_x
+sf_allow_x0	--stat_fasta --seq g1.fa --allow_x 0
+sf_soft	--stat_fasta --seq g1.fa --soft
+sf_soft_x	--stat_fasta --seq odd.fa --soft --allow_x
+sf_odd	--stat_fasta --seq odd.fa
+sf_crlf	--stat_fasta --seq g1crlf.fa --soft
+sf_nodef	--stat_fasta --seq nodef.fa --allow_x --soft
+sf_empty	--stat_fasta --seq empty.fa
+sf_ws	--stat_fasta --seq ws.fa
+sf_noseq	--stat_fasta
+sf_seq_empty	--stat_fasta --seq
+sf_nofile	--stat_fasta --seq nofile.fa
+sf_dir	--stat_fasta --seq .
+# ---- --count_substring_n / --substring_n_distr / --count_substring_atcg --
+csn_basic	--count_substring_n --seq g1.fa
+csn_x	--count_substring_n --seq g1.fa --allow_x
+csn_odd	--count_substring_n --seq odd.fa
+csn_noseq	--count_substring_n
+snd_stdout	--substring_n_distr --seq g1.fa
+snd_file	--substring_n_distr d.txt --seq g1.fa --allow_x
+snd_odd	--substring_n_distr d.txt --seq odd.fa --allow_x
+snd_nogap	--substring_n_distr --seq one.fa --allow_x
+snd_empty	--substring_n_distr --seq empty.fa
+snd_crlf	--substring_n_distr --seq g1crlf.fa
+csa_upper	--count_substring_atcg --seq one.fa
+csa_n	--count_substring_atcg --seq nodef.fa
+csa_upper_split	--count_substring_atcg --seq one.fa --split_at_n 5
+csa_bad_n	--count_substring_atcg --seq one.fa --split_at_n x
+csa_empty	--count_substring_atcg --seq empty.fa
+csa_noseq	--count_substring_atcg
+# ---- --reformat_fasta ----------------------------------------------------------
+rf_basic	--reformat_fasta --in g1.fa --out o.fa
+rf_label_trace	--reformat_fasta --in g1.fa --out o.fa --label _dna --trace t.txt
+rf_two_files	--reformat_fasta --in 'g1.fa<TAB>odd.fa' --out o.fa --trace t.txt --label _x
+rf_tab_list	--reformat_fasta --in '<TAB>g1.fa<TAB><TAB>one.fa<TAB>' --out o.fa
+rf_upper0	--reformat_fasta --in g1.fa --out o.fa --uppercase 0
+rf_upper0_x	--reformat_fasta --in odd.fa --out o.fa --uppercase 0 --allow_x
+rf_allow_x	--reformat_fasta --in g1.fa --out o.fa --allow_x
+rf_lpl	--reformat_fasta --in g1.fa --out o.fa --letters_per_line 33
+rf_lpl0	--reformat_fasta --in g1.fa --out o.fa --letters_per_line 0
+rf_minc	--reformat_fasta --in g1.fa --out o.fa --min_contig 4500 --trace t.txt
+rf_mask_soft	--reformat_fasta --in g1.fa --out o.fa --mask_soft 20
+rf_mask_soft_x	--reformat_fasta --in g1.fa --out o.fa --mask_soft 20 --allow_x
+rf_mask_margin	--reformat_fasta --in g1.fa --out o.fa --mask_soft 30 --mask_margin 5 --low2gff m.gff
+rf_mask_margin_bad	--reformat_fasta --in g1.fa --out o.fa --mask_soft 10 --mask_margin 6
+rf_low2gff	--reformat_fasta --in g1.fa --out o.fa --low2gff m.gff --uppercase --allow_x --label _dna
+rf_low2gff_upper0	--reformat_fasta --in odd.fa --out o.fa --low2gff m.gff --uppercase 0
+rf_mask_upper0	--reformat_fasta --in odd.fa --out o.fa --mask_soft 3 --uppercase 0 --allow_x
+rf_es_like	--reformat_fasta --uppercase --allow_x --letters_per_line 60 --out o.fa --label _dna --trace t.txt --in g1.fa --mask_soft 1000 --mask_margin 0 --low2gff m.gff
+rf_original	--reformat_fasta --in g1.fa --out o.fa --original
+rf_original_nodef	--reformat_fasta --in nodef.fa --out o.fa --original
+rf_first_w	--reformat_fasta --in g1.fa --out o.fa --first_w --trace t.txt
+rf_first_w_odd	--reformat_fasta --in odd.fa --out o.fa --first_w
+rf_ncbi	--reformat_fasta --in ncbi.fa --out o.fa --ncbi_gi
+rf_ncbi_plain	--reformat_fasta --in g1.fa --out o.fa --ncbi_gi
+rf_include	--reformat_fasta --in g1.fa --out o.fa --first_w --include_sid names.tbl
+rf_include_swap	--reformat_fasta --in g1.fa --out o.fa --first_w --include_sid names.tbl --swap_sid --trace t.txt
+rf_exclude	--reformat_fasta --in g1.fa --out o.fa --first_w --exclude_sid names.tbl
+rf_include_bad	--reformat_fasta --in g1.fa --out o.fa --first_w --include_sid bad.tbl --swap_sid
+rf_include_missing	--reformat_fasta --in g1.fa --out o.fa --first_w --include_sid nofile.tbl
+rf_include_ids	--reformat_fasta --in g1.fa --out o.fa --label _s --include_sid fw.tbl --swap_sid
+rf_crlf	--reformat_fasta --in g1crlf.fa --out o.fa --trace t.txt --first_w
+rf_odd	--reformat_fasta --in odd.fa --out o.fa --trace t.txt
+rf_nodef	--reformat_fasta --in nodef.fa --out o.fa --trace t.txt
+rf_empty	--reformat_fasta --in empty.fa --out o.fa
+rf_nofile	--reformat_fasta --in nofile.fa --out o.fa
+rf_second_missing	--reformat_fasta --in 'g1.fa<TAB>nofile.fa' --out o.fa --trace t.txt
+rf_no_out	--reformat_fasta --in g1.fa
+rf_no_in	--reformat_fasta --out o.fa
+rf_in_empty_val	--reformat_fasta --out o.fa --in
+rf_in_tab_only	--reformat_fasta --out o.fa --in '<TAB>' --min_contig x
+rf_bad_minc	--reformat_fasta --in g1.fa --out o.fa --min_contig -1
+rf_bad_label	--reformat_fasta --in g1.fa --out o.fa --label 'a b'
+rf_bad_upper	--reformat_fasta --in g1.fa --out o.fa --uppercase yes
+rf_out_dir	--reformat_fasta --in g1.fa --out nodir/o.fa
+rf_trace_dir	--reformat_fasta --in g1.fa --out o.fa --trace nodir/t.txt
+rf_gff_dir	--reformat_fasta --in g1.fa --out o.fa --low2gff nodir/m.gff
+rf_upper_float	--reformat_fasta --in g1.fa --out o.fa --uppercase 0.0 --allow_x 1e0
+# ---- --split ----------------------------------------------------------------------
+sp_basic	--seq g1.fa --split s.fa --split_at_n 50 --trace t.txt
+sp_es_like	--seq g1.fa --split dna.fa --max_contig 2000 --min_contig 500 --letters_per_line 100 --split_at_n 50 --split_at_x 50 --allow_x --x_to_n --trace t.txt
+sp_default_name	--seq g1.fa --split --split_at_n 1
+sp_nosplit	--seq g1.fa --split s.fa
+sp_max	--seq g1.fa --split s.fa --max_contig 1000 --letters_per_line 0
+sp_margin	--seq g1.fa --split s.fa --split_at_n 50 --nnn_margin 10 --trace t.txt
+sp_margin_big	--seq g1.fa --split s.fa --split_at_n 50 --nnn_margin 60 --trace t.txt
+sp_soft	--seq g1.fa --split s.fa --soft --split_at_x 30 --trace t.txt
+sp_soft_x	--seq odd.fa --split s.fa --soft --allow_x --split_at_x 2 --split_at_n 3 --trace t.txt
+sp_x_adjacent	--seq odd.fa --split s.fa --allow_x --split_at_x 1 --split_at_n 1 --trace t.txt
+sp_nodef	--seq nodef.fa --split s.fa --split_at_n 2 --trace t.txt
+sp_all_n	--seq alln.fa --split s.fa --split_at_n 5 --trace t.txt
+sp_crlf	--seq g1crlf.fa --split s.fa --split_at_n 50 --trace t.txt
+sp_odd_def	--seq odd.fa --split s.fa
+sp_empty	--seq empty.fa --split s.fa
+sp_noseq	--split s.fa
+sp_nosplitkey	--split_fasta x --seq g1.fa --split_numfile 1 --split
+sp_seq_empty	--seq --split s.fa
+sp_trace_dir	--seq g1.fa --split s.fa --trace nodir/t.txt
+sp_out_dir	--seq g1.fa --split nodir/s.fa
+sp_bad_int	--seq g1.fa --split s.fa --max_contig 1.5
+# ---- --cut ------------------------------------------------------------------------
+cut_basic	--seq g1.fa --cut c.fa --regions regions.gff --trace t.txt
+cut_reverse	--seq g1.fa --cut c.fa --regions regions.gff --reverse --trace t.txt
+cut_minc	--seq g1.fa --cut c.fa --regions regions.gff --min_contig 600 --letters_per_line 0
+cut_default_name	--seq g1.fa --cut --regions regions.gff
+cut_soft_x	--seq g1.fa --cut c.fa --regions regions.gff --soft --allow_x --letters_per_line 25
+cut_bad_gff	--seq g1.fa --cut c.fa --regions bad.gff --trace t.txt
+cut_no_gff	--seq g1.fa --cut c.fa --regions nofile.gff
+cut_no_regions	--seq g1.fa --cut c.fa
+cut_no_cut	--seq g1.fa --regions regions.gff --mask x
+cut_nodef	--seq nodef.fa --cut c.fa --regions regions.gff
+cut_odd	--seq odd.fa --cut c.fa --regions regions.gff
+cut_empty	--seq empty.fa --cut c.fa --regions regions.gff
+cut_crlf	--seq g1crlf.fa --cut c.fa --regions regions.gff --trace t.txt
+cut_trace_dir	--seq g1.fa --cut c.fa --regions regions.gff --trace nodir/t.txt
+# ---- --split_fasta / --select_fasta ------------------------------------------------
+sfa_basic	--split_fasta p --seq prot.fa --split_numfile 3
+sfa_lpl	--split_fasta p --seq prot.fa --split_numfile 2 --letters_per_line 40
+sfa_one_each	--split_fasta --seq prot.fa --split_numfile 100
+sfa_zero	--split_fasta p --seq prot.fa --split_numfile 0
+sfa_missing_n	--split_fasta p --seq prot.fa
+sfa_bad_n	--split_fasta p --seq prot.fa --split_numfile -2
+sfa_dna	--split_fasta p --seq odd.fa --split_numfile 4
+sfa_empty	--split_fasta p --seq empty.fa --split_numfile 2
+sfa_dir	--split_fasta nodir/p --seq prot.fa --split_numfile 2
+sel_basic	--select_fasta --seq prot.fa --fasta_list list.txt
+sel_lpl	--select_fasta x --seq prot.fa --fasta_list list.txt --letters_per_line 30
+sel_nolist	--select_fasta --seq prot.fa --fasta_list nofile.txt
+sel_missing	--select_fasta --seq prot.fa
+sel_noseq	--select_fasta --seq nofile.fa --fasta_list list.txt
+# ---- --stat / --gc -------------------------------------------------------------------
+st_basic	--stat s.txt --seq g1.fa
+st_stdout	--stat --seq g1.fa
+st_allow_x	--stat s.txt --seq g1.fa --allow_x
+st_soft	--stat s.txt --seq g1.fa --soft
+st_soft_x	--stat s.txt --seq odd.fa --soft --allow_x
+st_details	--stat s.txt --seq odd.fa --details
+st_details_x	--stat s.txt --seq odd.fa --details --allow_x --soft
+st_prec	--stat s.txt --seq g1.fa --GC_PRECISION 5
+st_prec0	--stat s.txt --seq g1.fa --GC_PRECISION 0
+st_one	--stat s.txt --seq one.fa
+st_nodef	--stat s.txt --seq nodef.fa --details
+st_empty	--stat s.txt --seq empty.fa
+st_bad	--stat s.txt --seq g1.fa --GC_PRECISION x
+st_noseq	--stat s.txt
+st_crlf	--stat s.txt --seq g1crlf.fa --soft
+gc_basic	--gc --seq g1.fa
+gc_file	--gc g.txt --seq g1.fa --GC_PRECISION 4 --GC_LABEL 'GC: '
+gc_label_empty	--gc --seq odd.fa --GC_LABEL
+gc_empty	--gc --seq empty.fa
+gc_noseq	--gc
+# ---- --clean_join / --clean / --mask ----------------------------------------------------
+cj_basic	--clean_join j.fa --seq g1.fa
+cj_stdout	--clean_join --seq g1.fa --GAP_FILLER NNNN
+cj_log	--clean_join j.fa --seq g1.fa --log l.txt --GAP_FILLER NNNNNNNNNN --MIN_CONTIG_SIZE 3000 --MAX_N_SUBSTRING 50
+cj_log_stdout	--clean_join j.fa --seq odd.fa --log --MAX_N_SUBSTRING 0
+cj_trim	--clean_join j.fa --seq g1.fa --MAX_N_SUBSTRING 5 --GAP_FILLER ACGTN
+cj_empty	--clean_join j.fa --seq empty.fa --log l.txt
+cj_empty_filler	--clean_join j.fa --seq empty.fa --GAP_FILLER NN --log l.txt
+cj_bad	--clean_join j.fa --seq g1.fa --MIN_CONTIG_SIZE -3
+cl_basic	--clean --seq g1.fa --out_clean c.fa --out_masked m.fa --GAP_FILLER ACGTACGT
+cl_replace	--clean --seq g1.fa --out_clean c.fa --out_masked m.fa --GAP_FILLER NNNNN --REPLACE_N_STRING --LEFT_GAP_FILLER AAA --RIGHT_GAP_FILLER TT
+cl_minseq	--clean --seq odd.fa --out_clean c.fa --out_masked m.fa --MIN_SEQ_SIZE 100000
+cl_minc	--clean --seq g1.fa --out_clean c.fa --out_masked m.fa --MIN_CONTIG_SIZE 3000 --GAP_FILLER GG
+cl_missing	--clean --seq g1.fa --out_clean c.fa
+cl_empty	--clean --seq empty.fa --out_clean c.fa --out_masked m.fa
+mk_basic	--mask x --seq one.fa --mask mask.txt --out o.fa
+mk_oob	--seq one.fa --mask mask_oob.txt --out o.fa
+mk_multi	--seq g1.fa --mask mask.txt --out o.fa
+mk_nomask	--seq one.fa --mask nofile.txt --out o.fa
+mk_outdir	--seq one.fa --mask mask.txt --out nodir/o.fa
+mk_missing	--seq one.fa --mask mask.txt
+cut_zero_start	--seq g1.fa --cut c.fa --regions regions0.gff --trace t.txt
+cut_zero_start_rev	--seq g1.fa --cut c.fa --regions regions0.gff --reverse
+cut_empty_col	--seq g1.fa --cut c.fa --regions regions_empty_col.gff
+sp_soft_x2	--seq odd2.fa --split s.fa --soft --allow_x --split_at_x 2 --split_at_n 3 --trace t.txt
+sp_x_adjacent2	--seq odd2.fa --split s.fa --allow_x --split_at_x 1 --split_at_n 1 --trace t.txt --letters_per_line 7
+sp_margin_odd2	--seq odd2.fa --split s.fa --allow_x --split_at_x 4 --split_at_n 4 --nnn_margin 3 --x_to_n --trace t.txt
+sp_minmax_odd2	--seq odd2.fa --split s.fa --max_contig 5 --min_contig 3 --trace t.txt
+cut_odd2	--seq odd2.fa --cut c.fa --regions regions.gff --reverse --trace t.txt
+st_details_odd2	--stat s.txt --seq odd2.fa --details --allow_x
+rf_odd2_first_w	--reformat_fasta --in odd2.fa --out o.fa --first_w --trace t.txt --mask_soft 2 --low2gff m.gff
+mk_zero	--seq one.fa --mask mask_zero.txt --out o.fa
+mk_rev	--seq one.fa --mask mask_rev.txt --out o.fa
+# ---- --CLEAN_CODING --------------------------------------------------------------------
+cc_basic	--CLEAN_CODING o.fa --seq cds.fa --PRINT_LABEL 1 --MKCHAIN_L_MARGING 3 --MKCHAIN_R_MARGING 3 --MIN_COD 100 --TAA_ 1 --TGA_ 1 --TAG_ 1
+cc_nolabel	--CLEAN_CODING o.fa --seq cds.fa --PRINT_LABEL 0 --MKCHAIN_L_MARGING 0 --MKCHAIN_R_MARGING 3 --MIN_COD 0 --TGA_
+cc_nostops	--CLEAN_CODING o.fa --seq cds.fa --PRINT_LABEL 1 --MKCHAIN_L_MARGING 3 --MKCHAIN_R_MARGING 0 --MIN_COD 10
+cc_label_empty	--CLEAN_CODING o.fa --seq cds.fa --PRINT_LABEL --MKCHAIN_L_MARGING 3 --MKCHAIN_R_MARGING 3 --MIN_COD 10
+cc_missing	--CLEAN_CODING o.fa --seq cds.fa --PRINT_LABEL 1 --MKCHAIN_L_MARGING 3 --MIN_COD 10
+cc_par	--par p1.par --CLEAN_CODING o.fa --seq cds.fa --PRINT_LABEL 1 --MKCHAIN_L_MARGING 6 --MKCHAIN_R_MARGING 6 --MIN_COD 1 --TAA_ --TAG_ 0
+cc_badstop	--CLEAN_CODING o.fa --seq cds.fa --PRINT_LABEL 1 --MKCHAIN_L_MARGING 3 --MKCHAIN_R_MARGING 3 --MIN_COD 1 --TAA_ x
+cc_odd	--CLEAN_CODING o.fa --seq odd.fa --PRINT_LABEL 1 --MKCHAIN_L_MARGING 0 --MKCHAIN_R_MARGING 0 --MIN_COD 1 --TAA_ 1
+cc_partial	--CLEAN_CODING o.fa --seq cds.fa --PRINT_LABEL 1 --MKCHAIN_L_MARGING 1 --MKCHAIN_R_MARGING 0 --MIN_COD 1 --TAA_ --TGA_ --TAG_
+cc_partial2	--CLEAN_CODING o.fa --seq cds.fa --PRINT_LABEL 1 --MKCHAIN_L_MARGING 2 --MKCHAIN_R_MARGING 4 --MIN_COD 1 --TAA_ --TGA_ --TAG_
+cc_huge_l	--CLEAN_CODING o.fa --seq cds.fa --PRINT_LABEL 1 --MKCHAIN_L_MARGING 700 --MKCHAIN_R_MARGING 0 --MIN_COD 1 --TAA_
+#
+# ---- robustness audit (2026-11-15): precisions above 65535 (Rust format! limit)
+gc_prec_huge	--gc --seq g1.fa --GC_PRECISION 70000
+st_prec_huge	--stat s.txt --seq g1.fa --GC_PRECISION 100000
+# ---- robustness (2026-11-15): margins above INT_MAX that wrap to negative ints; only cases where the original's result does not depend on heap contents
+cc_wrap_rb_cod1_4294967295_3	--seq rb_cod1.fa --CLEAN_CODING cc.out --PRINT_LABEL 1 --MKCHAIN_L_MARGING 4294967295 --MKCHAIN_R_MARGING 3 --MIN_COD 0 --TAA_ 1 --TAG_ 1 --TGA_ 1
+cc_wrap_rb_cod1_4294967293_3	--seq rb_cod1.fa --CLEAN_CODING cc.out --PRINT_LABEL 1 --MKCHAIN_L_MARGING 4294967293 --MKCHAIN_R_MARGING 3 --MIN_COD 0 --TAA_ 1 --TAG_ 1 --TGA_ 1
+cc_wrap_rb_cod1_2147483648_3	--seq rb_cod1.fa --CLEAN_CODING cc.out --PRINT_LABEL 1 --MKCHAIN_L_MARGING 2147483648 --MKCHAIN_R_MARGING 3 --MIN_COD 0 --TAA_ 1 --TAG_ 1 --TGA_ 1
+cc_wrap_rb_cod1_4294967290_0	--seq rb_cod1.fa --CLEAN_CODING cc.out --PRINT_LABEL 1 --MKCHAIN_L_MARGING 4294967290 --MKCHAIN_R_MARGING 0 --MIN_COD 0 --TAA_ 1 --TAG_ 1 --TGA_ 1
+cc_wrap_rb_cod1_0_4294967293	--seq rb_cod1.fa --CLEAN_CODING cc.out --PRINT_LABEL 1 --MKCHAIN_L_MARGING 0 --MKCHAIN_R_MARGING 4294967293 --MIN_COD 0 --TAA_ 1 --TAG_ 1 --TGA_ 1
+cc_wrap_rb_cod1_3_4294967295	--seq rb_cod1.fa --CLEAN_CODING cc.out --PRINT_LABEL 1 --MKCHAIN_L_MARGING 3 --MKCHAIN_R_MARGING 4294967295 --MIN_COD 0 --TAA_ 1 --TAG_ 1 --TGA_ 1
+cc_wrap_rb_cod2_4294967295_3	--seq rb_cod2.fa --CLEAN_CODING cc.out --PRINT_LABEL 1 --MKCHAIN_L_MARGING 4294967295 --MKCHAIN_R_MARGING 3 --MIN_COD 0 --TAA_ 1 --TAG_ 1 --TGA_ 1
+cc_wrap_rb_cod2_4294967293_3	--seq rb_cod2.fa --CLEAN_CODING cc.out --PRINT_LABEL 1 --MKCHAIN_L_MARGING 4294967293 --MKCHAIN_R_MARGING 3 --MIN_COD 0 --TAA_ 1 --TAG_ 1 --TGA_ 1
+cc_wrap_rb_cod2_2147483648_3	--seq rb_cod2.fa --CLEAN_CODING cc.out --PRINT_LABEL 1 --MKCHAIN_L_MARGING 2147483648 --MKCHAIN_R_MARGING 3 --MIN_COD 0 --TAA_ 1 --TAG_ 1 --TGA_ 1
+cc_wrap_rb_cod2_4294967290_0	--seq rb_cod2.fa --CLEAN_CODING cc.out --PRINT_LABEL 1 --MKCHAIN_L_MARGING 4294967290 --MKCHAIN_R_MARGING 0 --MIN_COD 0 --TAA_ 1 --TAG_ 1 --TGA_ 1
+cc_wrap_rb_cod2_0_4294967293	--seq rb_cod2.fa --CLEAN_CODING cc.out --PRINT_LABEL 1 --MKCHAIN_L_MARGING 0 --MKCHAIN_R_MARGING 4294967293 --MIN_COD 0 --TAA_ 1 --TAG_ 1 --TGA_ 1
+cc_wrap_rb_cod2_3_4294967295	--seq rb_cod2.fa --CLEAN_CODING cc.out --PRINT_LABEL 1 --MKCHAIN_L_MARGING 3 --MKCHAIN_R_MARGING 4294967295 --MIN_COD 0 --TAA_ 1 --TAG_ 1 --TGA_ 1
+rf_margin_rb_low_4294967295	--reformat_fasta --in rb_low.fa --out o.fa --trace t.txt --mask_soft 1 --mask_margin 4294967295 --low2gff g.gff
+rf_margin_rb_low_4294967294	--reformat_fasta --in rb_low.fa --out o.fa --trace t.txt --mask_soft 1 --mask_margin 4294967294 --low2gff g.gff
+rf_margin_rb_low_4294967290	--reformat_fasta --in rb_low.fa --out o.fa --trace t.txt --mask_soft 1 --mask_margin 4294967290 --low2gff g.gff
+rf_margin_rb_head_4294967295	--reformat_fasta --in rb_head.fa --out o.fa --trace t.txt --mask_soft 1 --mask_margin 4294967295 --low2gff g.gff
+rf_margin_rb_head_4294967294	--reformat_fasta --in rb_head.fa --out o.fa --trace t.txt --mask_soft 1 --mask_margin 4294967294 --low2gff g.gff
+rf_margin_rb_head_4294967290	--reformat_fasta --in rb_head.fa --out o.fa --trace t.txt --mask_soft 1 --mask_margin 4294967290 --low2gff g.gff
+rf_margin_rb_mid_4294967295	--reformat_fasta --in rb_mid.fa --out o.fa --trace t.txt --mask_soft 1 --mask_margin 4294967295 --low2gff g.gff
+rf_margin_rb_mid_4294967294	--reformat_fasta --in rb_mid.fa --out o.fa --trace t.txt --mask_soft 1 --mask_margin 4294967294 --low2gff g.gff
+rf_margin_rb_mid_4294967290	--reformat_fasta --in rb_mid.fa --out o.fa --trace t.txt --mask_soft 1 --mask_margin 4294967290 --low2gff g.gff
+orf_negmarg_-6_-9	--orf orf.out --seq rb_edge.fa --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1 --ORF_OUT 0 --ORF_MARGIN_LEFT -6 --ORF_MARGIN_RIGHT -9
+orf_negmarg_-6_-2147483646	--orf orf.out --seq rb_edge.fa --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1 --ORF_OUT 0 --ORF_MARGIN_LEFT -6 --ORF_MARGIN_RIGHT -2147483646
+orf_negmarg_-30_-9	--orf orf.out --seq rb_edge.fa --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1 --ORF_OUT 0 --ORF_MARGIN_LEFT -30 --ORF_MARGIN_RIGHT -9
+orf_negmarg_-30_-2147483646	--orf orf.out --seq rb_edge.fa --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1 --ORF_OUT 0 --ORF_MARGIN_LEFT -30 --ORF_MARGIN_RIGHT -2147483646
+orf_negmarg_2147483646_-9	--orf orf.out --seq rb_edge.fa --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1 --ORF_OUT 0 --ORF_MARGIN_LEFT 2147483646 --ORF_MARGIN_RIGHT -9
+orf_negmarg_2147483646_-2147483646	--orf orf.out --seq rb_edge.fa --TAA_ 1 --TGA_ 1 --TAG_ 1 --ATG_ 1 --ORF_OUT 0 --ORF_MARGIN_LEFT 2147483646 --ORF_MARGIN_RIGHT -2147483646

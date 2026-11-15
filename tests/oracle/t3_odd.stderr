@@ -1,0 +1,1 @@
+gmhmm-rs: warning: no valid parse of sequence t3.fa with model es.mod (sequence too short for the model, or no allowed state at the sequence ends); writing a prediction without genes (not handled by the original)

@@ -1,0 +1,9 @@
+/target
+/target-static
+/target-check
+/target-audit
+/target-gmp
+# Analysis notes on the original binaries (including decompiler output):
+# kept locally, not distributed (see README, Source of the reconstruction)
+/re-notes/
+__pycache__/

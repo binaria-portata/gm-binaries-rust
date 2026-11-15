@@ -1,0 +1,4 @@
+Warning, segment was ignored. Start codon was not found: g5.t1	1	603	+
+Warning, segment was ignored. Start codon was not found: g5.t1	2	603	+
+Warning, segment was ignored. Start codon was not found: g5.t1	2	603	+
+Warning, segment was ignored. Internal stop codon was found at position 291 for g5.t1	1	300	-

@@ -1,0 +1,103 @@
+# name	arguments (run inside tests/data; -o <oracle file> is appended)
+super_lst	-m super.mod contig1.fa
+super_gtf	-m super.mod -f gtf contig1.fa
+super_gff3	-m super.mod -f gff3 contig1.fa
+super_tr	-m super.mod -f tr contig1.fa
+super_r	-m super.mod -r contig1.fa
+super_pn	-m super.mod -p -n contig1.fa
+super_b	-m super.mod -b super_b.b contig1.fa
+super_lc_k	-m super.mod -f gtf -k 0.03 contig1_lc.fa
+super_lc	-m super.mod -f gtf contig1_lc.fa
+es_lst	-m es.mod -r contig1.fa
+es_gtf	-m es.mod -f gtf contig1.fa
+es_gff3	-m es.mod -f gff3 contig1.fa
+es_tr	-m es.mod -f tr contig1.fa
+es_k_c1	-m es.mod -f gtf -k 0.03 contig1.fa
+es_k_neg	-m es.mod -f gtf -k -0.03 contig2.fa
+es_c2	-m es.mod -r -f gtf contig2.fa
+es_c3	-m es.mod -r -f gtf contig3.fa
+es_c4	-m es.mod -r -f gtf contig4.fa
+es_c5	-m es.mod -r -f gtf contig5.fa
+es_c6	-m es.mod -r -f gtf contig6.fa
+es_c7	-m es.mod -r -f gtf contig7.fa
+es_c8	-m es.mod -r -f gtf contig8.fa
+es_edge	-m es.mod -r -f gtf edge_n_iupac.fa
+es_short	-m es.mod -r short.fa
+es_tag	-m es.mod -f gtf -s mytag contig2.fa
+es_minlen	-m es.mod -f gtf -w 600 contig2.fa
+err_nomod	contig1.fa
+err_noseq	-m es.mod
+err_badfile	-m es.mod nonexistent.fa
+err_badmod	-m nonexistent.mod contig1.fa
+err_badfmt	-m es.mod -f xyz contig1.fa
+ev_mask_k	-m es.mod -r -d mask.gff -k -0.03 -f gtf contig1.fa
+ev_mask_k0	-m es.mod -r -d mask.gff -f gtf contig1.fa
+ev1_lst	-m super.mod -r -d ev1.gff -k -0.5 contig1.fa
+ev2_gtf	-m es.mod -r -d ev2.gff -f gtf contig1.fa
+ev2_gff3	-m es.mod -d ev2.gff -f gff3 contig1.fa
+ev2_w	-m es.mod -d ev2.gff -w 300 contig1.fa
+ev_missing	-m es.mod -d nonexistent.gff contig1.fa
+varA_gtf	-m varA.mod -r -f gtf contig1.fa
+varA_tr	-m varA.mod -f tr contig3.fa
+heu35_lst	-m heu35.mod -r -p -n contig4.fa
+notga_lst	-m es_notga.mod -r -p -n contig2.fa
+pn_lst	-m es.mod -p -n contig3.fa
+w_lst	-m es.mod -w 600 contig5.fa
+w_gff3	-m es.mod -w 600 -f gff3 contig5.fa
+z_gtf	-m es.mod -z -f gtf contig6.fa
+t1_odd	-m es.mod -r t1.fa
+t2_odd	-m es.mod -r -f gtf t2.fa
+# t3_odd: not handled by the original (rc 139) on this 6 bp sequence; the oracle is
+# the port's deliberate fallback (prediction without genes plus a warning)
+t3_odd	-m es.mod -r t3.fa
+cli_nr	-m es.mod -n -r contig1.fa
+cli_rn	-m es.mod -r -n short.fa
+cli_dup	-m es.mod -m es.mod short.fa
+cli_long	-m es.mod -mx short.fa
+cli_two	-m es.mod short.fa contig1.fa
+cli_fmtpipe	-m es.mod -f 'gff3|gtf' short.fa
+cli_k	-m es.mod -k -k short.fa
+cli_b_last	-m es.mod short.fa -b
+cli_v	-m es.mod -v contig7.fa
+fbp_lst	-m fungus.mod -r -b fbp_lst.b contig1.fa
+fbp_gtf	-m fungus.mod -f gtf -b fbp_gtf.b contig1.fa
+fbp_gff3	-m fungus.mod -f gff3 contig1.fa
+fbp_tr	-m fungus.mod -f tr -b fbp_tr.b contig1.fa
+fbp_mask_k	-m fungus.mod -r -d mask.gff -k -0.03 -f gtf -b fbp_mask_k.b contig1.fa
+fbp_ev2	-m fungus.mod -r -d ev2.gff -b fbp_ev2.b contig1.fa
+fbp_c2	-m fungus.mod -r -f gtf -b fbp_c2.b contig2.fa
+fbp_c3	-m fungus.mod -r -f gtf -b fbp_c3.b contig3.fa
+fbp_c4	-m fungus.mod -r -f gtf -b fbp_c4.b contig4.fa
+fbp_c5	-m fungus.mod -r -f gtf -b fbp_c5.b contig5.fa
+fbp_c6	-m fungus.mod -r -f gtf -b fbp_c6.b contig6.fa
+fbp_c7	-m fungus.mod -r -f gtf -b fbp_c7.b contig7.fa
+fbp_c8	-m fungus.mod -r -f gtf -b fbp_c8.b contig8.fa
+fbp_edge	-m fungus.mod -r -f gtf -b fbp_edge.b edge_n_iupac.fa
+fbp_short	-m fungus.mod -r -b fbp_short.b short.fa
+fbp_pn	-m fungus.mod -p -n -b fbp_pn.b contig3.fa
+fbp_badb	-m fungus.mod -r -b nodir/fbp_badb.b short.fa
+fbpv1_lst	-m fungus_v1.mod -r -b fbpv1_lst.b contig1.fa
+fbpv1_c4	-m fungus_v1.mod -r -f gtf -b fbpv1_c4.b contig4.fa
+fbpv2_lst	-m fungus_v2.mod -r -b fbpv2_lst.b contig1.fa
+fbpv2_c4	-m fungus_v2.mod -r -f gff3 -b fbpv2_c4.b contig4.fa
+fbp_border_a	-m fungus.mod -r -d bpcut_a.gff -b fbp_border_a.b bpcut_a.fa
+fbp_border_b	-m fungus.mod -r -d bpcut_b.gff -b fbp_border_b.b bpcut_b.fa
+fbp_border_c	-m fungus.mod -r -d bpcut_c.gff -f gtf -b fbp_border_c.b bpcut_c.fa
+z_notoken3	-m es.mod -z -f gtf -d mask.gff zdesc.fa
+# ---- robustness audit (2026-11-15): inputs not handled by the original
+# on which the original is still deterministic (model values that wrap,
+# k-mers that wrap, width-0 sites, -z offsets near the int limits, bytes
+# that are not UTF-8 in -d lines and deflines)
+audit_kmer17	-m audit_kmer17.mod -f gtf contig2.fa
+audit_kmerlong	-m audit_kmerlong.mod short.fa
+audit_w0err	-m audit_w0err.mod short.fa
+audit_w0ok	-m audit_w0ok.mod -f gtf contig2.fa
+audit_o15	-m audit_o15.mod short.fa
+audit_so15	-m audit_so15.mod short.fa
+audit_som16	-m audit_som16.mod -f gtf contig2.fa
+audit_trm	-m audit_trm.mod -f tr contig1.fa
+audit_zmin	-m audit_tiny.mod -z -f gtf audit_zmin.fa
+audit_zmax	-m audit_tiny.mod -z audit_zmax.fa
+audit_ev8	-m es.mod -d audit_ev8.gff -k -0.5 -f gtf short.fa
+audit_def8	-m audit_tiny.mod -f gff3 audit_def8.fa
+rb_mat_short	-m rb_mat_short.mod t1.fa

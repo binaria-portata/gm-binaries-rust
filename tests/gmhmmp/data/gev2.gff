@@ -1,0 +1,560 @@
+g13.t1	src	N	4	30	.	+	.	x
+g13.t2	src	T	118	327	2.5	.	.	ID=  sp  
+g35.t1	src	H	384	398	.	.	.	ID=x533;a=b
+g19.t1	src	C	201	770	2.5	+	.	x
+g15.t2	src	F	749	891	2.5	+	.	gene_id "q"
+g9.t1	src	N	1328	1615	2.5	+	.	gene_id "q"
+g7.t1	src	C	568	876	2.5	-	.	ID=  sp  
+g28.t1	src	F	402	1148	2.5	-	.	x
+g30.t1	src	C	275	327	.	-	.	x
+g15.t1	src	C	605	660	.	-	.	gene_id "q"
+g29.t1	src	H	337	548	2.5	+	.	ID=x438;a=b
+g21.t1	src	F	113	289	2.5	.	.	gene_id "q"
+g34.t1	src	N	698	736	.	-	.	ID=  sp  
+g5.t1	src	N	163	219	2.5	+	.	ID=  sp  
+g26.t1	src	F	520	608	.	-	.	ID=x392;a=b
+g15.t2	src	M	34	60	.	+	.	ID=x245;a=b
+g29.t1	src	C	410	1663	.	.	.	gene_id "q"
+g11.t1	src	M	395	402	.	.	.	ID=x154;a=b
+g35.t1	src	N	58	402	.	+	.	ID=x543;a=b
+g35.t1	src	E	348	350	.	-	.	ID=  sp  
+g7.t1	src	H	100	1278	2.5	-	.	gene_id "q"
+g12.t1	src	H	308	850	2.5	+	.	ID=x172;a=b
+g21.t1	src	N	215	442	2.5	.	.	gene_id "q"
+g18.t1	src	M	216	234	2.5	+	.	gene_id "q"
+g5.t1	src	R	69	428	.	-	.	gene_id "q"
+g1.t1	src	F	297	457	.	+	.	gene_id "q"
+g24.t1	src	R	2	454	2.5	-	.	gene_id "q"
+g35.t1	src	H	115	348	2.5	-	.	gene_id "q"
+g23.t1	src	C	681	929	.	-	.	x
+g1.t1	src	T	116	306	.	+	.	x
+g35.t1	src	F	364	402	.	-	.	ID=x545;a=b
+g36.t1	src	F	383	384	.	-	.	gene_id "q"
+g25.t1	src	F	177	473	.	+	.	ID=x389;a=b
+g27.t1	src	T	356	382	2.5	.	.	ID=  sp  
+g9.t1	src	C	1877	2026	.	+	.	ID=x139;a=b
+g23.t1	src	N	1694	1765	.	-	.	ID=  sp  
+g32.t2	src	C	535	545	.	-	.	x
+g32.t2	src	E	685	798	.	-	.	x
+g16.t1	src	F	166	546	2.5	+	.	ID=  sp  
+g33.t1	src	N	544	559	2.5	-	.	ID=x508;a=b
+g1.t1	src	R	393	469	2.5	+	.	ID=x6;a=b
+g13.t1	src	C	349	583	.	.	.	ID=  sp  
+g6.t1	src	E	315	544	.	+	.	gene_id "q"
+g12.t1	src	F	916	1062	.	+	.	ID=  sp  
+g12.t1	src	R	1012	1110	.	-	.	gene_id "q"
+g3.t2	src	C	420	530	2.5	-	.	ID=x36;a=b
+g25.t1	src	T	282	582	.	+	.	ID=  sp  
+g15.t1	src	C	450	698	2.5	+	.	ID=x232;a=b
+g30.t1	src	C	205	234	2.5	+	.	x
+g19.t1	src	R	48	435	2.5	+	.	x
+g11.t1	src	H	739	825	.	-	.	gene_id "q"
+g24.t1	src	R	700	801	2.5	+	.	x
+g20.t1	src	C	71	508	2.5	-	.	x
+g19.t1	src	C	801	830	2.5	-	.	x
+g18.t1	src	C	570	612	2.5	.	.	x
+g28.t1	src	C	1030	1185	2.5	-	.	ID=  sp  
+g31.t1	src	F	486	645	2.5	.	.	ID=x467;a=b
+g18.t1	src	F	636	1367	2.5	+	.	ID=x287;a=b
+g15.t2	src	C	448	762	.	+	.	x
+g33.t1	src	H	288	380	2.5	-	.	ID=  sp  
+g18.t1	src	M	305	335	.	-	.	ID=  sp  
+g26.t1	src	F	210	290	.	-	.	gene_id "q"
+g5.t1	src	M	484	592	2.5	+	.	ID=x76;a=b
+g6.t1	src	C	53	82	.	-	.	gene_id "q"
+g13.t2	src	C	252	296	.	+	.	ID=x184;a=b
+g35.t1	src	E	205	411	.	+	.	ID=x541;a=b
+g21.t1	src	F	463	516	2.5	-	.	ID=x335;a=b
+g30.t1	src	H	433	444	2.5	-	.	ID=  sp  
+g29.t1	src	E	163	376	.	+	.	x
+g30.t1	src	F	174	275	.	-	.	gene_id "q"
+g16.t1	src	C	721	840	.	-	.	ID=x265;a=b
+g9.t1	src	H	14	1537	2.5	-	.	x
+g28.t1	src	N	1088	1165	.	.	.	x
+g20.t1	src	M	733	956	.	+	.	ID=x311;a=b
+g11.t1	src	F	626	752	.	+	.	ID=x166;a=b
+g7.t1	src	F	260	1510	.	.	.	x
+g13.t1	src	F	449	541	2.5	+	.	x
+g10.t1	src	C	196	405	2.5	+	.	gene_id "q"
+g15.t2	src	T	758	907	2.5	+	.	ID=  sp  
+g26.t1	src	C	449	514	2.5	+	.	gene_id "q"
+g15.t2	src	C	277	513	2.5	-	.	ID=x249;a=b
+g16.t1	src	N	785	1042	2.5	+	.	gene_id "q"
+g11.t1	src	C	252	611	2.5	+	.	ID=  sp  
+g6.t1	src	E	383	408	2.5	+	.	ID=x92;a=b
+g14.t1	src	T	1115	1231	.	-	.	x
+g20.t1	src	C	556	885	.	-	.	ID=x309;a=b
+g9.t1	src	F	1724	1816	.	-	.	ID=  sp  
+g11.t1	src	F	269	397	2.5	+	.	ID=x163;a=b
+g23.t1	src	F	11	1447	.	-	.	ID=  sp  
+g34.t1	src	R	480	494	2.5	+	.	ID=  sp  
+g18.t1	src	T	1073	1171	2.5	.	.	x
+g2.t1	src	R	264	302	.	+	.	ID=  sp  
+g33.t1	src	R	94	330	.	+	.	ID=  sp  
+g30.t1	src	C	70	155	2.5	+	.	ID=  sp  
+g1.t1	src	M	24	75	2.5	-	.	ID=x10;a=b
+g31.t1	src	T	301	606	2.5	.	.	x
+g4.t1	src	M	155	446	.	+	.	ID=  sp  
+g26.t1	src	C	186	287	.	-	.	ID=  sp  
+g16.t1	src	C	442	1050	2.5	-	.	ID=  sp  
+g20.t1	src	R	999	1031	.	.	.	x
+g35.t1	src	H	322	395	.	-	.	gene_id "q"
+g11.t1	src	F	4	324	.	-	.	x
+g27.t1	src	H	69	314	.	.	.	x
+g22.t1	src	R	269	357	.	-	.	ID=  sp  
+g15.t1	src	N	386	610	.	.	.	x
+g1.t1	src	H	347	373	2.5	.	.	ID=  sp  
+g36.t1	src	M	53	55	2.5	-	.	gene_id "q"
+g16.t1	src	C	327	830	2.5	+	.	ID=  sp  
+g19.t1	src	H	226	684	.	-	.	gene_id "q"
+g3.t1	src	C	345	581	.	-	.	ID=  sp  
+g24.t1	src	F	821	838	2.5	+	.	ID=x376;a=b
+g5.t1	src	F	439	521	2.5	-	.	x
+g2.t1	src	F	141	230	2.5	-	.	ID=  sp  
+g3.t1	src	R	546	572	.	-	.	ID=  sp  
+g3.t2	src	C	427	448	2.5	+	.	x
+g29.t1	src	C	1052	1195	.	+	.	x
+g13.t2	src	T	264	501	2.5	+	.	gene_id "q"
+g3.t1	src	T	477	583	2.5	+	.	ID=x52;a=b
+g10.t1	src	C	704	944	.	.	.	ID=x141;a=b
+g3.t2	src	H	204	257	2.5	-	.	ID=x39;a=b
+g11.t1	src	R	54	599	.	.	.	ID=x165;a=b
+g32.t1	src	F	224	736	.	-	.	gene_id "q"
+g5.t1	src	H	411	591	2.5	+	.	ID=  sp  
+g8.t1	src	N	1634	1648	.	+	.	ID=x120;a=b
+g33.t1	src	E	637	924	2.5	.	.	gene_id "q"
+g6.t1	src	C	392	535	2.5	+	.	gene_id "q"
+g12.t1	src	C	143	472	.	.	.	ID=  sp  
+g27.t1	src	F	260	309	.	-	.	ID=  sp  
+g29.t1	src	C	1981	2007	.	.	.	gene_id "q"
+g30.t1	src	F	347	442	.	.	.	gene_id "q"
+g15.t2	src	C	271	337	2.5	-	.	gene_id "q"
+g19.t1	src	F	305	341	2.5	+	.	x
+g34.t1	src	N	287	451	2.5	.	.	x
+g24.t1	src	T	181	392	.	-	.	ID=x367;a=b
+g12.t1	src	N	211	648	.	+	.	gene_id "q"
+g13.t1	src	C	235	565	.	-	.	ID=  sp  
+g2.t1	src	C	77	261	2.5	+	.	ID=  sp  
+g31.t1	src	N	360	884	.	-	.	ID=x469;a=b
+g33.t1	src	H	44	871	2.5	.	.	ID=  sp  
+g6.t1	src	H	20	580	2.5	+	.	ID=x94;a=b
+g26.t1	src	R	207	339	2.5	.	.	gene_id "q"
+g12.t1	src	E	191	212	2.5	+	.	ID=x168;a=b
+g16.t1	src	F	162	467	2.5	-	.	gene_id "q"
+g24.t1	src	F	880	905	2.5	+	.	x
+g4.t1	src	T	37	108	2.5	-	.	ID=x64;a=b
+g3.t2	src	C	379	468	.	+	.	gene_id "q"
+g22.t1	src	E	206	484	.	-	.	ID=  sp  
+g26.t1	src	T	92	460	.	+	.	gene_id "q"
+g25.t1	src	C	18	377	2.5	+	.	x
+g15.t1	src	M	166	231	2.5	-	.	x
+g7.t1	src	C	1254	1262	2.5	-	.	gene_id "q"
+g32.t1	src	F	739	875	.	.	.	ID=x490;a=b
+g15.t2	src	C	838	858	.	-	.	x
+g24.t1	src	C	718	870	2.5	+	.	gene_id "q"
+g1.t1	src	C	256	261	2.5	.	.	gene_id "q"
+g11.t1	src	F	395	661	2.5	+	.	ID=x156;a=b
+g28.t1	src	F	440	773	2.5	-	.	ID=x433;a=b
+g4.t1	src	F	358	507	.	-	.	x
+g13.t1	src	F	59	415	.	+	.	ID=x204;a=b
+g22.t1	src	H	99	157	.	-	.	x
+g25.t1	src	C	285	660	.	-	.	ID=x391;a=b
+g31.t1	src	C	186	466	.	-	.	ID=  sp  
+g9.t1	src	C	1566	1638	2.5	+	.	ID=  sp  
+g26.t1	src	C	26	295	.	+	.	gene_id "q"
+g31.t1	src	H	229	305	.	+	.	gene_id "q"
+g10.t1	src	R	800	838	.	-	.	x
+g36.t1	src	E	360	377	.	.	.	gene_id "q"
+g23.t1	src	T	436	1092	.	.	.	ID=  sp  
+g5.t1	src	R	441	510	2.5	+	.	ID=x80;a=b
+g23.t1	src	C	721	1368	.	-	.	x
+g25.t1	src	R	366	467	2.5	.	.	ID=  sp  
+g20.t1	src	H	485	619	.	.	.	ID=x315;a=b
+g32.t2	src	R	779	796	.	+	.	x
+g10.t1	src	N	384	539	2.5	+	.	ID=  sp  
+g17.t1	src	F	361	1080	2.5	-	.	x
+g20.t1	src	R	76	317	2.5	-	.	ID=  sp  
+g10.t1	src	R	513	735	.	-	.	ID=x142;a=b
+g4.t1	src	F	155	484	.	-	.	gene_id "q"
+g8.t1	src	E	428	675	.	.	.	ID=x116;a=b
+g23.t1	src	E	94	231	2.5	-	.	ID=  sp  
+g3.t1	src	F	531	546	.	.	.	ID=x47;a=b
+g28.t1	src	C	1170	1290	.	-	.	ID=x426;a=b
+g18.t1	src	N	1077	1443	.	-	.	x
+g21.t1	src	F	50	50	2.5	-	.	ID=  sp  
+g26.t1	src	C	75	662	.	+	.	ID=x405;a=b
+g32.t1	src	C	315	449	2.5	.	.	ID=  sp  
+g9.t1	src	T	1213	1839	.	+	.	ID=  sp  
+g36.t1	src	M	266	304	.	-	.	x
+g32.t1	src	F	777	791	.	+	.	ID=x494;a=b
+g27.t1	src	F	29	235	2.5	-	.	ID=  sp  
+g15.t1	src	R	435	480	.	-	.	ID=  sp  
+g15.t1	src	F	423	759	2.5	.	.	gene_id "q"
+g10.t1	src	N	37	246	.	+	.	gene_id "q"
+g27.t1	src	N	354	359	2.5	+	.	ID=  sp  
+g29.t1	src	H	1365	1424	.	.	.	gene_id "q"
+g5.t1	src	T	510	560	.	+	.	ID=x83;a=b
+g16.t1	src	F	710	1000	.	+	.	x
+g13.t2	src	C	314	334	2.5	.	.	x
+g10.t1	src	M	424	645	.	-	.	x
+g13.t1	src	F	477	518	2.5	+	.	ID=x206;a=b
+g14.t1	src	F	1467	1730	.	-	.	ID=x213;a=b
+g28.t1	src	H	388	685	.	+	.	ID=  sp  
+g32.t2	src	F	493	612	.	-	.	ID=x476;a=b
+g22.t1	src	C	826	891	.	+	.	ID=x345;a=b
+g33.t1	src	N	252	341	2.5	-	.	ID=x515;a=b
+g5.t1	src	E	100	129	.	+	.	ID=x70;a=b
+g13.t1	src	R	2	415	2.5	.	.	x
+g12.t1	src	N	369	401	2.5	+	.	ID=x181;a=b
+g2.t1	src	N	273	284	2.5	-	.	x
+g13.t2	src	N	232	393	2.5	-	.	ID=x182;a=b
+g6.t1	src	H	505	573	.	+	.	gene_id "q"
+g21.t1	src	F	488	515	.	-	.	ID=x327;a=b
+g15.t1	src	N	300	518	.	+	.	x
+g17.t1	src	F	1263	1280	.	+	.	x
+g13.t2	src	F	342	353	.	.	.	ID=  sp  
+g3.t2	src	T	334	390	2.5	+	.	ID=  sp  
+g9.t1	src	E	1953	1978	.	.	.	ID=x127;a=b
+g17.t1	src	E	1011	1273	2.5	+	.	x
+g34.t1	src	N	596	598	.	-	.	gene_id "q"
+g18.t1	src	M	479	961	.	-	.	ID=  sp  
+g3.t2	src	H	278	292	.	.	.	gene_id "q"
+g19.t1	src	T	200	484	2.5	+	.	gene_id "q"
+g19.t1	src	F	368	520	2.5	+	.	ID=x307;a=b
+g13.t2	src	F	25	285	2.5	.	.	x
+g13.t2	src	E	414	434	.	-	.	gene_id "q"
+g3.t1	src	F	455	502	.	+	.	ID=  sp  
+g26.t1	src	T	364	670	.	+	.	x
+g9.t1	src	T	1909	1983	.	+	.	ID=x131;a=b
+g36.t1	src	C	90	216	.	+	.	ID=x549;a=b
+g17.t1	src	F	485	982	.	.	.	gene_id "q"
+g20.t1	src	T	106	304	.	.	.	ID=x320;a=b
+g29.t1	src	C	115	540	.	.	.	x
+g1.t1	src	H	136	138	.	.	.	ID=x4;a=b
+g33.t1	src	E	1026	1029	.	+	.	ID=  sp  
+g36.t1	src	H	288	320	.	+	.	ID=  sp  
+g15.t1	src	T	60	364	2.5	-	.	gene_id "q"
+g33.t1	src	F	884	952	.	-	.	ID=x507;a=b
+g7.t1	src	N	1544	1612	.	+	.	ID=  sp  
+g12.t1	src	F	686	886	2.5	-	.	ID=x179;a=b
+g8.t1	src	C	678	965	.	-	.	x
+g10.t1	src	F	454	460	.	+	.	x
+g7.t1	src	C	1240	1383	.	+	.	x
+g13.t2	src	F	513	521	.	.	.	ID=  sp  
+g32.t2	src	H	762	818	2.5	+	.	ID=x477;a=b
+g3.t2	src	T	210	302	.	.	.	ID=  sp  
+g9.t1	src	M	299	358	.	-	.	x
+g32.t2	src	N	749	778	.	-	.	ID=x479;a=b
+g20.t1	src	F	137	315	.	+	.	ID=  sp  
+g32.t1	src	F	413	463	2.5	-	.	ID=x497;a=b
+g9.t1	src	E	1213	1239	2.5	+	.	ID=x133;a=b
+g18.t1	src	C	981	1110	2.5	+	.	ID=x281;a=b
+g27.t1	src	C	101	202	2.5	+	.	x
+g25.t1	src	F	510	536	2.5	+	.	gene_id "q"
+g15.t1	src	H	182	369	2.5	-	.	x
+g3.t2	src	C	419	463	2.5	-	.	gene_id "q"
+g17.t1	src	M	288	345	2.5	-	.	ID=x274;a=b
+g23.t1	src	T	1224	1534	.	.	.	x
+g31.t1	src	N	17	369	.	-	.	gene_id "q"
+g36.t1	src	F	175	235	.	-	.	x
+g1.t1	src	H	543	546	.	-	.	x
+g32.t1	src	C	12	29	.	-	.	ID=  sp  
+g14.t1	src	C	1595	1605	.	-	.	ID=  sp  
+g28.t1	src	M	943	1188	.	+	.	x
+g25.t1	src	F	616	648	.	+	.	x
+g7.t1	src	C	489	1241	.	-	.	x
+g5.t1	src	E	503	520	.	+	.	x
+g31.t1	src	H	54	500	2.5	+	.	ID=x464;a=b
+g24.t1	src	F	684	785	.	+	.	gene_id "q"
+g2.t1	src	R	274	294	.	+	.	ID=x17;a=b
+g18.t1	src	N	1148	1507	.	+	.	gene_id "q"
+g11.t1	src	N	565	708	.	.	.	x
+g13.t1	src	C	399	499	.	+	.	gene_id "q"
+g25.t1	src	T	620	652	2.5	+	.	ID=  sp  
+g21.t1	src	T	34	333	2.5	-	.	ID=x325;a=b
+g17.t1	src	C	413	1189	2.5	.	.	ID=  sp  
+g14.t1	src	N	166	1167	.	.	.	x
+g36.t1	src	E	186	377	.	-	.	ID=x555;a=b
+g24.t1	src	H	793	877	.	.	.	ID=x369;a=b
+g17.t1	src	C	495	722	2.5	+	.	ID=x278;a=b
+g8.t1	src	R	1137	1601	2.5	+	.	gene_id "q"
+g5.t1	src	C	168	185	.	-	.	gene_id "q"
+g29.t1	src	T	245	615	2.5	.	.	x
+g33.t1	src	F	824	916	.	-	.	x
+g30.t1	src	F	268	282	2.5	+	.	ID=x455;a=b
+g33.t1	src	T	249	380	2.5	.	.	ID=x517;a=b
+g15.t2	src	R	503	508	2.5	+	.	ID=  sp  
+g10.t1	src	F	374	850	.	+	.	ID=x149;a=b
+g3.t1	src	C	27	197	.	+	.	x
+g34.t1	src	C	305	391	.	-	.	gene_id "q"
+g24.t1	src	R	183	316	2.5	+	.	x
+g5.t1	src	F	113	328	2.5	+	.	gene_id "q"
+g32.t2	src	E	430	438	.	+	.	x
+g3.t2	src	H	186	298	.	-	.	gene_id "q"
+g7.t1	src	C	1094	1413	.	-	.	ID=x109;a=b
+g10.t1	src	F	892	915	2.5	.	.	gene_id "q"
+g7.t1	src	F	509	1528	2.5	-	.	ID=x106;a=b
+g4.t1	src	M	409	579	2.5	.	.	ID=x59;a=b
+g13.t2	src	N	258	500	.	-	.	ID=  sp  
+g28.t1	src	H	310	522	.	-	.	x
+g34.t1	src	C	260	445	2.5	.	.	ID=x529;a=b
+g15.t1	src	F	222	448	.	.	.	ID=  sp  
+g5.t1	src	T	33	299	2.5	+	.	ID=  sp  
+g27.t1	src	C	280	348	2.5	+	.	x
+g15.t1	src	C	911	925	.	-	.	ID=  sp  
+g1.t1	src	C	190	436	.	-	.	x
+g27.t1	src	H	15	167	.	.	.	ID=  sp  
+g19.t1	src	F	440	532	2.5	+	.	gene_id "q"
+g35.t1	src	C	327	413	2.5	.	.	ID=x544;a=b
+g28.t1	src	T	761	1294	.	-	.	ID=  sp  
+g35.t1	src	F	309	386	.	-	.	x
+g17.t1	src	N	307	930	.	-	.	x
+g21.t1	src	F	354	428	2.5	-	.	gene_id "q"
+g11.t1	src	M	148	435	2.5	+	.	ID=  sp  
+g8.t1	src	C	1577	1618	2.5	.	.	ID=  sp  
+g27.t1	src	F	97	189	2.5	+	.	gene_id "q"
+g14.t1	src	C	1686	1691	2.5	-	.	gene_id "q"
+g19.t1	src	C	231	426	2.5	-	.	x
+g28.t1	src	C	79	361	2.5	.	.	ID=x425;a=b
+g16.t1	src	F	4	915	2.5	.	.	ID=  sp  
+g23.t1	src	N	531	604	.	-	.	ID=x355;a=b
+g12.t1	src	T	515	757	.	+	.	ID=  sp  
+g13.t1	src	F	349	400	2.5	+	.	ID=x207;a=b
+g7.t1	src	C	650	1336	2.5	-	.	gene_id "q"
+g22.t1	src	M	492	494	.	-	.	x
+g23.t1	src	F	58	1719	.	.	.	x
+g20.t1	src	N	835	1083	2.5	.	.	ID=x316;a=b
+g28.t1	src	F	1037	1158	.	.	.	ID=  sp  
+g16.t1	src	C	691	759	2.5	-	.	gene_id "q"
+g24.t1	src	T	863	871	2.5	-	.	ID=x370;a=b
+g8.t1	src	T	1538	1663	2.5	-	.	gene_id "q"
+g4.t1	src	F	492	533	.	-	.	ID=x65;a=b
+g32.t1	src	T	757	795	2.5	-	.	ID=x491;a=b
+g10.t1	src	T	506	668	.	+	.	x
+g33.t1	src	C	550	789	.	.	.	gene_id "q"
+g11.t1	src	F	734	781	.	-	.	ID=  sp  
+g25.t1	src	C	187	456	.	-	.	ID=  sp  
+g32.t2	src	F	535	712	2.5	+	.	x
+g9.t1	src	F	529	786	.	+	.	ID=x138;a=b
+g24.t1	src	C	73	302	.	.	.	x
+g17.t1	src	M	576	1196	2.5	.	.	x
+g17.t1	src	H	125	269	2.5	.	.	gene_id "q"
+g26.t1	src	E	313	585	2.5	.	.	gene_id "q"
+g22.t1	src	M	234	571	.	-	.	x
+g7.t1	src	E	1241	1372	2.5	+	.	gene_id "q"
+g13.t2	src	F	380	406	.	-	.	ID=  sp  
+g36.t1	src	C	144	384	.	+	.	gene_id "q"
+g36.t1	src	F	200	391	.	+	.	gene_id "q"
+g18.t1	src	E	959	1000	.	-	.	gene_id "q"
+g3.t1	src	F	111	462	.	-	.	gene_id "q"
+g22.t1	src	F	265	912	.	+	.	ID=  sp  
+g16.t1	src	R	407	583	2.5	+	.	ID=x256;a=b
+g32.t2	src	E	285	818	2.5	+	.	ID=x488;a=b
+g20.t1	src	N	1052	1053	2.5	-	.	ID=  sp  
+g3.t1	src	C	315	503	.	-	.	ID=  sp  
+g32.t1	src	R	620	856	.	.	.	x
+g20.t1	src	T	653	800	2.5	+	.	gene_id "q"
+g6.t1	src	N	269	460	2.5	-	.	ID=  sp  
+g29.t1	src	F	742	940	2.5	-	.	ID=x443;a=b
+g17.t1	src	N	959	1235	.	+	.	ID=x273;a=b
+g18.t1	src	F	141	551	2.5	-	.	ID=x292;a=b
+g18.t1	src	F	50	111	2.5	+	.	x
+g11.t1	src	H	57	433	2.5	+	.	gene_id "q"
+g2.t1	src	C	47	127	2.5	+	.	ID=  sp  
+g13.t1	src	R	244	584	.	+	.	x
+g34.t1	src	F	669	740	.	-	.	x
+g22.t1	src	R	43	338	.	.	.	ID=x336;a=b
+g4.t1	src	C	126	296	.	-	.	ID=x56;a=b
+g3.t1	src	C	494	568	2.5	-	.	x
+g8.t1	src	N	461	796	2.5	-	.	ID=x121;a=b
+g1.t1	src	C	399	439	.	+	.	ID=x3;a=b
+g14.t1	src	H	675	986	.	-	.	x
+g30.t1	src	E	302	418	.	-	.	ID=x451;a=b
+g28.t1	src	M	963	1019	2.5	+	.	ID=x430;a=b
+g6.t1	src	M	571	577	2.5	+	.	gene_id "q"
+g15.t1	src	C	101	865	.	+	.	ID=  sp  
+g21.t1	src	H	512	512	2.5	-	.	gene_id "q"
+g29.t1	src	C	1962	1989	2.5	.	.	gene_id "q"
+g34.t1	src	C	718	759	.	+	.	gene_id "q"
+g2.t1	src	R	87	220	2.5	-	.	x
+g3.t1	src	C	267	551	2.5	+	.	ID=  sp  
+g21.t1	src	N	73	417	.	+	.	gene_id "q"
+g32.t2	src	R	685	744	.	.	.	ID=  sp  
+g34.t1	src	F	406	570	2.5	+	.	ID=x531;a=b
+g20.t1	src	F	902	931	.	+	.	ID=  sp  
+g25.t1	src	M	143	173	2.5	-	.	ID=  sp  
+g24.t1	src	F	77	301	.	-	.	ID=  sp  
+g7.t1	src	R	734	754	.	-	.	gene_id "q"
+g19.t1	src	T	745	776	2.5	-	.	ID=x298;a=b
+g31.t1	src	M	488	511	2.5	.	.	ID=  sp  
+g3.t2	src	F	137	223	.	+	.	ID=  sp  
+g13.t1	src	F	516	551	2.5	+	.	x
+g35.t1	src	C	273	335	2.5	+	.	x
+g2.t1	src	C	175	220	2.5	-	.	ID=x26;a=b
+g12.t1	src	C	600	860	2.5	+	.	x
+g12.t1	src	C	612	842	2.5	-	.	ID=x170;a=b
+g36.t1	src	F	225	335	2.5	+	.	ID=  sp  
+g19.t1	src	N	323	499	.	.	.	ID=  sp  
+g27.t1	src	C	238	276	2.5	-	.	gene_id "q"
+g14.t1	src	F	194	1525	.	+	.	ID=  sp  
+g27.t1	src	C	315	356	2.5	-	.	ID=  sp  
+g14.t1	src	C	825	1517	2.5	+	.	gene_id "q"
+g7.t1	src	C	1052	1248	2.5	+	.	x
+g6.t1	src	C	570	570	.	-	.	ID=  sp  
+g31.t1	src	C	182	456	2.5	+	.	x
+g16.t1	src	E	347	439	.	+	.	x
+g2.t1	src	E	129	218	.	.	.	x
+g3.t2	src	F	426	515	2.5	+	.	ID=  sp  
+g33.t1	src	F	88	855	2.5	+	.	gene_id "q"
+g29.t1	src	C	160	324	2.5	-	.	ID=  sp  
+g2.t1	src	E	150	242	.	-	.	x
+g34.t1	src	C	441	710	2.5	.	.	ID=x520;a=b
+g31.t1	src	F	657	788	.	-	.	ID=  sp  
+g23.t1	src	M	133	163	.	-	.	x
+g13.t1	src	E	164	403	2.5	+	.	x
+g12.t1	src	F	319	651	2.5	-	.	ID=  sp  
+g29.t1	src	C	323	724	2.5	.	.	gene_id "q"
+g5.t1	src	F	493	561	2.5	+	.	ID=x71;a=b
+g4.t1	src	N	502	564	2.5	-	.	ID=  sp  
+g34.t1	src	M	124	166	2.5	+	.	gene_id "q"
+g8.t1	src	C	1411	1623	.	-	.	ID=  sp  
+g18.t1	src	C	1334	1498	.	+	.	x
+g1.t1	src	C	271	304	2.5	+	.	ID=  sp  
+g31.t1	src	C	508	654	.	-	.	gene_id "q"
+g6.t1	src	F	434	544	.	.	.	x
+g30.t1	src	F	350	430	2.5	.	.	ID=x458;a=b
+g3.t1	src	F	136	165	2.5	-	.	ID=x49;a=b
+g27.t1	src	C	220	339	.	-	.	ID=  sp  
+g21.t1	src	H	329	379	.	-	.	gene_id "q"
+g25.t1	src	M	446	619	2.5	+	.	ID=  sp  
+g9.t1	src	R	1957	2067	2.5	-	.	gene_id "q"
+g23.t1	src	F	1184	1468	.	+	.	gene_id "q"
+g4.t1	src	F	399	467	.	-	.	gene_id "q"
+g28.t1	src	F	1264	1290	.	+	.	x
+g9.t1	src	T	1376	1492	.	+	.	ID=  sp  
+g16.t1	src	F	210	522	2.5	.	.	ID=x263;a=b
+g8.t1	src	F	1419	1450	2.5	.	.	gene_id "q"
+g4.t1	src	C	190	507	.	-	.	gene_id "q"
+g17.t1	src	M	1024	1094	2.5	.	.	ID=  sp  
+g16.t1	src	T	993	1001	.	.	.	ID=  sp  
+g30.t1	src	F	221	322	2.5	+	.	gene_id "q"
+g20.t1	src	E	992	1048	2.5	+	.	x
+g32.t1	src	E	515	742	2.5	+	.	ID=x498;a=b
+g14.t1	src	F	1396	1721	.	+	.	ID=x223;a=b
+g13.t2	src	F	240	293	.	+	.	gene_id "q"
+g29.t1	src	N	118	903	2.5	-	.	ID=  sp  
+g3.t2	src	M	98	249	2.5	.	.	ID=  sp  
+g17.t1	src	F	43	213	2.5	+	.	x
+g8.t1	src	F	1324	1626	.	-	.	ID=  sp  
+g27.t1	src	C	17	250	2.5	+	.	ID=  sp  
+g26.t1	src	F	129	241	.	.	.	gene_id "q"
+g6.t1	src	C	166	225	.	+	.	gene_id "q"
+g3.t1	src	F	555	557	.	+	.	ID=x54;a=b
+g4.t1	src	H	111	404	2.5	+	.	ID=x58;a=b
+g30.t1	src	R	289	312	.	.	.	x
+g34.t1	src	F	619	720	.	+	.	gene_id "q"
+g22.t1	src	F	877	878	2.5	+	.	gene_id "q"
+g6.t1	src	R	483	530	2.5	+	.	ID=x90;a=b
+g22.t1	src	F	129	521	2.5	+	.	ID=  sp  
+g32.t1	src	M	499	804	2.5	.	.	x
+g35.t1	src	E	385	417	.	-	.	ID=x538;a=b
+g6.t1	src	R	270	584	2.5	-	.	x
+g26.t1	src	F	276	482	2.5	-	.	x
+g14.t1	src	R	120	1256	2.5	-	.	x
+g31.t1	src	E	733	750	.	-	.	gene_id "q"
+g30.t1	src	F	392	436	.	+	.	ID=  sp  
+g1.t1	src	F	257	493	2.5	-	.	ID=x13;a=b
+g6.t1	src	E	193	465	.	.	.	gene_id "q"
+g3.t1	src	F	275	334	2.5	+	.	ID=  sp  
+g32.t2	src	T	665	750	2.5	.	.	ID=x483;a=b
+g32.t1	src	F	263	308	.	-	.	x
+g21.t1	src	F	458	472	2.5	+	.	ID=  sp  
+g18.t1	src	F	866	1036	.	+	.	ID=x288;a=b
+g15.t1	src	F	43	333	.	+	.	ID=x234;a=b
+g25.t1	src	F	398	619	.	+	.	ID=  sp  
+g24.t1	src	F	477	713	.	+	.	ID=  sp  
+g10.t1	src	R	914	949	2.5	-	.	ID=x151;a=b
+g30.t1	src	R	88	241	.	+	.	ID=  sp  
+g32.t1	src	F	548	890	.	+	.	x
+g23.t1	src	C	796	1189	2.5	-	.	ID=x352;a=b
+g35.t1	src	R	107	303	.	-	.	x
+g20.t1	src	T	1079	1105	.	.	.	gene_id "q"
+g25.t1	src	F	77	328	2.5	-	.	x
+g31.t1	src	R	424	783	2.5	+	.	x
+g3.t2	src	C	506	524	2.5	-	.	x
+g19.t1	src	T	698	830	2.5	-	.	ID=x299;a=b
+g32.t1	src	R	105	149	.	-	.	gene_id "q"
+g15.t2	src	E	684	812	.	-	.	ID=x243;a=b
+g2.t1	src	R	280	285	2.5	-	.	ID=  sp  
+g24.t1	src	C	417	899	2.5	+	.	ID=  sp  
+g23.t1	src	N	147	548	2.5	+	.	ID=  sp  
+g21.t1	src	T	348	417	.	-	.	x
+g14.t1	src	M	1573	1650	.	-	.	ID=  sp  
+g3.t1	src	M	484	545	2.5	-	.	x
+g27.t1	src	C	162	253	.	-	.	ID=x415;a=b
+g16.t1	src	R	407	616	2.5	-	.	gene_id "q"
+g8.t1	src	M	481	492	2.5	-	.	ID=  sp  
+g15.t2	src	C	422	430	2.5	-	.	x
+g32.t2	src	F	714	824	.	+	.	gene_id "q"
+g15.t1	src	C	587	623	2.5	-	.	gene_id "q"
+g4.t1	src	E	444	536	.	-	.	ID=x69;a=b
+g32.t2	src	N	788	826	.	-	.	ID=x478;a=b
+g10.t1	src	C	649	696	2.5	-	.	gene_id "q"
+g3.t2	src	C	171	248	2.5	-	.	ID=  sp  
+g14.t1	src	C	146	543	.	+	.	x
+g15.t2	src	F	320	381	.	+	.	gene_id "q"
+g22.t1	src	C	115	417	2.5	+	.	x
+g29.t1	src	N	1198	1860	2.5	+	.	ID=  sp  
+g32.t1	src	N	689	856	.	+	.	gene_id "q"
+g35.t1	src	F	271	423	.	-	.	ID=  sp  
+g23.t1	src	T	583	1185	2.5	-	.	x
+g31.t1	src	F	128	379	.	+	.	ID=  sp  
+g22.t1	src	T	261	875	.	.	.	gene_id "q"
+g28.t1	src	C	958	1163	.	-	.	gene_id "q"
+g22.t1	src	F	128	501	2.5	+	.	x
+g7.t1	src	F	1182	1364	2.5	+	.	x
+g15.t2	src	H	280	564	.	+	.	ID=  sp  
+g9.t1	src	H	750	1115	2.5	-	.	ID=x129;a=b
+g2.t1	src	M	172	244	2.5	+	.	gene_id "q"
+g4.t1	src	C	261	581	.	+	.	ID=  sp  
+g1.t1	src	C	10	357	.	-	.	ID=x11;a=b
+g26.t1	src	C	577	644	2.5	+	.	ID=x404;a=b
+g19.t1	src	F	608	667	2.5	-	.	gene_id "q"
+g35.t1	src	T	192	330	.	.	.	ID=x540;a=b
+g5.t1	src	M	421	491	.	-	.	ID=  sp  
+g19.t1	src	T	138	479	2.5	-	.	gene_id "q"
+g13.t1	src	F	565	576	2.5	+	.	ID=x203;a=b
+g13.t1	src	C	3	371	.	+	.	ID=x199;a=b
+g25.t1	src	R	38	169	2.5	.	.	ID=  sp  
+g13.t2	src	T	332	424	2.5	+	.	ID=x183;a=b
+g1.t1	src	H	252	608	2.5	+	.	x
+g26.t1	src	F	33	527	2.5	-	.	gene_id "q"
+g30.t1	src	C	187	219	.	-	.	ID=x448;a=b
+g17.t1	src	F	531	863	2.5	+	.	ID=  sp  
+g15.t2	src	C	467	481	.	-	.	ID=x246;a=b
+g10.t1	src	R	135	707	.	-	.	ID=  sp  
+g14.t1	src	E	956	1122	2.5	+	.	ID=x216;a=b
+g2.t1	src	N	77	100	2.5	+	.	x
+g4.t1	src	N	144	503	2.5	-	.	x
+g36.t1	src	T	58	360	.	+	.	ID=  sp  
+g8.t1	src	F	1115	1331	.	-	.	x
+g8.t1	src	C	1083	1541	2.5	+	.	gene_id "q"
+g32.t2	src	H	338	592	.	-	.	x
+g11.t1	src	F	127	837	2.5	-	.	ID=  sp  
+g2.t1	src	C	157	250	2.5	.	.	ID=  sp  
+g15.t2	src	F	345	815	.	-	.	ID=  sp  
+g14.t1	src	F	853	1190	.	-	.	x
+g12.t1	src	F	1058	1084	.	-	.	x
+g34.t1	src	R	311	609	2.5	+	.	ID=x523;a=b
+g21.t1	src	F	318	422	2.5	+	.	ID=x332;a=b
+g8.t1	src	N	729	1667	2.5	+	.	x
+g12.t1	src	F	809	877	.	.	.	gene_id "q"
+g13.t2	src	C	137	430	.	+	.	gene_id "q"
+g34.t1	src	C	641	745	2.5	+	.	ID=x522;a=b
+g36.t1	src	M	340	376	.	.	.	ID=x559;a=b
+g11.t1	src	E	400	593	.	.	.	ID=  sp  
+g33.t1	src	C	849	991	.	-	.	ID=x506;a=b
+g33.t1	src	F	850	889	2.5	+	.	x
+g22.t1	src	C	580	759	.	+	.	gene_id "q"
+g21.t1	src	R	470	517	2.5	-	.	x
+g36.t1	src	T	213	315	.	-	.	ID=x547;a=b

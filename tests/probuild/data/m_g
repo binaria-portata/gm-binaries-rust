@@ -1,0 +1,258 @@
+../../../../gmst_bin/Gibbs3 startseq.1 6 -o gibbs_out.1 -F -Z -n -r -y -x -m -s 1 -w 0.01 
+
+
+Gibbs 3.10.001  Jan 31 2020
+Data file: startseq.1
+Output file: gibbs_out.1
+Current directory: /work/gibbs_work/r1
+The following options are set:
+Concentrated Region          False    Sequence type        False
+Collapsed Alphabet           False    Pseudocount weight   True 
+Use Expectation/Maximization False    Don't Xnu sequence   True 
+Help flag                    False    Near optimal cutoff  False
+Number of iterations         False    Don't fragment       True 
+Don't use map maximization   True     Repeat regions       False
+Output file                  True     Informed priors file False
+Plateau periods              False    palindromic sequence False
+Don't Reverse complement     True     Number of seeds      False
+Seed Value                   True     Pseudosite weight    False
+Suboptimal sampler output    False    Overlap              False
+Allow width to vary          False    Wilcoxon signed rank False
+Sample along length          False    Output Scan File     False
+Output prior file            False    Modular Sampler      False
+Ignore Spacing Model         False    Sample Background    False
+Bkgnd Comp Model             False    Init from prior      False
+Homologous Seq pairs         False    Parallel Tempering   False
+Group Sampler                False    No progress info     True 
+Fragment from middle         False    Verify Mode          False
+Alternate sample on k        False    No freq. soln.       True 
+Calc. def. pseudo wt.        False    Motif/Recur smpl     False
+Phylogenetic Sampling        False    Supress Near Opt.    False
+Nearopt display cutoff       False    Sample model         False
+Hierarchical Model           False    Centroid model       False
+Print Bayesian Counts        False    Align Centroid       False
+Calculate Credibility Limits False    Frequency Bkgnd.     False
+
+site_samp            =            1
+nMotifLen            =            6
+nAlphaLen            =            4
+nNumMotifs           =           59
+dPseudoCntWt         =         0.01
+dPseudoSiteWt        =          0.8
+nMaxIterations       =          500
+lSeedVal             =            1
+nPlateauPeriods      =           20
+nSeeds               =           10
+nNumMotifTypes       =            1
+dCutoff              =         0.01
+dNearOptDispCutoff   =          0.5
+RevComplement        =            0
+glOverlapParam       =            0
+Rcutoff factor       =            0
+Post Plateau Samples =            0
+Frag/Shft Per.       =            5
+
+
+Sequences to be Searched:
+_________________________
+#1   1 3608 5488 +
+#2   2 12878 13870 +
+#3   3 14137 15744 +
+#4   4 27516 31214 +
+#5   5 31370 34978 +
+#6   6 37203 38525 +
+#7   7 43515 44957 +
+#8   8 51658 53901 +
+#9   9 54222 56168 +
+#10  10 56435 58381 +
+#11  11 60726 62777 +
+#12  12 75022 76509 +
+#13  13 80263 81534 +
+#14  14 81696 82970 +
+#15  15 83231 86032 +
+#16  16 90752 93604 +
+#17  17 94075 95202 +
+#18  18 101692 102714 +
+#19  19 105838 107295 +
+#20  20 107826 108524 +
+#21  21 125975 127651 +
+#22  22 129105 130223 +
+#23  23 136922 137620 +
+#24  24 139374 140186 +
+#25  25 141083 141595 +
+#26  26 154542 155822 +
+#27  27 156146 157183 +
+#28  28 157291 158379 +
+#29  29 170166 171161 +
+#30  30 172705 174075 +
+#31  31 174312 175136 +
+#32  32 180152 181219 +
+#33  33 181549 182604 +
+#34  34 182982 184253 +
+#35  35 184619 186166 +
+#36  36 188022 189848 +
+#37  37 204233 205789 +
+#38  38 206101 207036 +
+#39  39 207348 208313 +
+#40  40 213922 215025 +
+#41  41 220272 222041 +
+#42  42 222125 223846 +
+#43  43 231237 232340 +
+#44  44 249482 251674 +
+#45  45 252801 253964 +
+#46  46 267566 268582 +
+#47  47 272920 273621 +
+#48  48 275801 277003 +
+#49  49 277513 278532 +
+#50  50 286154 287293 +
+#51  51 288897 290387 +
+#52  52 296345 298354 +
+#53  53 298498 299481 +
+#54  54 302764 303819 +
+#55  55 309270 310763 +
+#56  56 312157 312987 +
+#57  57 320138 320767 +
+#58  58 323661 324725 +
+#59  59 324899 326185 +
+Processed Sequence Length: 354 Total sequence length: 354
+
+
+
+
+
+
+
+
+
+
+======================================================================
+======================== NEAR OPTIMAL RESULTS ========================
+======================================================================
+
+-------------------------------------------------------------------------
+                          MOTIF a
+
+
+
+
+
+Motif model (residue frequency x 100)
+____________________________________________
+Pos. #     a   t   c   g  Info
+_____________________________
+   1 |    30  23  27  18  0.0
+   2 |    32   6  35  25  0.2
+   3 |    20  27  18  33  0.1
+   4 |    22  33  27  16  0.0
+   5 |    27  18  30  23  0.0
+   6 |    27  37  22  13  0.1
+
+nonsite   26  24  26  22
+site      26  24  26  22
+
+Motif probability model
+____________________________________________
+Pos. #    a     t     c     g   
+____________________________________________
+   1 |  0.305 0.237 0.271 0.187 
+   2 |  0.321 0.070 0.355 0.254 
+   3 |  0.204 0.271 0.187 0.338 
+   4 |  0.221 0.338 0.271 0.170 
+   5 |  0.271 0.187 0.305 0.237 
+   6 |  0.271 0.372 0.221 0.136 
+
+
+
+Background probability model
+        0.266 0.246 0.268 0.220 
+
+
+
+6 columns
+Num Motifs: 59
+   1,  1       1       CTGTAT             6   1.00 F 1 3608 5488 +
+   2,  1       1       GGGACT             6   1.00 F 2 12878 13870 +
+   3,  1       1       TCTTAC             6   1.00 F 3 14137 15744 +
+   4,  1       1       TCTTCT             6   1.00 F 4 27516 31214 +
+   5,  1       1       TCTTCT             6   1.00 F 5 31370 34978 +
+   6,  1       1       AGGAAT             6   1.00 F 6 37203 38525 +
+   7,  1       1       TCACCA             6   1.00 F 7 43515 44957 +
+   8,  1       1       AGGAAG             6   1.00 F 8 51658 53901 +
+   9,  1       1       GCCCAT             6   1.00 F 9 54222 56168 +
+  10,  1       1       GCCCAT             6   1.00 F 10 56435 58381 +
+  11,  1       1       GAGGAT             6   1.00 F 11 60726 62777 +
+  12,  1       1       CTGAGA             6   1.00 F 12 75022 76509 +
+  13,  1       1       CATTGT             6   1.00 F 13 80263 81534 +
+  14,  1       1       CATTGT             6   1.00 F 14 81696 82970 +
+  15,  1       1       CGTCAC             6   1.00 F 15 83231 86032 +
+  16,  1       1       AGCAGT             6   1.00 F 16 90752 93604 +
+  17,  1       1       GAGTCT             6   1.00 F 17 94075 95202 +
+  18,  1       1       ACCGAT             6   1.00 F 18 101692 102714 +
+  19,  1       1       AAGTCA             6   1.00 F 19 105838 107295 +
+  20,  1       1       AAACCA             6   1.00 F 20 107826 108524 +
+  21,  1       1       ACCACT             6   1.00 F 21 125975 127651 +
+  22,  1       1       GCCGGC             6   1.00 F 22 129105 130223 +
+  23,  1       1       GATTCA             6   1.00 F 23 136922 137620 +
+  24,  1       1       GATTCC             6   1.00 F 24 139374 140186 +
+  25,  1       1       CAATAT             6   1.00 F 25 141083 141595 +
+  26,  1       1       TCTAAG             6   1.00 F 26 154542 155822 +
+  27,  1       1       AAGCCC             6   1.00 F 27 156146 157183 +
+  28,  1       1       CTGATT             6   1.00 F 28 157291 158379 +
+  29,  1       1       AGGGAT             6   1.00 F 29 170166 171161 +
+  30,  1       1       TCGTTG             6   1.00 F 30 172705 174075 +
+  31,  1       1       CCTCGC             6   1.00 F 31 174312 175136 +
+  32,  1       1       AGCGAA             6   1.00 F 32 180152 181219 +
+  33,  1       1       TCTGAG             6   1.00 F 33 181549 182604 +
+  34,  1       1       GCCTTG             6   1.00 F 34 182982 184253 +
+  35,  1       1       CAACGT             6   1.00 F 35 184619 186166 +
+  36,  1       1       TCTTCC             6   1.00 F 36 188022 189848 +
+  37,  1       1       AGCTTT             6   1.00 F 37 204233 205789 +
+  38,  1       1       TCACTC             6   1.00 F 38 206101 207036 +
+  39,  1       1       TCACTC             6   1.00 F 39 207348 208313 +
+  40,  1       1       CAAGCC             6   1.00 F 40 213922 215025 +
+  41,  1       1       ACGATA             6   1.00 F 41 220272 222041 +
+  42,  1       1       AATCTA             6   1.00 F 42 222125 223846 +
+  43,  1       1       GATCTC             6   1.00 F 43 231237 232340 +
+  44,  1       1       AGTTGG             6   1.00 F 44 249482 251674 +
+  45,  1       1       CGGAGA             6   1.00 F 45 252801 253964 +
+  46,  1       1       TGGTTG             6   1.00 F 46 267566 268582 +
+  47,  1       1       AAGCAA             6   1.00 F 47 272920 273621 +
+  48,  1       1       CGAGCA             6   1.00 F 48 275801 277003 +
+  49,  1       1       AGGACT             6   1.00 F 49 277513 278532 +
+  50,  1       1       AAATCA             6   1.00 F 50 286154 287293 +
+  51,  1       1       TCACGA             6   1.00 F 51 288897 290387 +
+  52,  1       1       TCGCTC             6   1.00 F 52 296345 298354 +
+  53,  1       1       CGAGCA             6   1.00 F 53 298498 299481 +
+  54,  1       1       AACTGC             6   1.00 F 54 302764 303819 +
+  55,  1       1       TTCCAG             6   1.00 F 55 309270 310763 +
+  56,  1       1       CGGAGA             6   1.00 F 56 312157 312987 +
+  57,  1       1       CCTTGT             6   1.00 F 57 320138 320767 +
+  58,  1       1       CAGACA             6   1.00 F 58 323661 324725 +
+  59,  1       1       GAAGGT             6   1.00 F 59 324899 326185 +
+                       ******
+
+
+Column 1 :  Sequence Number, Site Number
+Column 2 :  Left End Location
+Column 4 :  Motif Element
+Column 6 :  Right End Location
+Column 7 :  Probability of Element
+Column 8 :  Forward Motif (F) or Reverse Complement (R) 
+Column 9 :  Sequence Description from Fast A input
+
+Log Motif portion of MAP for motif a = -524.30106
+Log Fragmentation portion of MAP for motif a = 0.00000
+
+
+Log Background portion of Map = 0.00000
+Log Alignment portion of Map = 0.00000
+Log Site/seq portion of Map = 0.00000
+Log Null Map = -500.75011
+Log Map = -23.55095
+Nearopt Map   = -23.550952
+
+
+
+log MAP = sum of motif and fragmentation parts of MAP + background + alignment + sites/seq - Null
+
+Elapsed time: 0.060000 secs

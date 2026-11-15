@@ -1,0 +1,75 @@
+##gff-version 2
+##source-version GeneMark.hmm_PROKARYOTIC 3.20
+##date: Sat Nov 14 21:24:45 2026
+# Sequence file name: tr_edge.fa
+# Model file name: GeneMark_hmm.mod
+# RBS: false
+# Model information: GeneMarkS_default_gcode_1
+
+g1.t1 CDS=1-609	GeneMark.hmm	CDS	1	609	-771.017663	+	0	gene_id=1, length=609, gene_score=-771.017663, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=100.054518
+
+g2.t1 CDS=1-309	GeneMark.hmm	CDS	1	129	-201.870538	+	0	gene_id=2, length=129, gene_score=-201.870538, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=6.083004
+g2.t1 CDS=1-309	GeneMark.hmm	CDS	184	309	-177.089403	+	0	gene_id=3, length=126, gene_score=-177.089403, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=9.381166
+
+g3.t2 CDS=1-537	GeneMark.hmm	CDS	1	537	-694.986201	+	0	gene_id=4, length=537, gene_score=-694.986201, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=72.952920
+
+g4.t1 CDS=1-591	GeneMark.hmm	CDS	1	591	-744.837596	+	0	gene_id=5, length=591, gene_score=-744.837596, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=68.273991
+
+g5.t1 CDS=1-603	GeneMark.hmm	CDS	1	603	-766.205158	+	0	gene_id=6, length=603, gene_score=-766.205158, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=80.599534
+
+g6.t1 CDS=1-597	GeneMark.hmm	CDS	1	597	-744.476548	+	0	gene_id=7, length=597, gene_score=-744.476548, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=74.595674
+
+g7.t1 CDS=1-1635	GeneMark.hmm	CDS	1	1635	-2129.506238	+	0	gene_id=8, length=1635, gene_score=-2129.506238, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=231.145183
+
+g8.t1 CDS=1-1674	GeneMark.hmm	CDS	1	135	-167.581223	+	0	gene_id=9, length=135, gene_score=-167.581223, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=29.278411
+
+g9.t1 CDS=1-2079	GeneMark.hmm	CDS	1	2079	-2753.488269	+	0	gene_id=10, length=2079, gene_score=-2753.488269, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=254.899936
+
+g10.t1 CDS=1-954	GeneMark.hmm	CDS	1	954	-1238.240901	+	0	gene_id=11, length=954, gene_score=-1238.240901, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=139.128693
+
+g11.t1 CDS=1-840	GeneMark.hmm	CDS	1	840	-1059.607438	+	0	gene_id=12, length=840, gene_score=-1059.607438, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=76.769383
+
+g12.t1 CDS=1-1113	GeneMark.hmm	CDS	1	1113	-1447.003579	+	0	gene_id=13, length=1113, gene_score=-1447.003579, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=147.750428
+
+g13.t1 CDS=1-579	GeneMark.hmm	CDS	1	579	-783.921282	+	0	gene_id=14, length=579, gene_score=-783.921282, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=33.922650
+
+g14.t1 CDS=1-1782	GeneMark.hmm	CDS	1	1782	-2339.724515	+	0	gene_id=15, length=1782, gene_score=-2339.724515, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=224.386757
+
+g15.t1 CDS=1-930	GeneMark.hmm	CDS	1	930	-1213.684519	+	0	gene_id=16, length=930, gene_score=-1213.684519, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=77.700505
+
+g15.t2 CDS=1-912	GeneMark.hmm	CDS	1	912	-1219.270023	+	0	gene_id=17, length=912, gene_score=-1219.270023, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=84.835470
+
+g16.t1 CDS=1-1089	GeneMark.hmm	CDS	1	132	-160.901298	+	0	gene_id=18, length=132, gene_score=-160.901298, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=16.760569
+
+g17.t1 CDS=1-1320	GeneMark.hmm	CDS	1	1320	-1711.917878	+	0	gene_id=19, length=1320, gene_score=-1711.917878, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=165.386865
+
+g18.t1 CDS=1-1671	GeneMark.hmm	CDS	1	1671	-2176.911509	+	0	gene_id=20, length=1671, gene_score=-2176.911509, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=186.543208
+
+g19.t1 CDS=1-858	GeneMark.hmm	CDS	1	858	-1104.688043	+	0	gene_id=21, length=858, gene_score=-1104.688043, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=95.226013
+
+g20.t1 CDS=1-1107	GeneMark.hmm	CDS	1	1107	-1467.276185	+	0	gene_id=22, length=1107, gene_score=-1467.276185, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=135.567071
+
+g22.t1 CDS=1-933	GeneMark.hmm	CDS	1	933	-1213.899502	+	0	gene_id=23, length=933, gene_score=-1213.899502, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=129.594765
+
+g23.t1 CDS=1-1824	GeneMark.hmm	CDS	1	1824	-2321.053842	+	0	gene_id=24, length=1824, gene_score=-2321.053842, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=237.024076
+
+g24.t1 CDS=1-903	GeneMark.hmm	CDS	1	903	-1195.435035	+	0	gene_id=25, length=903, gene_score=-1195.435035, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=71.776197
+
+g25.t1 CDS=1-663	GeneMark.hmm	CDS	1	663	-855.588816	+	0	gene_id=26, length=663, gene_score=-855.588816, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=80.825884
+
+g27.t1 CDS=1-408	GeneMark.hmm	CDS	1	408	-529.199368	+	0	gene_id=27, length=408, gene_score=-529.199368, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=51.000197
+
+g28.t1 CDS=1-1302	GeneMark.hmm	CDS	1	1302	-1733.429516	+	0	gene_id=28, length=1302, gene_score=-1733.429516, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=71.916496
+
+g29.t1 CDS=1-2202	GeneMark.hmm	CDS	1	2202	-2893.925006	+	0	gene_id=29, length=2202, gene_score=-2893.925006, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=263.385411
+
+g30.t1 CDS=1-453	GeneMark.hmm	CDS	1	453	-558.967373	+	0	gene_id=30, length=453, gene_score=-558.967373, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=46.544849
+
+g32.t2 CDS=1-828	GeneMark.hmm	CDS	1	828	-1093.026733	+	0	gene_id=31, length=828, gene_score=-1093.026733, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=75.897768
+
+g32.t1 CDS=1-891	GeneMark.hmm	CDS	1	891	-1178.600745	+	0	gene_id=32, length=891, gene_score=-1178.600745, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=83.463844
+
+g33.t1 CDS=1-1026	GeneMark.hmm	CDS	1	1026	-1315.492723	+	0	gene_id=33, length=1026, gene_score=-1315.492723, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=135.331938
+
+g34.t1 CDS=1-762	GeneMark.hmm	CDS	1	762	-1018.963887	+	0	gene_id=34, length=762, gene_score=-1018.963887, rbs_score=-0.020000, rbs_spacer=-1, stop_enforced=N, start_codon=0, logodd=64.761170
+

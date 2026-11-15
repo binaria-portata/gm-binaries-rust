@@ -1,0 +1,18 @@
+# Eukaryotic GeneMark.hmm version 3.68
+# Sequence name: bpcut_c.fa
+# FASTA defline: >bpcut_c
+# Sequence length: 2700 bp
+# G+C content: 32.33%
+# Matrices file: fungus.mod
+# Sat Nov 14 19:15:56 2026
+# FASTA definition line: >bpcut_c
+# sequence-region bpcut_c 1 2700
+bpcut_c	GeneMark.hmm3	gene	196	804	.	-	.	gene_id "1_g"; transcript_id "1_t";
+bpcut_c	GeneMark.hmm3	mRNA	196	804	.	-	.	gene_id "1_g"; transcript_id "1_t";
+bpcut_c	GeneMark.hmm3	stop_codon	196	198	.	-	0	gene_id "1_g"; transcript_id "1_t";
+bpcut_c	GeneMark.hmm3	CDS	196	804	.	-	0	gene_id "1_g"; transcript_id "1_t"; cds_type "Single"; count "1_1";
+bpcut_c	GeneMark.hmm3	start_codon	802	804	.	-	0	gene_id "1_g"; transcript_id "1_t";
+bpcut_c	GeneMark.hmm3	gene	2363	2471	.	-	.	gene_id "2_g"; transcript_id "2_t";
+bpcut_c	GeneMark.hmm3	mRNA	2363	2471	.	-	.	gene_id "2_g"; transcript_id "2_t";
+bpcut_c	GeneMark.hmm3	stop_codon	2363	2365	.	-	0	gene_id "2_g"; transcript_id "2_t"; evidence "1_1";
+bpcut_c	GeneMark.hmm3	CDS	2363	2471	.	-	1	gene_id "2_g"; transcript_id "2_t"; evidence "1_1"; cds_type "Terminal"; count "1_1";

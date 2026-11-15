@@ -1,0 +1,3 @@
+bpcut_a	bp	Part_intron	1	1178	.	+	.	border
+bpcut_a	bp	Acceptor	1179	1179	.	+	.	border
+bpcut_a	bp	Donor	4211	4211	.	+	.	border

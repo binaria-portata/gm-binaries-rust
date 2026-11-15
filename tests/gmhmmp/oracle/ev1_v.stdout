@@ -1,0 +1,31 @@
+ignored GFF line; line starts with TAB
+	g1.t1	src	C	1	609	.	+	0	x
+ignored GFF line; 9 TAB delimited fields are expected
+g1.t1	src	C	1	609	.	+	0
+ignored GFF line; 9 TAB delimited fields are expected
+g1.t1	src	C	1	609	.	+	0	x	extra
+ignored GFF line; start position less then 1
+g1.t1	src	C	0	609	.	+	0	x
+ignored GFF line; end position is less than start position
+g1.t1	src	C	10	9	.	+	0	x
+ignored GFF line; unexpected value for strand
+g1.t1	src	C	1	609	.	x	0	x
+ignored GFF line; unexpected value for phase
+g1.t1	src	C	1	609	.	+	3	x
+ignored GFF line; unsupported type found on line: 11
+g1.t1	src	CDS	1	609	.	+	0	x
+ignored GFF line; unexpected value for strand
+g5.t1	src	C	1	603	1	+ 	.	x
+ignored GFF line; unexpected value for phase
+g5.t1	src	C	1	603	1	+	00	x
+ignored GFF line; 9 TAB delimited fields are expected
+g5.t1 src C 1 603 1 + . x
+GFF lines in file: 28
+GFF lines selected: 14
+GFF record ignored, strand must be defined for this feature
+GFF record ignored, strand must be defined for this feature
+GFF record ignored, end position is out of sequence
+Warning, segment was ignored. Start codon was not found: g5.t1	1	603	+
+Warning, segment was ignored. Start codon was not found: g5.t1	2	603	+
+Warning, segment was ignored. Start codon was not found: g5.t1	2	603	+
+Warning, segment was ignored. Internal stop codon was found at position 291 for g5.t1	1	300	-

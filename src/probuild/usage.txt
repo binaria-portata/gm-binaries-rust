@@ -1,0 +1,191 @@
+Version: 2.52
+Usage:
+--par <s>
+--clean_join <s>
+  --seq <s>
+  --log <s>
+  --MIN_CONTIG_SIZE <i>
+  --MAX_N_SUBSTRING <i>
+  --MIN_SEQ_SIZE <i>
+  --GAP_FILLER <s>
+--gc <s>
+  --seq <s>
+  --GC_PRECISION <i>
+  --GC_LABEL <s>
+--stat <s>
+  --seq <s>
+  --allow_x <b>
+  --soft <b>
+  --details <b>
+  --GC_PRECISION <i>
+--clean
+  --seq <s>
+  --out_clean <s>
+  --out_masked <s>
+  --MIN_CONTIG_SIZE <i>
+  --MIN_SEQ_SIZE <i>
+  --GAP_FILLER <s>
+  --REPLACE_N_STRING <b>
+  --LEFT_GAP_FILLER <s>
+  --RIGHT_GAP_FILLER <s>
+--split <s>
+  --seq <s>
+  --max_contig <i>
+  --min_contig <i>
+  --split_at_n <i>
+  --split_at_x <i>
+  --x_to_n
+  --allow_x
+  --soft
+  --trace <s>
+  --letters_per_line <i>
+--mkmod <s>
+  --seq <s>
+  --geneset <s>
+  --ORDM <i>
+  --PHMM <s>
+  --NAME <s>
+  --ATG_ <f>
+  --GTG_ <f>
+  --TTG_ <f>
+  --CTG_ <f>
+  --TAA_ <b>
+  --TGA_ <b>
+  --TAG_ <b>
+  --MINC <i>
+  --MAXC <i>
+  --MAXN <i>
+  --NDEC <i>
+  --CDEC <i>
+  --CDCD <i>
+  --CD1P <i>
+  --CD2P <i>
+  --COD1 <3fc>
+  --COD2 <3fc>
+  --NONC <fc>
+  --MIN_COD <i>
+  --MIN_NON <i>
+  --EXCLUDE_PARTIAL <i>
+  --START_PRECISION <i>
+  --START_PSEUDOCOUNTS <i>
+  --SEPARATE_COD <b>
+  --RANDOM_NONCOD <f>
+  --MKCHAIN_L_MARGING <i>
+  --MKCHAIN_R_MARGING <i>
+  --MKCHAIN_PSEUDOCOUNTS <i>
+  --MKCHAIN_PRECISION <i>
+--parse
+  --seq <s>
+  --geneset <s>
+  --cod <s>
+  --non <s>
+  --MIN_COD <i>
+  --MIN_NON <i>
+  --EXCLUDE_PARTIAL <i>
+  --COD_L_MARGIN <i>
+  --COD_R_MARGIN <i>
+--mkchain
+  --chain_cod <s>
+  --chain_non <s>
+  --ORDM <i>
+  --seq <s>
+  --geneset <s>
+  --MIN_COD <i>
+  --MIN_NON <i>
+  --EXCLUDE_PARTIAL <i>
+  --SEPARATE_COD <b>
+  --MKCHAIN_L_MARGING <i>
+  --MKCHAIN_R_MARGING <i>
+  --MKCHAIN_PSEUDOCOUNTS <i>
+  --MKCHAIN_PRECISION <i>
+--mkmod <s>
+  --cod <s>
+  --non <s>
+  --ORDM <i>
+  --MKCHAIN_PSEUDOCOUNTS <i>
+  --MKCHAIN_PRECISION <i>
+--compare
+  --source <s>
+  --target <s>
+  --COMPARE_START <b>
+  --COMPARE_END <b>
+  --COMPARE_PRECISION <i>
+--pre_start <s>
+  --PRE_START_WIDTH <i>
+  --PRE_START_RELATIVE_POS <i>
+  --PRE_START_INTERGENIC <b>
+  --PRE_START_LINES <i>
+  --seq <s>
+  --geneset <s>
+--gibbs <s>
+  --seq <s>
+  --mod <s>
+  --log <s>
+  --GIBBS_PRECISION_MAT <i>
+  --GIBBS_PRECISION_DUR <i>
+  --GIBBS_PSEUDOCOUNTS_MAT <i>
+  --GIBBS_PSEUDOCOUNTS_DUR <i>
+--mask <s>
+  --seq <s>
+  --out <s>
+--combine <s>
+  --first <s>
+  --second <s>
+--STAT_NON_VS_ALL
+  --seq <s>
+  --geneset <s>
+--ORF_PER_SEQ <s>
+  --seq <s>
+  --geneset <s>
+  --MIN_ORF_SIZE <d> number of nt between start and stop
+   provide start/stop triplets
+  --ORF_OUT <0/1>
+--orf
+  --seq <s>
+  --MIN_ORF_SIZE <d>
+  --ORF_MARGIN_LEFT <d>
+  --ORF_MARGIN_RIGHT <d>
+   provide start/stop triplets
+  --ORF_OUT <0/1>
+--intergenic
+  --seq <s>
+  --geneset <s>
+  --non <s>
+  --MIN_NON <i>
+  --COD_L_MARGIN <i>
+  --COD_R_MARGIN <i>
+  --shift_zero <i>
+--count_substring_n
+--count_substring_atcg
+  --split_at_n <i>
+--clean_fasta
+--split_fasta <s>
+  --seq <s>
+  --split_numfile <i>
+--select_fasta <s>
+  --seq <s>
+  --fasta_list <s>
+  --letters_per_line <i>
+--reformat_fasta
+  --in input file/s
+  --out output file
+  --min_contig <i>, minimum length of FASTA record
+  --trace optional, output new-old defline to this file
+  --label optional string, add label to integer ID in defline as >(int)label
+  --uppercase optional 1/0, ON/OFF uppercasing of sequence
+  --letters_per_line <i>
+  --allow_x optional 1/0 ,ON/OFF letter X in alphabet
+  --mask_soft <i> optional int, mask lowcase letters if lowcase sub-string is longer than specified length; zero value - no masking
+  --original keep original defline
+  --ncbi_gi parse NC_dddd style label from NCBI formatted line
+  --first_w use first word in FASTA defline
+  --mask_margin <i> optional int, apply margin to --mask_soft option
+  --low2gff save lowcase letter positions into GFF
+  --include_sid include only records with seqid from this file
+  --exclude_sid exclude records with seqid from this file
+  --swap_sid swap seqids to new ID's from --include_sid file
+--gc_hmm  output file name
+  --gclow low GC peak
+  --gchigh high GC peak
+  --trlow transition in low GC peak
+  --trhigh transition in high GC peak

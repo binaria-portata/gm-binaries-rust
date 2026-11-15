@@ -1,0 +1,24 @@
+Eukaryotic GeneMark.hmm version 3.68
+Sequence name: audit_zmax.fa
+FASTA defline: >X tok 2147483647
+Sequence length: 600 bp
+G+C content: 43.00%
+Matrices file: audit_tiny.mod
+Sun Nov 15 09:34:41 2026
+
+
+Predicted genes/exons
+
+Gene Exon Strand Exon           Exon Range         Exon      Start/End
+  #    #         Type                             Length       Frame
+
+
+  1   2   -  Terminal    -2147483521 -2147483458         64          3 3 - -
+  1   1   -  Initial     -2147483422 -2147483418          5          2 1 - -
+
+  2   1   +  Initial     -2147483357 -2147483350          8          1 2 - -
+  2   2   +  Terminal    -2147483289 -2147483280         10          3 3 - -
+
+  3   1   +  Initial     -2147483256 -2147483186         71          1 2 - -
+  3   2   +  Terminal    -2147483124 -2147483079         46          3 3 - -
+

@@ -1,0 +1,5 @@
+X1 chr1
+X3	chr3 extra
+
+X1 dup
+  X2   chr2

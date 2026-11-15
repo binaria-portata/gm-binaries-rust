@@ -1,0 +1,16 @@
+junk before ACGT acgt
+>e1
+>e2 empty-before
+ACGTNNNNNNnnnnXXXXxxxx
+>  spaced  id here
+acgt ACGT 1234 **-- acgu
+TTTTNNNNNNNNNNNNNNNNNNNNAAAA
+>LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL long definition line with words	and tabs wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+RYKMSWBDHV ryk msw bdhv
+
+
+>tab	id
+ccccGGGG>inline
+AAAA
+GGGGCCCC
+>last

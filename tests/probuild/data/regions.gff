@@ -1,0 +1,9 @@
+# comment
+
+X1	src	cut	1	500	.	+	.	id=1
+X1	src	cut	1200	1800	.	+	.	x
+   # indented comment
+X2	src	cut	300	900	.	+	.	extra	cols
+X1	src	cut	400	1000	.	-	.	q
+X3	s	c	10	20	.	+	.	r
+X3	s	c	2400	2600	.	+	.	beyond

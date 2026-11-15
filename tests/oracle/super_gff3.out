@@ -1,0 +1,110 @@
+##gff-version 3
+# Eukaryotic GeneMark.hmm version 3.68
+# Sequence name: contig1.fa
+# FASTA defline: >X1
+# Sequence length: 125040 bp
+# G+C content: 34.76%
+# Matrices file: super.mod
+# Sat Nov 14 18:47:54 2026
+# FASTA definition line: >X1
+##sequence-region X1 1 125040
+X1	GeneMark.hmm3	gene	18933	20429	.	+	.	ID=gene00001;Name=1;
+X1	GeneMark.hmm3	mRNA	18933	20429	.	+	.	ID=mRNA00001;Parent=gene00001;Name=1;
+X1	GeneMark.hmm3	exon	18933	18989	.	+	.	ID=exon00001;Parent=mRNA00001;Name=1;
+X1	GeneMark.hmm3	CDS	18933	18989	.	+	0	ID=cds00001;Parent=mRNA00001;Name=1;
+X1	GeneMark.hmm3	intron	18990	20324	.	+	0	ID=intron00001;Parent=mRNA00001;Name=1;
+X1	GeneMark.hmm3	exon	20325	20429	.	+	.	ID=exon00002;Parent=mRNA00001;Name=1;
+X1	GeneMark.hmm3	CDS	20325	20429	.	+	0	ID=cds00001;Parent=mRNA00001;Name=1;
+X1	GeneMark.hmm3	gene	31957	33007	.	-	.	ID=gene00002;Name=2;
+X1	GeneMark.hmm3	mRNA	31957	33007	.	-	.	ID=mRNA00002;Parent=gene00002;Name=2;
+X1	GeneMark.hmm3	exon	31957	31986	.	-	.	ID=exon00002;Parent=mRNA00002;Name=2;
+X1	GeneMark.hmm3	CDS	31957	31986	.	-	0	ID=cds00001;Parent=mRNA00002;Name=2;
+X1	GeneMark.hmm3	intron	31987	32617	.	-	0	ID=intron00001;Parent=mRNA00002;Name=2;
+X1	GeneMark.hmm3	exon	32618	33007	.	-	.	ID=exon00001;Parent=mRNA00002;Name=2;
+X1	GeneMark.hmm3	CDS	32618	33007	.	-	0	ID=cds00001;Parent=mRNA00002;Name=2;
+X1	GeneMark.hmm3	gene	35395	36994	.	+	.	ID=gene00003;Name=3;
+X1	GeneMark.hmm3	mRNA	35395	36994	.	+	.	ID=mRNA00003;Parent=gene00003;Name=3;
+X1	GeneMark.hmm3	exon	35395	35505	.	+	.	ID=exon00001;Parent=mRNA00003;Name=3;
+X1	GeneMark.hmm3	CDS	35395	35505	.	+	0	ID=cds00001;Parent=mRNA00003;Name=3;
+X1	GeneMark.hmm3	intron	35506	36555	.	+	0	ID=intron00001;Parent=mRNA00003;Name=3;
+X1	GeneMark.hmm3	exon	36556	36725	.	+	.	ID=exon00002;Parent=mRNA00003;Name=3;
+X1	GeneMark.hmm3	CDS	36556	36725	.	+	0	ID=cds00001;Parent=mRNA00003;Name=3;
+X1	GeneMark.hmm3	intron	36726	36789	.	+	2	ID=intron00001;Parent=mRNA00003;Name=3;
+X1	GeneMark.hmm3	exon	36790	36994	.	+	.	ID=exon00003;Parent=mRNA00003;Name=3;
+X1	GeneMark.hmm3	CDS	36790	36994	.	+	1	ID=cds00001;Parent=mRNA00003;Name=3;
+X1	GeneMark.hmm3	gene	41914	42735	.	+	.	ID=gene00004;Name=4;
+X1	GeneMark.hmm3	mRNA	41914	42735	.	+	.	ID=mRNA00004;Parent=gene00004;Name=4;
+X1	GeneMark.hmm3	exon	41914	41964	.	+	.	ID=exon00001;Parent=mRNA00004;Name=4;
+X1	GeneMark.hmm3	CDS	41914	41964	.	+	0	ID=cds00001;Parent=mRNA00004;Name=4;
+X1	GeneMark.hmm3	intron	41965	42501	.	+	0	ID=intron00001;Parent=mRNA00004;Name=4;
+X1	GeneMark.hmm3	exon	42502	42735	.	+	.	ID=exon00002;Parent=mRNA00004;Name=4;
+X1	GeneMark.hmm3	CDS	42502	42735	.	+	0	ID=cds00001;Parent=mRNA00004;Name=4;
+X1	GeneMark.hmm3	gene	55956	58167	.	-	.	ID=gene00005;Name=5;
+X1	GeneMark.hmm3	mRNA	55956	58167	.	-	.	ID=mRNA00005;Parent=gene00005;Name=5;
+X1	GeneMark.hmm3	exon	55956	56087	.	-	.	ID=exon00004;Parent=mRNA00005;Name=5;
+X1	GeneMark.hmm3	CDS	55956	56087	.	-	0	ID=cds00001;Parent=mRNA00005;Name=5;
+X1	GeneMark.hmm3	intron	56088	56172	.	-	0	ID=intron00001;Parent=mRNA00005;Name=5;
+X1	GeneMark.hmm3	exon	56173	56249	.	-	.	ID=exon00003;Parent=mRNA00005;Name=5;
+X1	GeneMark.hmm3	CDS	56173	56249	.	-	2	ID=cds00001;Parent=mRNA00005;Name=5;
+X1	GeneMark.hmm3	intron	56250	56342	.	-	1	ID=intron00001;Parent=mRNA00005;Name=5;
+X1	GeneMark.hmm3	exon	56343	56506	.	-	.	ID=exon00002;Parent=mRNA00005;Name=5;
+X1	GeneMark.hmm3	CDS	56343	56506	.	-	1	ID=cds00001;Parent=mRNA00005;Name=5;
+X1	GeneMark.hmm3	intron	56507	57490	.	-	2	ID=intron00001;Parent=mRNA00005;Name=5;
+X1	GeneMark.hmm3	exon	57491	58167	.	-	.	ID=exon00001;Parent=mRNA00005;Name=5;
+X1	GeneMark.hmm3	CDS	57491	58167	.	-	0	ID=cds00001;Parent=mRNA00005;Name=5;
+X1	GeneMark.hmm3	gene	65717	72305	.	+	.	ID=gene00006;Name=6;
+X1	GeneMark.hmm3	mRNA	65717	72305	.	+	.	ID=mRNA00006;Parent=gene00006;Name=6;
+X1	GeneMark.hmm3	exon	65717	66767	.	+	.	ID=exon00001;Parent=mRNA00006;Name=6;
+X1	GeneMark.hmm3	CDS	65717	66767	.	+	0	ID=cds00001;Parent=mRNA00006;Name=6;
+X1	GeneMark.hmm3	intron	66768	71997	.	+	1	ID=intron00001;Parent=mRNA00006;Name=6;
+X1	GeneMark.hmm3	exon	71998	72305	.	+	.	ID=exon00002;Parent=mRNA00006;Name=6;
+X1	GeneMark.hmm3	CDS	71998	72305	.	+	2	ID=cds00001;Parent=mRNA00006;Name=6;
+X1	GeneMark.hmm3	gene	72672	74319	.	-	.	ID=gene00007;Name=7;
+X1	GeneMark.hmm3	mRNA	72672	74319	.	-	.	ID=mRNA00007;Parent=gene00007;Name=7;
+X1	GeneMark.hmm3	exon	72672	73036	.	-	.	ID=exon00003;Parent=mRNA00007;Name=7;
+X1	GeneMark.hmm3	CDS	72672	73036	.	-	2	ID=cds00001;Parent=mRNA00007;Name=7;
+X1	GeneMark.hmm3	intron	73037	73636	.	-	1	ID=intron00001;Parent=mRNA00007;Name=7;
+X1	GeneMark.hmm3	exon	73637	74149	.	-	.	ID=exon00002;Parent=mRNA00007;Name=7;
+X1	GeneMark.hmm3	CDS	73637	74149	.	-	2	ID=cds00001;Parent=mRNA00007;Name=7;
+X1	GeneMark.hmm3	intron	74150	74210	.	-	1	ID=intron00001;Parent=mRNA00007;Name=7;
+X1	GeneMark.hmm3	exon	74211	74319	.	-	.	ID=exon00001;Parent=mRNA00007;Name=7;
+X1	GeneMark.hmm3	CDS	74211	74319	.	-	0	ID=cds00001;Parent=mRNA00007;Name=7;
+X1	GeneMark.hmm3	gene	76166	76516	.	-	.	ID=gene00008;Name=8;
+X1	GeneMark.hmm3	mRNA	76166	76516	.	-	.	ID=mRNA00008;Parent=gene00008;Name=8;
+X1	GeneMark.hmm3	exon	76166	76516	.	-	.	ID=exon00001;Parent=mRNA00008;Name=8;
+X1	GeneMark.hmm3	CDS	76166	76516	.	-	0	ID=cds00001;Parent=mRNA00008;Name=8;
+X1	GeneMark.hmm3	gene	76863	77084	.	-	.	ID=gene00009;Name=9;
+X1	GeneMark.hmm3	mRNA	76863	77084	.	-	.	ID=mRNA00009;Parent=gene00009;Name=9;
+X1	GeneMark.hmm3	exon	76863	77084	.	-	.	ID=exon00001;Parent=mRNA00009;Name=9;
+X1	GeneMark.hmm3	CDS	76863	77084	.	-	0	ID=cds00001;Parent=mRNA00009;Name=9;
+X1	GeneMark.hmm3	gene	107110	107483	.	-	.	ID=gene00010;Name=10;
+X1	GeneMark.hmm3	mRNA	107110	107483	.	-	.	ID=mRNA00010;Parent=gene00010;Name=10;
+X1	GeneMark.hmm3	exon	107110	107241	.	-	.	ID=exon00002;Parent=mRNA00010;Name=10;
+X1	GeneMark.hmm3	CDS	107110	107241	.	-	0	ID=cds00001;Parent=mRNA00010;Name=10;
+X1	GeneMark.hmm3	intron	107242	107360	.	-	0	ID=intron00001;Parent=mRNA00010;Name=10;
+X1	GeneMark.hmm3	exon	107361	107483	.	-	.	ID=exon00001;Parent=mRNA00010;Name=10;
+X1	GeneMark.hmm3	CDS	107361	107483	.	-	0	ID=cds00001;Parent=mRNA00010;Name=10;
+X1	GeneMark.hmm3	gene	107936	108172	.	+	.	ID=gene00011;Name=11;
+X1	GeneMark.hmm3	mRNA	107936	108172	.	+	.	ID=mRNA00011;Parent=gene00011;Name=11;
+X1	GeneMark.hmm3	exon	107936	108172	.	+	.	ID=exon00001;Parent=mRNA00011;Name=11;
+X1	GeneMark.hmm3	CDS	107936	108172	.	+	0	ID=cds00001;Parent=mRNA00011;Name=11;
+X1	GeneMark.hmm3	gene	110657	112568	.	-	.	ID=gene00012;Name=12;
+X1	GeneMark.hmm3	mRNA	110657	112568	.	-	.	ID=mRNA00012;Parent=gene00012;Name=12;
+X1	GeneMark.hmm3	exon	110657	110698	.	-	.	ID=exon00004;Parent=mRNA00012;Name=12;
+X1	GeneMark.hmm3	CDS	110657	110698	.	-	0	ID=cds00001;Parent=mRNA00012;Name=12;
+X1	GeneMark.hmm3	intron	110699	110885	.	-	0	ID=intron00001;Parent=mRNA00012;Name=12;
+X1	GeneMark.hmm3	exon	110886	111066	.	-	.	ID=exon00003;Parent=mRNA00012;Name=12;
+X1	GeneMark.hmm3	CDS	110886	111066	.	-	1	ID=cds00001;Parent=mRNA00012;Name=12;
+X1	GeneMark.hmm3	intron	111067	112094	.	-	2	ID=intron00001;Parent=mRNA00012;Name=12;
+X1	GeneMark.hmm3	exon	112095	112297	.	-	.	ID=exon00002;Parent=mRNA00012;Name=12;
+X1	GeneMark.hmm3	CDS	112095	112297	.	-	0	ID=cds00001;Parent=mRNA00012;Name=12;
+X1	GeneMark.hmm3	intron	112298	112352	.	-	0	ID=intron00001;Parent=mRNA00012;Name=12;
+X1	GeneMark.hmm3	exon	112353	112568	.	-	.	ID=exon00001;Parent=mRNA00012;Name=12;
+X1	GeneMark.hmm3	CDS	112353	112568	.	-	0	ID=cds00001;Parent=mRNA00012;Name=12;
+X1	GeneMark.hmm3	gene	114313	120132	.	+	.	ID=gene00013;Name=13;
+X1	GeneMark.hmm3	mRNA	114313	120132	.	+	.	ID=mRNA00013;Parent=gene00013;Name=13;
+X1	GeneMark.hmm3	exon	114313	114480	.	+	.	ID=exon00001;Parent=mRNA00013;Name=13;
+X1	GeneMark.hmm3	CDS	114313	114480	.	+	0	ID=cds00001;Parent=mRNA00013;Name=13;
+X1	GeneMark.hmm3	intron	114481	120012	.	+	0	ID=intron00001;Parent=mRNA00013;Name=13;
+X1	GeneMark.hmm3	exon	120013	120132	.	+	.	ID=exon00002;Parent=mRNA00013;Name=13;
+X1	GeneMark.hmm3	CDS	120013	120132	.	+	0	ID=cds00001;Parent=mRNA00013;Name=13;

@@ -1,0 +1,2008 @@
+GeneMark.hmm PROKARYOTIC (Version 3.20)
+Date: Sat Nov 14 21:24:44 2026
+Sequence file name: transcripts.fa
+Model file name: GeneMark_hmm.mod
+RBS: true
+Model information: GeneMarkS_default_gcode_1
+
+FASTA definition line: g1.t1 CDS=1-609
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+    1        +           1         609          609        1       -7   0.0800
+
+FASTA definition line: g2.t1 CDS=1-309
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+    2        +           1         309          309        1       -7   0.0800
+
+FASTA definition line: g3.t2 CDS=1-537
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+    3        +           1         537          537        1       -7   0.0800
+
+FASTA definition line: g3.t1 CDS=1-591
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+    4        +           1         591          591        1       -7   0.0800
+
+FASTA definition line: g4.t1 CDS=1-591
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+    5        +           1         591          591        1       -7   0.0800
+
+FASTA definition line: g5.t1 CDS=1-603
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+    6        +           1         603          603        1       -7   0.0800
+
+FASTA definition line: g6.t1 CDS=1-597
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+    7        +           1         597          597        1       -7   0.0800
+
+FASTA definition line: g7.t1 CDS=1-1635
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+    8        +           1        1635         1635        1       -7   0.0800
+
+FASTA definition line: g8.t1 CDS=1-1674
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+    9        +           1        1674         1674        1       -7   0.0800
+
+FASTA definition line: g9.t1 CDS=1-2079
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   10        +           1        2079         2079        1       -7   0.0800
+
+FASTA definition line: g10.t1 CDS=1-954
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   11        +           1         954          954        1       -7   0.0800
+
+FASTA definition line: g11.t1 CDS=1-840
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   12        +           1         840          840        1       -7   0.0800
+
+FASTA definition line: g12.t1 CDS=1-1113
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   13        +           1        1113         1113        1       -7   0.0800
+
+FASTA definition line: g13.t2 CDS=1-528
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   14        +           1         528          528        1       -7   0.0800
+
+FASTA definition line: g13.t1 CDS=1-579
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   15        +           1         579          579        1       -7   0.0800
+
+FASTA definition line: g14.t1 CDS=1-1782
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   16        +           1        1782         1782        1       -7   0.0800
+
+FASTA definition line: g15.t1 CDS=1-930
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   17        +           1         930          930        1       -7   0.0800
+
+FASTA definition line: g15.t2 CDS=1-912
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   18        +           1         912          912        1       -7   0.0800
+
+FASTA definition line: g16.t1 CDS=1-1089
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   19        +           1        1089         1089        1       -7   0.0800
+
+FASTA definition line: g17.t1 CDS=1-1320
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   20        +           1        1320         1320        1       -7   0.0800
+
+FASTA definition line: g18.t1 CDS=1-1671
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   21        +           1        1671         1671        1       -7   0.0800
+
+FASTA definition line: g19.t1 CDS=1-858
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   22        +           1         858          858        1       -7   0.0800
+
+FASTA definition line: g20.t1 CDS=1-1107
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   23        +           1        1107         1107        1       -7   0.0800
+
+FASTA definition line: g21.t1 CDS=1-522
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   24        +           1         522          522        1       -7   0.0800
+
+FASTA definition line: g22.t1 CDS=1-933
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   25        +           1         933          933        1       -7   0.0800
+
+FASTA definition line: g23.t1 CDS=1-1824
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   26        +           1        1824         1824        1       -7   0.0800
+
+FASTA definition line: g24.t1 CDS=1-903
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   27        +           1         903          903        1       -7   0.0800
+
+FASTA definition line: g25.t1 CDS=1-663
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   28        +           1         663          663        1       -7   0.0800
+
+FASTA definition line: g26.t1 CDS=1-681
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   29        +           1         681          681        1       -7   0.0800
+
+FASTA definition line: g27.t1 CDS=1-408
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   30        +           1         408          408        1       -7   0.0800
+
+FASTA definition line: g28.t1 CDS=1-1302
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   31        +           1        1302         1302        1       -7   0.0800
+
+FASTA definition line: g29.t1 CDS=1-2202
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   32        +           1        2202         2202        1       -7   0.0800
+
+FASTA definition line: g30.t1 CDS=1-453
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   33        +           1         453          453        1       -7   0.0800
+
+FASTA definition line: g31.t1 CDS=1-939
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   34        +           1         939          939        1       -7   0.0800
+
+FASTA definition line: g32.t2 CDS=1-828
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   35        +           1         828          828        1       -7   0.0800
+
+FASTA definition line: g32.t1 CDS=1-891
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   36        +           1         891          891        1       -7   0.0800
+
+FASTA definition line: g33.t1 CDS=1-1026
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   37        +           1        1026         1026        1       -7   0.0800
+
+FASTA definition line: g34.t1 CDS=1-762
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   38        +           1         762          762        1       -7   0.0800
+
+FASTA definition line: g35.t1 CDS=1-420
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   39        +           1         420          420        1       -7   0.0800
+
+FASTA definition line: g36.t1 CDS=1-411
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   40        +           1         411          411        1       -7   0.0800
+
+FASTA definition line: g37.t1 CDS=1-888
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   41        +           1         888          888        1       -7   0.0800
+
+FASTA definition line: g38.t1 CDS=1-1461
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   42        +           1        1461         1461        1       -7   0.0800
+
+FASTA definition line: g39.t1 CDS=1-393
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   43        +           1         393          393        1       -7   0.0800
+
+FASTA definition line: g40.t1 CDS=1-813
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   44        +           1         813          813        1       -7   0.0800
+
+FASTA definition line: g41.t1 CDS=1-840
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   45        +           1         840          840        1       -7   0.0800
+
+FASTA definition line: g42.t1 CDS=1-927
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   46        +           1         927          927        1       -7   0.0800
+
+FASTA definition line: g43.t1 CDS=1-747
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   47        +           1         747          747        1       -7   0.0800
+
+FASTA definition line: g44.t1 CDS=1-3276
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   48        +           1        3276         3276        1       -7   0.0800
+
+FASTA definition line: g45.t1 CDS=1-2049
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   49        +           1        2049         2049        1       -7   0.0800
+
+FASTA definition line: g46.t1 CDS=1-3804
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   50        +           1        3804         3804        1       -7   0.0800
+
+FASTA definition line: g46.t2 CDS=1-3714
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   51        +           1        3714         3714        1       -7   0.0800
+
+FASTA definition line: g47.t1 CDS=1-1515
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   52        +           1        1515         1515        1       -7   0.0800
+
+FASTA definition line: g48.t1 CDS=1-462
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   53        +           1         462          462        1       -7   0.0800
+
+FASTA definition line: g49.t1 CDS=1-1932
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   54        +           1        1932         1932        1       -7   0.0800
+
+FASTA definition line: g50.t1 CDS=1-285
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   55        +           1         285          285        1       -7   0.0800
+
+FASTA definition line: g51.t1 CDS=1-2400
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   56        +           1        2400         2400        1       -7   0.0800
+
+FASTA definition line: g51.t2 CDS=1-2394
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   57        +           1        2394         2394        1       -7   0.0800
+
+FASTA definition line: g52.t1 CDS=1-1488
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   58        +           1        1488         1488        1       -7   0.0800
+
+FASTA definition line: g53.t1 CDS=1-621
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   59        +           1         621          621        1       -7   0.0800
+
+FASTA definition line: g54.t1 CDS=1-1356
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   60        +           1        1356         1356        1       -7   0.0800
+
+FASTA definition line: g54.t2 CDS=1-1371
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   61        +           1        1371         1371        1       -7   0.0800
+
+FASTA definition line: g55.t1 CDS=1-1818
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   62        +           1        1818         1818        1       -7   0.0800
+
+FASTA definition line: g56.t1 CDS=1-1401
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   63        +           1        1401         1401        1       -7   0.0800
+
+FASTA definition line: g57.t2 CDS=1-393
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   64        +           1         393          393        1       -7   0.0800
+
+FASTA definition line: g57.t1 CDS=1-2748
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   65        +           1        2748         2748        1       -7   0.0800
+
+FASTA definition line: g58.t1 CDS=1-2217
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   66        +           1        2217         2217        1       -7   0.0800
+
+FASTA definition line: g58.t2 CDS=1-2163
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   67        +           1        2163         2163        1       -7   0.0800
+
+FASTA definition line: g59.t1 CDS=1-309
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   68        +           1         309          309        1       -7   0.0800
+
+FASTA definition line: g60.t1 CDS=1-951
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   69        +           1         951          951        1       -7   0.0800
+
+FASTA definition line: g61.t1 CDS=1-1983
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   70        +           1        1983         1983        1       -7   0.0800
+
+FASTA definition line: g62.t1 CDS=1-2313
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   71        +           1        2313         2313        1       -7   0.0800
+
+FASTA definition line: g63.t1 CDS=1-342
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   72        +           1         342          342        1       -7   0.0800
+
+FASTA definition line: g64.t2 CDS=1-2220
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   73        +          <3         155          153        1       -5   0.0800
+   74        +         274        2220         1947        1       10   3.7133
+
+FASTA definition line: g64.t1 CDS=1-2331
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   75        +          <3         155          153        1       -5   0.0800
+   76        +         274       >2331         2058        1       10   3.7133
+
+FASTA definition line: g65.t1 CDS=1-1770
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   77        +           1        1770         1770        1       -7   0.0800
+
+FASTA definition line: g65.t2 CDS=1-1773
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   78        +           1        1773         1773        1       -7   0.0800
+
+FASTA definition line: g66.t1 CDS=1-1056
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   79        +           1        1056         1056        1       -7   0.0800
+
+FASTA definition line: g67.t1 CDS=1-558
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   80        +           1         558          558        1       -7   0.0800
+
+FASTA definition line: g68.t1 CDS=1-411
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   81        +           1         411          411        1       -7   0.0800
+
+FASTA definition line: g69.t1 CDS=1-1017
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   82        +           1        1017         1017        1       -7   0.0800
+
+FASTA definition line: g69.t2 CDS=1-1011
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   83        +           1        1011         1011        1       -7   0.0800
+
+FASTA definition line: g70.t1 CDS=1-2154
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   84        +           1        2154         2154        1       -7   0.0800
+
+FASTA definition line: g71.t1 CDS=1-2013
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   85        +           1        2013         2013        1       -7   0.0800
+
+FASTA definition line: g72.t1 CDS=1-1479
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   86        +           1        1479         1479        1       -7   0.0800
+
+FASTA definition line: g73.t1 CDS=1-1383
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   87        +           1        1383         1383        1       -7   0.0800
+
+FASTA definition line: g73.t2 CDS=1-1386
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   88        +           1        1386         1386        1       -7   0.0800
+
+FASTA definition line: g74.t1 CDS=1-3012
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   89        +           1        3012         3012        1       -7   0.0800
+
+FASTA definition line: g75.t1 CDS=1-2982
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   90        +           1        2982         2982        1       -7   0.0800
+
+FASTA definition line: g76.t1 CDS=1-1362
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   91        +           1        1362         1362        1       -7   0.0800
+
+FASTA definition line: g77.t1 CDS=1-879
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   92        +           1         879          879        1       -7   0.0800
+
+FASTA definition line: g78.t1 CDS=1-903
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   93        +           1         903          903        1       -7   0.0800
+
+FASTA definition line: g79.t1 CDS=1-3078
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   94        +           1        3078         3078        1       -7   0.0800
+
+FASTA definition line: g80.t1 CDS=1-1548
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   95        +           1        1548         1548        1       -7   0.0800
+
+FASTA definition line: g81.t1 CDS=1-3048
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   96        +           1        3048         3048        1       -7   0.0800
+
+FASTA definition line: g81.t2 CDS=1-3066
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   97        +           1        3066         3066        1       -7   0.0800
+
+FASTA definition line: g82.t1 CDS=1-1248
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   98        +           1        1248         1248        1       -7   0.0800
+
+FASTA definition line: g83.t1 CDS=1-1125
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+   99        +           1        1125         1125        1       -7   0.0800
+
+FASTA definition line: g84.t1 CDS=1-1413
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  100        +           1        1413         1413        1       -7   0.0800
+
+FASTA definition line: g85.t1 CDS=1-252
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  101        +           1         252          252        1       -7   0.0800
+
+FASTA definition line: g85.t2 CDS=1-375
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  102        +           1         375          375        1       -7   0.0800
+
+FASTA definition line: g86.t1 CDS=1-777
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  103        +           1         777          777        1       -7   0.0800
+
+FASTA definition line: g87.t1 CDS=1-1893
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  104        +           1        1893         1893        1       -7   0.0800
+
+FASTA definition line: g88.t1 CDS=1-840
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  105        +           1         840          840        1       -7   0.0800
+
+FASTA definition line: g89.t1 CDS=1-804
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  106        +           1         804          804        1       -7   0.0800
+
+FASTA definition line: g90.t1 CDS=1-1179
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  107        +           1        1179         1179        1       -7   0.0800
+
+FASTA definition line: g91.t1 CDS=1-981
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  108        +           1         981          981        1       -7   0.0800
+
+FASTA definition line: g92.t1 CDS=1-1434
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  109        +           1        1434         1434        1       -7   0.0800
+
+FASTA definition line: g93.t1 CDS=1-1902
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  110        +           1        1902         1902        1       -7   0.0800
+
+FASTA definition line: g94.t1 CDS=1-1299
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  111        +           1        1299         1299        1       -7   0.0800
+
+FASTA definition line: g95.t1 CDS=1-1335
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  112        +           1        1335         1335        1       -7   0.0800
+
+FASTA definition line: g96.t1 CDS=1-453
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  113        +           1         453          453        1       -7   0.0800
+
+FASTA definition line: g97.t1 CDS=1-3783
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  114        +           1        3783         3783        1       -7   0.0800
+
+FASTA definition line: g98.t1 CDS=1-1137
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  115        +           1        1137         1137        1       -7   0.0800
+
+FASTA definition line: g99.t1 CDS=1-237
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  116        +           1         237          237        1       -7   0.0800
+
+FASTA definition line: g100.t1 CDS=1-3573
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  117        +           1        3573         3573        1       -7   0.0800
+
+FASTA definition line: g101.t1 CDS=1-1188
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  118        +           1        1188         1188        1       -7   0.0800
+
+FASTA definition line: g101.t2 CDS=1-1266
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  119        +           1        1266         1266        1       -7   0.0800
+
+FASTA definition line: g102.t1 CDS=1-1710
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  120        +           1        1710         1710        1       -7   0.0800
+
+FASTA definition line: g103.t1 CDS=1-1188
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  121        +           1        1188         1188        1       -7   0.0800
+
+FASTA definition line: g104.t1 CDS=1-1284
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  122        -          12         152          141        1      -96   3.1665
+  123        +         439        1284          846        1      -81   2.6422
+
+FASTA definition line: g105.t1 CDS=1-648
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  124        +           1         648          648        1       -7   0.0800
+
+FASTA definition line: g106.t1 CDS=1-579
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  125        +           1         579          579        1       -7   0.0800
+
+FASTA definition line: g107.t1 CDS=1-747
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  126        +           1         747          747        1       -7   0.0800
+
+FASTA definition line: g108.t1 CDS=1-1863
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  127        +           1        1863         1863        1       -7   0.0800
+
+FASTA definition line: g108.t2 CDS=1-1944
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  128        +           1        1944         1944        1       -7   0.0800
+
+FASTA definition line: g109.t1 CDS=1-2367
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  129        +           1        2367         2367        1       -7   0.0800
+
+FASTA definition line: g110.t1 CDS=1-363
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  130        +           1         363          363        1       -7   0.0800
+
+FASTA definition line: g111.t2 CDS=1-729
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  131        +           1         729          729        1       -7   0.0800
+
+FASTA definition line: g111.t1 CDS=1-1023
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  132        +           1        1023         1023        1       -7   0.0800
+
+FASTA definition line: g112.t1 CDS=1-1308
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  133        +           1        1308         1308        1       -7   0.0800
+
+FASTA definition line: g113.t1 CDS=1-870
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  134        +           1         870          870        1       -7   0.0800
+
+FASTA definition line: g114.t2 CDS=1-558
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  135        +           1         558          558        1       -7   0.0800
+
+FASTA definition line: g114.t1 CDS=1-666
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  136        +           1         666          666        1       -7   0.0800
+
+FASTA definition line: g115.t1 CDS=1-1158
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  137        +           1        1158         1158        1       -7   0.0800
+
+FASTA definition line: g116.t1 CDS=1-633
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  138        +           1         633          633        1       -7   0.0800
+
+FASTA definition line: g117.t1 CDS=1-1359
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  139        +           1        1359         1359        1       -7   0.0800
+
+FASTA definition line: g118.t1 CDS=1-444
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  140        +           1         444          444        1       -7   0.0800
+
+FASTA definition line: g118.t2 CDS=1-441
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  141        +           1         441          441        1       -7   0.0800
+
+FASTA definition line: g119.t1 CDS=1-1329
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  142        +           1        1329         1329        1       -7   0.0800
+
+FASTA definition line: g120.t1 CDS=1-1800
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  143        +           1        1800         1800        1       -7   0.0800
+
+FASTA definition line: g120.t2 CDS=1-1803
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  144        +           1        1803         1803        1       -7   0.0800
+
+FASTA definition line: g121.t1 CDS=1-753
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  145        +           1         753          753        1       -7   0.0800
+
+FASTA definition line: g122.t1 CDS=1-3096
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  146        +           1        3096         3096        1       -7   0.0800
+
+FASTA definition line: g123.t1 CDS=1-933
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  147        +           1         933          933        1       -7   0.0800
+
+FASTA definition line: g124.t1 CDS=1-411
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  148        +           1         411          411        1       -7   0.0800
+
+FASTA definition line: g125.t1 CDS=1-1188
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  149        +           1        1188         1188        1       -7   0.0800
+
+FASTA definition line: g126.t1 CDS=1-1083
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  150        +           1        1083         1083        1       -7   0.0800
+
+FASTA definition line: g127.t1 CDS=1-1956
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  151        +           1        1956         1956        1       -7   0.0800
+
+FASTA definition line: g128.t1 CDS=1-1572
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  152        +           1        1572         1572        1       -7   0.0800
+
+FASTA definition line: g130.t1 CDS=1-525
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  153        +           1         525          525        1       -7   0.0800
+
+FASTA definition line: g131.t1 CDS=1-990
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  154        +           1         990          990        1       -7   0.0800
+
+FASTA definition line: g132.t1 CDS=1-1311
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  155        +           1        1311         1311        1       -7   0.0800
+
+FASTA definition line: g133.t1 CDS=1-234
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  156        +           1         234          234        1       -7   0.0800
+
+FASTA definition line: g134.t1 CDS=1-921
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  157        +           1         921          921        1       -7   0.0800
+
+FASTA definition line: g135.t1 CDS=1-300
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  158        +           1         300          300        1       -7   0.0800
+
+FASTA definition line: g136.t1 CDS=1-1146
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  159        +           1        1146         1146        1       -7   0.0800
+
+FASTA definition line: g136.t2 CDS=1-1347
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  160        +           1        1347         1347        1       -7   0.0800
+
+FASTA definition line: g137.t1 CDS=1-1086
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  161        +           1        1086         1086        1       -7   0.0800
+
+FASTA definition line: g138.t1 CDS=1-609
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  162        +           1         609          609        1       -7   0.0800
+
+FASTA definition line: g139.t1 CDS=1-879
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  163        +           1         879          879        1       -7   0.0800
+
+FASTA definition line: g140.t1 CDS=1-3192
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  164        +           1        3192         3192        1       -7   0.0800
+
+FASTA definition line: g140.t2 CDS=1-3387
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  165        +           1        3387         3387        1       -7   0.0800
+
+FASTA definition line: g141.t1 CDS=1-1020
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  166        +           1        1020         1020        1       -7   0.0800
+
+FASTA definition line: g142.t1 CDS=1-1257
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  167        +           1        1257         1257        1       -7   0.0800
+
+FASTA definition line: g143.t1 CDS=1-996
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  168        +           1         996          996        1       -7   0.0800
+
+FASTA definition line: g144.t1 CDS=1-1143
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  169        +           1        1143         1143        1       -7   0.0800
+
+FASTA definition line: g145.t1 CDS=1-1323
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  170        +           1        1323         1323        1       -7   0.0800
+
+FASTA definition line: g145.t2 CDS=1-1491
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  171        +           1        1491         1491        1       -7   0.0800
+
+FASTA definition line: g146.t1 CDS=1-1011
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  172        +           1        1011         1011        1       -7   0.0800
+
+FASTA definition line: g147.t1 CDS=1-561
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  173        +           1         561          561        1       -7   0.0800
+
+FASTA definition line: g148.t1 CDS=1-693
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  174        +           1         693          693        1       -7   0.0800
+
+FASTA definition line: g149.t1 CDS=1-2265
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  175        +           1        2265         2265        1       -7   0.0800
+
+FASTA definition line: g150.t1 CDS=1-882
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  176        +           1         882          882        1       -7   0.0800
+
+FASTA definition line: g150.t2 CDS=1-1038
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  177        +           1        1038         1038        1       -7   0.0800
+
+FASTA definition line: g151.t1 CDS=1-759
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  178        +           1         759          759        1       -7   0.0800
+
+FASTA definition line: g152.t1 CDS=1-861
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  179        +           1         861          861        1       -7   0.0800
+
+FASTA definition line: g153.t1 CDS=1-909
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  180        +           1         909          909        1       -7   0.0800
+
+FASTA definition line: g153.t2 CDS=1-930
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  181        +           1         930          930        1       -7   0.0800
+
+FASTA definition line: g154.t1 CDS=1-1296
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  182        +           1        1296         1296        1       -7   0.0800
+
+FASTA definition line: g155.t1 CDS=1-1284
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  183        +           1        1284         1284        1       -7   0.0800
+
+FASTA definition line: g156.t1 CDS=1-1335
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  184        +           1        1335         1335        1       -7   0.0800
+
+FASTA definition line: g157.t1 CDS=1-330
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  185        +           1         330          330        1       -7   0.0800
+
+FASTA definition line: g158.t1 CDS=1-1599
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  186        +           1        1599         1599        1       -7   0.0800
+
+FASTA definition line: g159.t1 CDS=1-777
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  187        +           1         777          777        1       -7   0.0800
+
+FASTA definition line: g160.t1 CDS=1-1863
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  188        +           1        1863         1863        1       -7   0.0800
+
+FASTA definition line: g161.t1 CDS=1-924
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  189        +           1         924          924        1       -7   0.0800
+
+FASTA definition line: g162.t1 CDS=1-1575
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  190        +           1        1575         1575        1       -7   0.0800
+
+FASTA definition line: g163.t1 CDS=1-543
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  191        +           1         543          543        1       -7   0.0800
+
+FASTA definition line: g163.t2 CDS=1-627
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  192        +           1         627          627        1       -7   0.0800
+
+FASTA definition line: g164.t1 CDS=1-300
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  193        +           1         300          300        1       -7   0.0800
+
+FASTA definition line: g165.t1 CDS=1-2007
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  194        +           1        2007         2007        1       -7   0.0800
+
+FASTA definition line: g166.t1 CDS=1-999
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  195        +           1         999          999        1       -7   0.0800
+
+FASTA definition line: g167.t1 CDS=1-471
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  196        +           1         471          471        1       -7   0.0800
+
+FASTA definition line: g168.t1 CDS=1-558
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  197        +           1         558          558        1       -7   0.0800
+
+FASTA definition line: g169.t1 CDS=1-1845
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  198        +           1        1845         1845        1       -7   0.0800
+
+FASTA definition line: g170.t1 CDS=1-306
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  199        +           1         306          306        1       -7   0.0800
+
+FASTA definition line: g171.t2 CDS=1-429
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  200        +           1         429          429        1       -7   0.0800
+
+FASTA definition line: g171.t1 CDS=1-375
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  201        +           1         375          375        1       -7   0.0800
+
+FASTA definition line: g172.t1 CDS=1-1683
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  202        +           1        1683         1683        1       -7   0.0800
+
+FASTA definition line: g173.t1 CDS=1-1911
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  203        +           1        1911         1911        1       -7   0.0800
+
+FASTA definition line: g173.t2 CDS=1-1908
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  204        +           1        1908         1908        1       -7   0.0800
+
+FASTA definition line: g174.t1 CDS=1-2109
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  205        +           1        2109         2109        1       -7   0.0800
+
+FASTA definition line: g174.t3 CDS=1-4149
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  206        +           1        4149         4149        1       -7   0.0800
+
+FASTA definition line: g174.t2 CDS=1-1986
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  207        +           1        1986         1986        1       -7   0.0800
+
+FASTA definition line: g175.t1 CDS=1-873
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  208        +           1        >873          873        1       -7   0.0800
+
+FASTA definition line: g175.t2 CDS=1-711
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  209        +           1         711          711        1       -7   0.0800
+
+FASTA definition line: g176.t1 CDS=1-609
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  210        +          <1         609          609        1       -7   0.0800
+
+FASTA definition line: g176.t2 CDS=1-528
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  211        +           1         528          528        1       -7   0.0800
+
+FASTA definition line: g177.t1 CDS=1-966
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  212        +           1         966          966        1       -7   0.0800
+
+FASTA definition line: g178.t1 CDS=1-1197
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  213        +           1        1197         1197        1       -7   0.0800
+
+FASTA definition line: g179.t1 CDS=1-1227
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  214        +           1        1227         1227        1       -7   0.0800
+
+FASTA definition line: g180.t1 CDS=1-1239
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  215        +           1        1239         1239        1       -7   0.0800
+
+FASTA definition line: g181.t1 CDS=1-1314
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  216        +           1        1314         1314        1       -7   0.0800
+
+FASTA definition line: g182.t1 CDS=1-1446
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  217        +           1        1446         1446        1       -7   0.0800
+
+FASTA definition line: g183.t1 CDS=1-687
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  218        +           1         687          687        1       -7   0.0800
+
+FASTA definition line: g184.t1 CDS=1-1218
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  219        +           1        1218         1218        1       -7   0.0800
+
+FASTA definition line: g185.t1 CDS=1-1245
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  220        +           1        1245         1245        1       -7   0.0800
+
+FASTA definition line: g186.t1 CDS=1-1503
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  221        +           1        1503         1503        1       -7   0.0800
+
+FASTA definition line: g187.t1 CDS=1-1113
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  222        +           1        1113         1113        1       -7   0.0800
+
+FASTA definition line: g188.t1 CDS=1-2295
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  223        +           1        2295         2295        1       -7   0.0800
+
+FASTA definition line: g189.t1 CDS=1-1905
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  224        +           1        1905         1905        1       -7   0.0800
+
+FASTA definition line: g190.t1 CDS=1-1755
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  225        +           1        1755         1755        1       -7   0.0800
+
+FASTA definition line: g191.t1 CDS=1-366
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  226        +           1         366          366        1       -7   0.0800
+
+FASTA definition line: g191.t2 CDS=1-369
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  227        +           1         369          369        1       -7   0.0800
+
+FASTA definition line: g192.t1 CDS=1-1869
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  228        +           1        1869         1869        1       -7   0.0800
+
+FASTA definition line: g193.t1 CDS=1-552
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  229        +           1         552          552        1       -7   0.0800
+
+FASTA definition line: g194.t1 CDS=1-2085
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  230        +           1        2085         2085        1       -7   0.0800
+
+FASTA definition line: g195.t1 CDS=1-267
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  231        +           1         267          267        1       -7   0.0800
+
+FASTA definition line: g196.t1 CDS=1-306
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  232        +           1         306          306        1       -7   0.0800
+
+FASTA definition line: g197.t1 CDS=1-231
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  233        +           1         231          231        1       -7   0.0800
+
+FASTA definition line: g198.t1 CDS=1-264
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  234        +           1         264          264        1       -7   0.0800
+
+FASTA definition line: g199.t1 CDS=1-1560
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  235        +           1        1560         1560        1       -7   0.0800
+
+FASTA definition line: g199.t2 CDS=1-1545
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  236        +           1        1545         1545        1       -7   0.0800
+
+FASTA definition line: g200.t1 CDS=1-1185
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  237        +           1        1185         1185        1       -7   0.0800
+
+FASTA definition line: g201.t1 CDS=1-1656
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  238        +           1        1656         1656        1       -7   0.0800
+
+FASTA definition line: g202.t1 CDS=1-2151
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  239        +           1        2151         2151        1       -7   0.0800
+
+FASTA definition line: g203.t2 CDS=1-864
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  240        +           1         864          864        1       -7   0.0800
+
+FASTA definition line: g203.t1 CDS=1-750
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  241        +           1         750          750        1       -7   0.0800
+
+FASTA definition line: g204.t2 CDS=1-942
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  242        +           1         942          942        1       -7   0.0800
+
+FASTA definition line: g204.t1 CDS=1-597
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  243        +           1         597          597        1       -7   0.0800
+
+FASTA definition line: g205.t1 CDS=1-1086
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  244        +           1        1086         1086        1       -7   0.0800
+
+FASTA definition line: g206.t2 CDS=1-1182
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  245        +           1        1182         1182        1       -7   0.0800
+
+FASTA definition line: g206.t1 CDS=1-1248
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  246        +           1        1248         1248        1       -7   0.0800
+
+FASTA definition line: g207.t1 CDS=1-2430
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  247        +           1        2430         2430        1       -7   0.0800
+
+FASTA definition line: g208.t1 CDS=1-2448
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  248        +           1        2448         2448        1       -7   0.0800
+
+FASTA definition line: g209.t1 CDS=1-1641
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  249        +           1        1641         1641        1       -7   0.0800
+
+FASTA definition line: g210.t1 CDS=1-615
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  250        +          <1         615          615        1       -7   0.0800
+
+FASTA definition line: g210.t2 CDS=1-615
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  251        +          <1         615          615        1       -7   0.0800
+
+FASTA definition line: g211.t1 CDS=1-678
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  252        +           1         678          678        1       -7   0.0800
+
+FASTA definition line: g212.t1 CDS=1-2613
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  253        +           1        2613         2613        1       -7   0.0800
+
+FASTA definition line: g213.t1 CDS=1-2379
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  254        +           1        2379         2379        1       -7   0.0800
+
+FASTA definition line: g214.t2 CDS=1-840
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  255        +           1         840          840        1       -7   0.0800
+
+FASTA definition line: g214.t1 CDS=1-606
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  256        +           1         606          606        1       -7   0.0800
+
+FASTA definition line: g215.t1 CDS=1-1005
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  257        +           1        1005         1005        1       -7   0.0800
+
+FASTA definition line: g216.t1 CDS=1-252
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  258        +           1         252          252        1       -7   0.0800
+
+FASTA definition line: g217.t1 CDS=1-834
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  259        +           1         834          834        1       -7   0.0800
+
+FASTA definition line: g218.t1 CDS=1-483
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  260        +           1         483          483        1       -7   0.0800
+
+FASTA definition line: g219.t1 CDS=1-489
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  261        +           1         489          489        1       -7   0.0800
+
+FASTA definition line: g220.t1 CDS=1-1185
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  262        +           1        1185         1185        1       -7   0.0800
+
+FASTA definition line: g221.t1 CDS=1-2004
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  263        +           1        2004         2004        1       -7   0.0800
+
+FASTA definition line: g222.t1 CDS=1-339
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  264        +           1         339          339        1       -7   0.0800
+
+FASTA definition line: g223.t1 CDS=1-678
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  265        +           1         678          678        1       -7   0.0800
+
+FASTA definition line: g224.t2 CDS=1-1728
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  266        +           1        1728         1728        1       -7   0.0800
+
+FASTA definition line: g224.t1 CDS=1-1434
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  267        +           1        1434         1434        1       -7   0.0800
+
+FASTA definition line: g225.t1 CDS=1-726
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  268        +           1         726          726        1       -7   0.0800
+
+FASTA definition line: g226.t1 CDS=1-390
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  269        +           1         390          390        1       -7   0.0800
+
+FASTA definition line: g227.t1 CDS=1-1035
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  270        +           1        1035         1035        1       -7   0.0800
+
+FASTA definition line: g228.t1 CDS=1-2211
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  271        +           1        2211         2211        1       -7   0.0800
+
+FASTA definition line: g229.t1 CDS=1-4575
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  272        +           1        4575         4575        1       -7   0.0800
+
+FASTA definition line: g230.t1 CDS=1-633
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  273        +           1         633          633        1       -7   0.0800
+
+FASTA definition line: g231.t1 CDS=1-819
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  274        +           1         819          819        1       -7   0.0800
+
+FASTA definition line: g231.t2 CDS=1-801
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  275        +           1         801          801        1       -7   0.0800
+
+FASTA definition line: g232.t1 CDS=1-1281
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  276        +           1        1281         1281        1       -7   0.0800
+
+FASTA definition line: g233.t1 CDS=1-687
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  277        +           1         687          687        1       -7   0.0800
+
+FASTA definition line: g234.t1 CDS=1-1347
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  278        +           1        1347         1347        1       -7   0.0800
+
+FASTA definition line: g235.t1 CDS=1-1305
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  279        +           1        1305         1305        1       -7   0.0800
+
+FASTA definition line: g236.t1 CDS=1-1128
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  280        +           1        1128         1128        1       -7   0.0800
+
+FASTA definition line: g237.t1 CDS=1-1059
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  281        +           1        1059         1059        1       -7   0.0800
+
+FASTA definition line: g238.t1 CDS=1-555
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  282        +           1         555          555        1       -7   0.0800
+
+FASTA definition line: g239.t1 CDS=1-2010
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  283        +           1        2010         2010        1       -7   0.0800
+
+FASTA definition line: g240.t1 CDS=1-954
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  284        +           1         954          954        1       -7   0.0800
+
+FASTA definition line: g241.t1 CDS=1-1272
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  285        +           1        1272         1272        1       -7   0.0800
+
+FASTA definition line: g242.t1 CDS=1-1479
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  286        +           1        1479         1479        1       -7   0.0800
+
+FASTA definition line: g243.t1 CDS=1-2349
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  287        +           1        2349         2349        1       -7   0.0800
+
+FASTA definition line: g244.t1 CDS=1-1584
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  288        +           1        1584         1584        1       -7   0.0800
+
+FASTA definition line: g245.t1 CDS=1-1104
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  289        +           1        1104         1104        1       -7   0.0800
+
+FASTA definition line: g246.t1 CDS=1-990
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  290        +           1         990          990        1       -7   0.0800
+
+FASTA definition line: g247.t1 CDS=1-2253
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  291        +           1        2253         2253        1       -7   0.0800
+
+FASTA definition line: g248.t1 CDS=1-1221
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  292        +           1        1221         1221        1       -7   0.0800
+
+FASTA definition line: g249.t1 CDS=1-918
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  293        +           1         918          918        1       -7   0.0800
+
+FASTA definition line: g250.t2 CDS=1-1491
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  294        +           1        1491         1491        1       -7   0.0800
+
+FASTA definition line: g250.t1 CDS=1-1503
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  295        +           1        1503         1503        1       -7   0.0800
+
+FASTA definition line: g251.t1 CDS=1-1842
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  296        +           1        1842         1842        1       -7   0.0800
+
+FASTA definition line: g252.t1 CDS=1-1539
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  297        +           1        1539         1539        1       -7   0.0800
+
+FASTA definition line: g253.t1 CDS=1-2112
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  298        +           1        2112         2112        1       -7   0.0800
+
+FASTA definition line: g254.t1 CDS=1-909
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  299        +           1         909          909        1       -7   0.0800
+
+FASTA definition line: g255.t1 CDS=1-2274
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  300        +           1        2274         2274        1       -7   0.0800
+
+FASTA definition line: g256.t1 CDS=1-1077
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  301        +           1        1077         1077        1       -7   0.0800
+
+FASTA definition line: g257.t1 CDS=1-1230
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  302        +           1        1230         1230        1       -7   0.0800
+
+FASTA definition line: g258.t1 CDS=1-1815
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  303        +           1        1815         1815        1       -7   0.0800
+
+FASTA definition line: g259.t1 CDS=1-531
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  304        +           1         531          531        1       -7   0.0800
+
+FASTA definition line: g260.t1 CDS=1-990
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  305        +           1         990          990        1       -7   0.0800
+
+FASTA definition line: g261.t1 CDS=1-864
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  306        +           1         864          864        1       -7   0.0800
+
+FASTA definition line: g262.t1 CDS=1-1143
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  307        +           1        1143         1143        1       -7   0.0800
+
+FASTA definition line: g263.t1 CDS=1-753
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  308        +           1         753          753        1       -7   0.0800
+
+FASTA definition line: g264.t1 CDS=1-1161
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  309        +           1        1161         1161        1       -7   0.0800
+
+FASTA definition line: g265.t1 CDS=1-1740
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  310        +           1        1740         1740        1       -7   0.0800
+
+FASTA definition line: g266.t1 CDS=1-738
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  311        +           1         738          738        1       -7   0.0800
+
+FASTA definition line: g267.t1 CDS=1-318
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  312        +           1         318          318        1       -7   0.0800
+
+FASTA definition line: g268.t1 CDS=1-1143
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  313        +           1        1143         1143        1       -7   0.0800
+
+FASTA definition line: g269.t1 CDS=1-2700
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  314        +           1        2700         2700        1       -7   0.0800
+
+FASTA definition line: g270.t1 CDS=1-1119
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  315        +           1        1119         1119        1       -7   0.0800
+
+FASTA definition line: g271.t1 CDS=1-327
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  316        +           1         327          327        1       -7   0.0800
+
+FASTA definition line: g272.t1 CDS=1-831
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  317        +           1         831          831        1       -7   0.0800
+
+FASTA definition line: g273.t1 CDS=1-441
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  318        +           1         441          441        1       -7   0.0800
+
+FASTA definition line: g274.t1 CDS=1-933
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  319        +           1         933          933        1       -7   0.0800
+
+FASTA definition line: g274.t2 CDS=1-1005
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  320        +           1        1005         1005        1       -7   0.0800
+
+FASTA definition line: g275.t1 CDS=1-1788
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  321        +           1        1788         1788        1       -7   0.0800
+
+FASTA definition line: g276.t1 CDS=1-1416
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  322        +           1        1416         1416        1       -7   0.0800
+
+FASTA definition line: g277.t1 CDS=1-1362
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  323        +           1        1362         1362        1       -7   0.0800
+
+FASTA definition line: g277.t2 CDS=1-1458
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  324        +           1        1458         1458        1       -7   0.0800
+
+FASTA definition line: g277.t3 CDS=1-1506
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  325        +           1        1506         1506        1       -7   0.0800
+
+FASTA definition line: g278.t1 CDS=1-555
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  326        +           1         555          555        1       -7   0.0800
+
+FASTA definition line: g279.t1 CDS=1-2397
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  327        +           1        2397         2397        1       -7   0.0800
+
+FASTA definition line: g280.t1 CDS=1-900
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  328        +           1         900          900        1       -7   0.0800
+
+FASTA definition line: g281.t1 CDS=1-465
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  329        +           1         465          465        1       -7   0.0800
+
+FASTA definition line: g282.t1 CDS=1-240
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  330        +           1         240          240        1       -7   0.0800
+
+FASTA definition line: g283.t1 CDS=1-1461
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  331        +           1        1461         1461        1       -7   0.0800
+
+FASTA definition line: g284.t1 CDS=1-549
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  332        +           1         549          549        1       -7   0.0800
+
+FASTA definition line: g285.t1 CDS=1-1410
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  333        +           1        1410         1410        1       -7   0.0800
+
+FASTA definition line: g286.t1 CDS=1-606
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  334        +           1         606          606        1       -7   0.0800
+
+FASTA definition line: g287.t1 CDS=1-462
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  335        +           1         462          462        1       -7   0.0800
+
+FASTA definition line: g288.t1 CDS=1-795
+Predicted genes
+   Gene    Strand    LeftEnd    RightEnd       Gene     Class     RBS      RBS
+    #                                         Length            position  score
+  336        +           1         795          795        1       -7   0.0800
+

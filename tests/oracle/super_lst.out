@@ -1,0 +1,57 @@
+Eukaryotic GeneMark.hmm version 3.68
+Sequence name: contig1.fa
+FASTA defline: >X1
+Sequence length: 125040 bp
+G+C content: 34.76%
+Matrices file: super.mod
+Sat Nov 14 18:47:40 2026
+
+
+Predicted genes/exons
+
+Gene Exon Strand Exon           Exon Range         Exon      Start/End
+  #    #         Type                             Length       Frame
+
+
+  1   1   +  Initial          18933      18989         57          1 3 - -
+  1   2   +  Terminal         20325      20429        105          1 3 - -
+
+  2   2   -  Terminal         31957      31986         30          3 1 - -
+  2   1   -  Initial          32618      33007        390          3 1 - -
+
+  3   1   +  Initial          35395      35505        111          1 3 - -
+  3   2   +  Internal         36556      36725        170          1 2 - -
+  3   3   +  Terminal         36790      36994        205          3 3 - -
+
+  4   1   +  Initial          41914      41964         51          1 3 - -
+  4   2   +  Terminal         42502      42735        234          1 3 - -
+
+  5   4   -  Terminal         55956      56087        132          3 1 - -
+  5   3   -  Internal         56173      56249         77          3 2 - -
+  5   2   -  Internal         56343      56506        164          1 3 - -
+  5   1   -  Initial          57491      58167        677          2 1 - -
+
+  6   1   +  Initial          65717      66767       1051          1 1 - -
+  6   2   +  Terminal         71998      72305        308          2 3 - -
+
+  7   3   -  Terminal         72672      73036        365          3 2 - -
+  7   2   -  Internal         73637      74149        513          1 2 - -
+  7   1   -  Initial          74211      74319        109          1 1 - -
+
+  8   1   -  Single           76166      76516        351          3 1 - -
+
+  9   1   -  Single           76863      77084        222          3 1 - -
+
+ 10   2   -  Terminal        107110     107241        132          3 1 - -
+ 10   1   -  Initial         107361     107483        123          3 1 - -
+
+ 11   1   +  Single          107936     108172        237          1 3 - -
+
+ 12   4   -  Terminal        110657     110698         42          3 1 - -
+ 12   3   -  Internal        110886     111066        181          3 3 - -
+ 12   2   -  Internal        112095     112297        203          2 1 - -
+ 12   1   -  Initial         112353     112568        216          3 1 - -
+
+ 13   1   +  Initial         114313     114480        168          1 3 - -
+ 13   2   +  Terminal        120013     120132        120          1 3 - -
+

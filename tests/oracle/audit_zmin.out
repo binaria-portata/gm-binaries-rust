@@ -1,0 +1,30 @@
+# Eukaryotic GeneMark.hmm version 3.68
+# Sequence name: audit_zmin.fa
+# FASTA defline: >X tok -2147483648
+# Sequence length: 600 bp
+# G+C content: 43.00%
+# Matrices file: audit_tiny.mod
+# Sun Nov 15 09:34:41 2026
+# FASTA definition line: >X tok -2147483648
+# sequence-region tok 1 600
+tok	GeneMark.hmm3	gene	-2147483520	-2147483417	.	-	.	gene_id "1_g"; transcript_id "1_t";
+tok	GeneMark.hmm3	mRNA	-2147483520	-2147483417	.	-	.	gene_id "1_g"; transcript_id "1_t";
+tok	GeneMark.hmm3	stop_codon	-2147483520	-2147483518	.	-	0	gene_id "1_g"; transcript_id "1_t";
+tok	GeneMark.hmm3	CDS	-2147483520	-2147483457	.	-	1	gene_id "1_g"; transcript_id "1_t"; cds_type "Terminal"; count "2_2";
+tok	GeneMark.hmm3	intron	-2147483456	-2147483422	.	-	2	gene_id "1_g"; transcript_id "1_t";
+tok	GeneMark.hmm3	CDS	-2147483421	-2147483417	.	-	0	gene_id "1_g"; transcript_id "1_t"; cds_type "Initial"; count "1_2";
+tok	GeneMark.hmm3	start_codon	-2147483419	-2147483417	.	-	0	gene_id "1_g"; transcript_id "1_t";
+tok	GeneMark.hmm3	gene	-2147483356	-2147483279	.	+	.	gene_id "2_g"; transcript_id "2_t";
+tok	GeneMark.hmm3	mRNA	-2147483356	-2147483279	.	+	.	gene_id "2_g"; transcript_id "2_t";
+tok	GeneMark.hmm3	start_codon	-2147483356	-2147483354	.	+	0	gene_id "2_g"; transcript_id "2_t";
+tok	GeneMark.hmm3	CDS	-2147483356	-2147483349	.	+	0	gene_id "2_g"; transcript_id "2_t"; cds_type "Initial"; count "1_2";
+tok	GeneMark.hmm3	intron	-2147483348	-2147483289	.	+	2	gene_id "2_g"; transcript_id "2_t";
+tok	GeneMark.hmm3	CDS	-2147483288	-2147483279	.	+	1	gene_id "2_g"; transcript_id "2_t"; cds_type "Terminal"; count "2_2";
+tok	GeneMark.hmm3	stop_codon	-2147483281	-2147483279	.	+	0	gene_id "2_g"; transcript_id "2_t";
+tok	GeneMark.hmm3	gene	-2147483255	-2147483078	.	+	.	gene_id "3_g"; transcript_id "3_t";
+tok	GeneMark.hmm3	mRNA	-2147483255	-2147483078	.	+	.	gene_id "3_g"; transcript_id "3_t";
+tok	GeneMark.hmm3	start_codon	-2147483255	-2147483253	.	+	0	gene_id "3_g"; transcript_id "3_t";
+tok	GeneMark.hmm3	CDS	-2147483255	-2147483185	.	+	0	gene_id "3_g"; transcript_id "3_t"; cds_type "Initial"; count "1_2";
+tok	GeneMark.hmm3	intron	-2147483184	-2147483124	.	+	2	gene_id "3_g"; transcript_id "3_t";
+tok	GeneMark.hmm3	CDS	-2147483123	-2147483078	.	+	1	gene_id "3_g"; transcript_id "3_t"; cds_type "Terminal"; count "2_2";
+tok	GeneMark.hmm3	stop_codon	-2147483080	-2147483078	.	+	0	gene_id "3_g"; transcript_id "3_t";

@@ -1,0 +1,8 @@
+# test parameters
+--MIN_CONTIG_SIZE 100 # trailing comment
+--GAP_FILLER "NNNNNNNNNN"
+--MAX_N_SUBSTRING   20
+--GC_LABEL 'GC is '
+--GC_PRECISION 3
+--letters_per_line 50
+--empty

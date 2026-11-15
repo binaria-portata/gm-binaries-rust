@@ -1,0 +1,307 @@
+Warning, segment was ignored. Start codon was not found: g1.t1	297	457	+
+Warning, segment was ignored. Start codon was not found: g1.t1	297	457	+
+Warning, segment was ignored. Start codon was not found: g1.t1	257	493	-
+Warning, segment was ignored. Start codon was not found: g1.t1	257	493	-
+Warning, segment was ignored. Length of coding sequence is not divisible by three: g1.t1	190	436	-
+Warning, segment was ignored. Length of coding sequence is not divisible by three: g1.t1	399	439	+
+Warning, segment was ignored. Length of coding sequence is not divisible by three: g1.t1	271	304	+
+Warning, segment was ignored. Internal stop codon was found at position 303 for g1.t1	10	357	-
+Warning, segment was ignored. Start codon was not found: g2.t1	141	230	-
+Warning, segment was ignored. Start codon was not found: g2.t1	141	230	-
+Warning, segment was ignored. Length of coding sequence is not divisible by three: g2.t1	77	261	+
+Warning, segment was ignored. Internal stop codon was found at position 52 : g2.t1	47	127	+
+Warning, segment was ignored. Length of coding sequence is not divisible by three: g2.t1	175	220	-
+Warning, segment was ignored. Start codon was not found: g3.t2	137	223	+
+Warning, segment was ignored. Start codon was not found: g3.t2	137	223	+
+Warning, segment was ignored. Start codon was not found: g3.t2	426	515	+
+Warning, segment was ignored. Start codon was not found: g3.t2	426	515	+
+Warning, segment was ignored. Internal stop codon was found at position 440 for g3.t2	420	530	-
+Warning, segment was ignored. Length of coding sequence is not divisible by three: g3.t2	427	448	+
+Warning, segment was ignored. Start codon was not found: g3.t2	419	463	-
+Warning, segment was ignored. Length of coding sequence is not divisible by three: g3.t2	506	524	-
+Warning, segment was ignored. Internal stop codon was found at position 236 for g3.t2	171	248	-
+Warning, segment was ignored. Start codon was not found: g3.t1	455	502	+
+Warning, segment was ignored. Stop codon was not found: g3.t1	455	502	+
+Warning, segment was ignored. Stop codon was not found: g3.t1	111	462	-
+Warning, segment was ignored. Start codon was not found: g3.t1	136	165	-
+Warning, segment was ignored. Start codon was not found: g3.t1	136	165	-
+Warning, segment was ignored. Stop codon was not found: g3.t1	555	557	+
+Warning, segment was ignored. Stop codon was not found: g3.t1	555	557	+
+Warning, segment was ignored. Start codon was not found: g3.t1	275	334	+
+Warning, segment was ignored. Internal stop codon was found at position 524 for g3.t1	345	581	-
+Warning, segment was ignored. Internal stop codon was found at position 47 : g3.t1	27	197	+
+Warning, segment was ignored. Internal stop codon was found at position 485 for g3.t1	315	503	-
+Warning, segment was ignored. Internal stop codon was found at position 532 for g3.t1	494	568	-
+Warning, segment was ignored. Internal stop codon was found at position 314 : g3.t1	267	551	+
+Warning, segment was ignored. Start codon was not found: g4.t1	358	507	-
+Warning, segment was ignored. Start codon was not found: g4.t1	358	507	-
+Warning, segment was ignored. Start codon was not found: g4.t1	155	484	-
+Warning, segment was ignored. Stop codon was not found: g4.t1	492	533	-
+Warning, segment was ignored. Stop codon was not found: g4.t1	492	533	-
+Warning, segment was ignored. Stop codon was not found: g4.t1	399	467	-
+Warning, segment was ignored. Stop codon was not found: g4.t1	399	467	-
+Warning, segment was ignored. Stop codon was not found: g4.t1	126	296	-
+Warning, segment was ignored. Start codon was not found: g4.t1	190	507	-
+Warning, segment was ignored. Stop codon was not found: g4.t1	261	581	+
+Warning, segment was ignored. Start codon was not found: g5.t1	439	521	-
+Warning, segment was ignored. Start codon was not found: g5.t1	439	521	-
+Warning, segment was ignored. Start codon was not found: g5.t1	113	328	+
+Warning, segment was ignored. Start codon was not found: g5.t1	113	328	+
+Warning, segment was ignored. Start codon was not found: g5.t1	493	561	+
+Warning, segment was ignored. Start codon was not found: g5.t1	493	561	+
+Warning, segment was ignored. Start codon was not found: g5.t1	168	185	-
+Warning, segment was ignored. Internal stop codon was found at position 58 for g6.t1	53	82	-
+Warning, segment was ignored. Internal stop codon was found at position 418 : g6.t1	392	535	+
+Warning, segment was ignored. Length of coding sequence is not divisible by three: g6.t1	570	570	-
+Warning, segment was ignored. Start codon was not found: g6.t1	166	225	+
+Warning, segment was ignored. Start codon was not found: g7.t1	509	1528	-
+Warning, segment was ignored. Start codon was not found: g7.t1	509	1528	-
+Warning, segment was ignored. Start codon was not found: g7.t1	1182	1364	+
+Warning, segment was ignored. Start codon was not found: g7.t1	1182	1364	+
+Warning, segment was ignored. Internal stop codon was found at position 648 for g7.t1	568	876	-
+Warning, segment was ignored. Start codon was not found: g7.t1	1240	1383	+
+Warning, segment was ignored. Internal stop codon was found at position 1205 for g7.t1	489	1241	-
+Warning, segment was ignored. Length of coding sequence is not divisible by three: g7.t1	1094	1413	-
+Warning, segment was ignored. Internal stop codon was found at position 1147 for g7.t1	650	1336	-
+Warning, segment was ignored. Length of coding sequence is not divisible by three: g7.t1	1052	1248	+
+Warning, segment was ignored. Start codon was not found: g8.t1	1324	1626	-
+Warning, segment was ignored. Start codon was not found: g8.t1	1324	1626	-
+Warning, segment was ignored. Start codon was not found: g8.t1	1115	1331	-
+Warning, segment was ignored. Start codon was not found: g8.t1	1115	1331	-
+Warning, segment was ignored. Internal stop codon was found at position 959 for g8.t1	678	965	-
+Warning, segment was ignored. Internal stop codon was found at position 1575 for g8.t1	1411	1623	-
+Warning, segment was ignored. Internal stop codon was found at position 1124 : g8.t1	1083	1541	+
+Warning, segment was ignored. Start codon was not found: g9.t1	1724	1816	-
+Warning, segment was ignored. Start codon was not found: g9.t1	529	786	+
+Warning, segment was ignored. Start codon was not found: g9.t1	529	786	+
+Warning, segment was ignored. Internal stop codon was found at position 1879 : g9.t1	1877	2026	+
+Warning, segment was ignored. Length of coding sequence is not divisible by three: g9.t1	1566	1638	+
+Warning, segment was ignored. Start codon was not found: g10.t1	454	460	+
+Warning, segment was ignored. Start codon was not found: g10.t1	454	460	+
+Warning, segment was ignored. Start codon was not found: g10.t1	374	850	+
+Warning, segment was ignored. Start codon was not found: g10.t1	196	405	+
+Warning, segment was ignored. Internal stop codon was found at position 675 for g10.t1	649	696	-
+Warning, segment was ignored. Start codon was not found: g11.t1	626	752	+
+Warning, segment was ignored. Start codon was not found: g11.t1	626	752	+
+Warning, segment was ignored. Start codon was not found: g11.t1	269	397	+
+Warning, segment was ignored. Start codon was not found: g11.t1	269	397	+
+Warning, segment was ignored. Start codon was not found: g11.t1	4	324	-
+Warning, segment was ignored. Stop codon was not found: g11.t1	4	324	-
+Warning, segment was ignored. Start codon was not found: g11.t1	395	661	+
+Warning, segment was ignored. Start codon was not found: g11.t1	395	661	+
+Warning, segment was ignored. Start codon was not found: g11.t1	734	781	-
+Warning, segment was ignored. Start codon was not found: g11.t1	734	781	-
+Warning, segment was ignored. Start codon was not found: g11.t1	127	837	-
+Warning, segment was ignored. Internal stop codon was found at position 473 : g11.t1	252	611	+
+Warning, segment was ignored. Start codon was not found: g12.t1	686	886	-
+Warning, segment was ignored. Start codon was not found: g12.t1	319	651	-
+Warning, segment was ignored. Start codon was not found: g12.t1	319	651	-
+Warning, segment was ignored. Start codon was not found: g12.t1	1058	1084	-
+Warning, segment was ignored. Start codon was not found: g12.t1	1058	1084	-
+Warning, segment was ignored. Internal stop codon was found at position 647 : g12.t1	600	860	+
+Warning, segment was ignored. Internal stop codon was found at position 818 for g12.t1	612	842	-
+Warning, segment was ignored. Start codon was not found: g13.t2	380	406	-
+Warning, segment was ignored. Start codon was not found: g13.t2	380	406	-
+Warning, segment was ignored. Start codon was not found: g13.t2	240	293	+
+Warning, segment was ignored. Start codon was not found: g13.t2	240	293	+
+Warning, segment was ignored. Internal stop codon was found at position 260 : g13.t2	252	296	+
+Warning, segment was ignored. Internal stop codon was found at position 175 : g13.t2	137	430	+
+Warning, segment was ignored. Start codon was not found: g13.t1	449	541	+
+Warning, segment was ignored. Start codon was not found: g13.t1	59	415	+
+Warning, segment was ignored. Start codon was not found: g13.t1	477	518	+
+Warning, segment was ignored. Start codon was not found: g13.t1	477	518	+
+Warning, segment was ignored. Start codon was not found: g13.t1	516	551	+
+Warning, segment was ignored. Stop codon was not found: g13.t1	516	551	+
+Warning, segment was ignored. Length of coding sequence is not divisible by three: g13.t1	235	565	-
+Warning, segment was ignored. Length of coding sequence is not divisible by three: g13.t1	399	499	+
+Warning, segment was ignored. Internal stop codon was found at position 110 : g13.t1	3	371	+
+Warning, segment was ignored. Start codon was not found: g14.t1	1467	1730	-
+Warning, segment was ignored. Start codon was not found: g14.t1	1467	1730	-
+Warning, segment was ignored. Start codon was not found: g14.t1	194	1525	+
+Warning, segment was ignored. Start codon was not found: g14.t1	194	1525	+
+Warning, segment was ignored. Start codon was not found: g14.t1	1396	1721	+
+Warning, segment was ignored. Start codon was not found: g14.t1	853	1190	-
+Warning, segment was ignored. Start codon was not found: g14.t1	853	1190	-
+Warning, segment was ignored. Length of coding sequence is not divisible by three: g14.t1	1595	1605	-
+Warning, segment was ignored. Start codon was not found: g14.t1	1686	1691	-
+Warning, segment was ignored. Internal stop codon was found at position 863 : g14.t1	825	1517	+
+Warning, segment was ignored. Length of coding sequence is not divisible by three: g14.t1	146	543	+
+Warning, segment was ignored. Start codon was not found: g15.t1	43	333	+
+Warning, segment was ignored. Length of coding sequence is not divisible by three: g15.t1	605	660	-
+Warning, segment was ignored. Internal stop codon was found at position 515 : g15.t1	450	698	+
+Warning, segment was ignored. Start codon was not found: g15.t1	911	925	-
+Warning, segment was ignored. Internal stop codon was found at position 106 : g15.t1	101	865	+
+Warning, segment was ignored. Length of coding sequence is not divisible by three: g15.t1	587	623	-
+Warning, segment was ignored. Internal stop codon was found at position 480 for g15.t2	277	513	-
+Warning, segment was ignored. Length of coding sequence is not divisible by three: g15.t2	271	337	-
+Warning, segment was ignored. Start codon was not found: g15.t2	422	430	-
+Warning, segment was ignored. Internal stop codon was found at position 472 for g15.t2	467	481	-
+Warning, segment was ignored. Start codon was not found: g16.t1	166	546	+
+Warning, segment was ignored. Start codon was not found: g16.t1	166	546	+
+Warning, segment was ignored. Start codon was not found: g16.t1	710	1000	+
+Warning, segment was ignored. Start codon was not found: g16.t1	710	1000	+
+Warning, segment was ignored. Internal stop codon was found at position 759 for g16.t1	721	840	-
+Warning, segment was ignored. Internal stop codon was found at position 1032 for g16.t1	442	1050	-
+Warning, segment was ignored. Internal stop codon was found at position 344 : g16.t1	327	830	+
+Warning, segment was ignored. Internal stop codon was found at position 759 for g16.t1	691	759	-
+Warning, segment was ignored. Start codon was not found: g17.t1	361	1080	-
+Warning, segment was ignored. Start codon was not found: g17.t1	361	1080	-
+Warning, segment was ignored. Stop codon was not found: g17.t1	1263	1280	+
+Warning, segment was ignored. Stop codon was not found: g17.t1	1263	1280	+
+Warning, segment was ignored. Start codon was not found: g17.t1	531	863	+
+Warning, segment was ignored. Start codon was not found: g17.t1	531	863	+
+Warning, segment was ignored. Internal stop codon was found at position 554 : g17.t1	495	722	+
+Warning, segment was ignored. Start codon was not found: g18.t1	636	1367	+
+Warning, segment was ignored. Start codon was not found: g18.t1	636	1367	+
+Warning, segment was ignored. Start codon was not found: g18.t1	141	551	-
+Warning, segment was ignored. Stop codon was not found: g18.t1	141	551	-
+Warning, segment was ignored. Start codon was not found: g18.t1	50	111	+
+Warning, segment was ignored. Start codon was not found: g18.t1	866	1036	+
+Warning, segment was ignored. Length of coding sequence is not divisible by three: g18.t1	981	1110	+
+Warning, segment was ignored. Internal stop codon was found at position 1381 : g18.t1	1334	1498	+
+Warning, segment was ignored. Start codon was not found: g19.t1	305	341	+
+Warning, segment was ignored. Start codon was not found: g19.t1	305	341	+
+Warning, segment was ignored. Start codon was not found: g19.t1	368	520	+
+Warning, segment was ignored. Start codon was not found: g19.t1	368	520	+
+Warning, segment was ignored. Start codon was not found: g19.t1	440	532	+
+Warning, segment was ignored. Start codon was not found: g19.t1	608	667	-
+Warning, segment was ignored. Start codon was not found: g19.t1	608	667	-
+Warning, segment was ignored. Internal stop codon was found at position 209 : g19.t1	201	770	+
+Warning, segment was ignored. Length of coding sequence is not divisible by three: g19.t1	231	426	-
+Warning, segment was ignored. Start codon was not found: g20.t1	137	315	+
+Warning, segment was ignored. Start codon was not found: g20.t1	902	931	+
+Warning, segment was ignored. Start codon was not found: g20.t1	902	931	+
+Warning, segment was ignored. Internal stop codon was found at position 421 for g20.t1	71	508	-
+Warning, segment was ignored. Internal stop codon was found at position 690 for g20.t1	556	885	-
+Warning, segment was ignored. Start codon was not found: g21.t1	463	516	-
+Warning, segment was ignored. Start codon was not found: g21.t1	463	516	-
+Warning, segment was ignored. Start codon was not found: g21.t1	488	515	-
+Warning, segment was ignored. Start codon was not found: g21.t1	488	515	-
+Warning, segment was ignored. Stop codon was not found: g21.t1	354	428	-
+Warning, segment was ignored. Stop codon was not found: g21.t1	354	428	-
+Warning, segment was ignored. Start codon was not found: g21.t1	458	472	+
+Warning, segment was ignored. Stop codon was not found: g21.t1	458	472	+
+Warning, segment was ignored. Start codon was not found: g21.t1	318	422	+
+Warning, segment was ignored. Start codon was not found: g21.t1	318	422	+
+Warning, segment was ignored. Start codon was not found: g22.t1	265	912	+
+Warning, segment was ignored. Start codon was not found: g22.t1	129	521	+
+Warning, segment was ignored. Start codon was not found: g22.t1	129	521	+
+Warning, segment was ignored. Start codon was not found: g22.t1	128	501	+
+Warning, segment was ignored. Internal stop codon was found at position 249 : g22.t1	115	417	+
+Warning, segment was ignored. Start codon was not found: g23.t1	11	1447	-
+Warning, segment was ignored. Start codon was not found: g23.t1	11	1447	-
+Warning, segment was ignored. Start codon was not found: g23.t1	1184	1468	+
+Warning, segment was ignored. Start codon was not found: g23.t1	1184	1468	+
+Warning, segment was ignored. Internal stop codon was found at position 896 for g23.t1	681	929	-
+Warning, segment was ignored. Internal stop codon was found at position 1296 for g23.t1	721	1368	-
+Warning, segment was ignored. Length of coding sequence is not divisible by three: g23.t1	796	1189	-
+Warning, segment was ignored. Stop codon was not found: g24.t1	821	838	+
+Warning, segment was ignored. Stop codon was not found: g24.t1	821	838	+
+Warning, segment was ignored. Start codon was not found: g24.t1	684	785	+
+Warning, segment was ignored. Start codon was not found: g24.t1	684	785	+
+Warning, segment was ignored. Start codon was not found: g24.t1	77	301	-
+Warning, segment was ignored. Start codon was not found: g24.t1	77	301	-
+Warning, segment was ignored. Start codon was not found: g24.t1	477	713	+
+Warning, segment was ignored. Internal stop codon was found at position 446 : g24.t1	417	899	+
+Warning, segment was ignored. Start codon was not found: g25.t1	177	473	+
+Warning, segment was ignored. Start codon was not found: g25.t1	177	473	+
+Warning, segment was ignored. Start codon was not found: g25.t1	510	536	+
+Warning, segment was ignored. Start codon was not found: g25.t1	510	536	+
+Warning, segment was ignored. Start codon was not found: g25.t1	398	619	+
+Warning, segment was ignored. Stop codon was not found: g25.t1	398	619	+
+Warning, segment was ignored. Start codon was not found: g25.t1	77	328	-
+Warning, segment was ignored. Internal stop codon was found at position 35 : g25.t1	18	377	+
+Warning, segment was ignored. Length of coding sequence is not divisible by three: g25.t1	285	660	-
+Warning, segment was ignored. Internal stop codon was found at position 279 for g25.t1	187	456	-
+Warning, segment was ignored. Start codon was not found: g26.t1	520	608	-
+Warning, segment was ignored. Start codon was not found: g26.t1	520	608	-
+Warning, segment was ignored. Start codon was not found: g26.t1	210	290	-
+Warning, segment was ignored. Stop codon was not found: g26.t1	33	527	-
+Warning, segment was ignored. Internal stop codon was found at position 260 for g26.t1	186	287	-
+Warning, segment was ignored. Internal stop codon was found at position 67 : g26.t1	26	295	+
+Warning, segment was ignored. Internal stop codon was found at position 116 : g26.t1	75	662	+
+Warning, segment was ignored. Length of coding sequence is not divisible by three: g26.t1	577	644	+
+Warning, segment was ignored. Start codon was not found: g27.t1	260	309	-
+Warning, segment was ignored. Start codon was not found: g27.t1	260	309	-
+Warning, segment was ignored. Start codon was not found: g27.t1	29	235	-
+Warning, segment was ignored. Stop codon was not found: g27.t1	29	235	-
+Warning, segment was ignored. Start codon was not found: g27.t1	97	189	+
+Warning, segment was ignored. Start codon was not found: g27.t1	97	189	+
+Warning, segment was ignored. Internal stop codon was found at position 187 : g27.t1	101	202	+
+Warning, segment was ignored. Start codon was not found: g27.t1	280	348	+
+Warning, segment was ignored. Start codon was not found: g27.t1	238	276	-
+Warning, segment was ignored. Internal stop codon was found at position 335 for g27.t1	315	356	-
+Warning, segment was ignored. Internal stop codon was found at position 234 for g27.t1	220	339	-
+Warning, segment was ignored. Internal stop codon was found at position 49 : g27.t1	17	250	+
+Warning, segment was ignored. Length of coding sequence is not divisible by three: g27.t1	162	253	-
+Warning, segment was ignored. Start codon was not found: g28.t1	402	1148	-
+Warning, segment was ignored. Start codon was not found: g28.t1	402	1148	-
+Warning, segment was ignored. Start codon was not found: g28.t1	440	773	-
+Warning, segment was ignored. Internal stop codon was found at position 1167 for g28.t1	1030	1185	-
+Warning, segment was ignored. Length of coding sequence is not divisible by three: g28.t1	1170	1290	-
+Warning, segment was ignored. Length of coding sequence is not divisible by three: g28.t1	958	1163	-
+Warning, segment was ignored. Start codon was not found: g29.t1	742	940	-
+Warning, segment was ignored. Start codon was not found: g29.t1	742	940	-
+Warning, segment was ignored. Internal stop codon was found at position 1057 : g29.t1	1052	1195	+
+Warning, segment was ignored. Internal stop codon was found at position 249 for g29.t1	160	324	-
+Warning, segment was ignored. Start codon was not found: g30.t1	174	275	-
+Warning, segment was ignored. Start codon was not found: g30.t1	174	275	-
+Warning, segment was ignored. Start codon was not found: g30.t1	221	322	+
+Warning, segment was ignored. Start codon was not found: g30.t1	221	322	+
+Warning, segment was ignored. Stop codon was not found: g30.t1	392	436	+
+Warning, segment was ignored. Stop codon was not found: g30.t1	392	436	+
+Warning, segment was ignored. Length of coding sequence is not divisible by three: g30.t1	275	327	-
+Warning, segment was ignored. Length of coding sequence is not divisible by three: g30.t1	70	155	+
+Warning, segment was ignored. Start codon was not found: g30.t1	187	219	-
+Warning, segment was ignored. Start codon was not found: g31.t1	657	788	-
+Warning, segment was ignored. Start codon was not found: g31.t1	657	788	-
+Warning, segment was ignored. Start codon was not found: g31.t1	128	379	+
+Warning, segment was ignored. Start codon was not found: g31.t1	128	379	+
+Warning, segment was ignored. Length of coding sequence is not divisible by three: g31.t1	186	466	-
+Warning, segment was ignored. Length of coding sequence is not divisible by three: g31.t1	182	456	+
+Warning, segment was ignored. Internal stop codon was found at position 600 for g31.t1	508	654	-
+Warning, segment was ignored. Start codon was not found: g32.t2	493	612	-
+Warning, segment was ignored. Start codon was not found: g32.t2	493	612	-
+Warning, segment was ignored. Start codon was not found: g32.t2	535	712	+
+Warning, segment was ignored. Start codon was not found: g32.t2	535	712	+
+Warning, segment was ignored. Start codon was not found: g32.t2	714	824	+
+Warning, segment was ignored. Stop codon was not found: g32.t2	714	824	+
+Warning, segment was ignored. Length of coding sequence is not divisible by three: g32.t2	535	545	-
+Warning, segment was ignored. Start codon was not found: g32.t1	224	736	-
+Warning, segment was ignored. Stop codon was not found: g32.t1	224	736	-
+Warning, segment was ignored. Start codon was not found: g32.t1	777	791	+
+Warning, segment was ignored. Start codon was not found: g32.t1	777	791	+
+Warning, segment was ignored. Start codon was not found: g32.t1	413	463	-
+Warning, segment was ignored. Start codon was not found: g32.t1	413	463	-
+Warning, segment was ignored. Start codon was not found: g32.t1	263	308	-
+Warning, segment was ignored. Stop codon was not found: g32.t1	263	308	-
+Warning, segment was ignored. Start codon was not found: g32.t1	548	890	+
+Warning, segment was ignored. Stop codon was not found: g32.t1	548	890	+
+Warning, segment was ignored. Internal stop codon was found at position 26 for g32.t1	12	29	-
+Warning, segment was ignored. Start codon was not found: g33.t1	884	952	-
+Warning, segment was ignored. Start codon was not found: g33.t1	824	916	-
+Warning, segment was ignored. Start codon was not found: g33.t1	88	855	+
+Warning, segment was ignored. Stop codon was not found: g33.t1	850	889	+
+Warning, segment was ignored. Length of coding sequence is not divisible by three: g33.t1	849	991	-
+Warning, segment was ignored. Start codon was not found: g34.t1	669	740	-
+Warning, segment was ignored. Start codon was not found: g34.t1	669	740	-
+Warning, segment was ignored. Start codon was not found: g34.t1	406	570	+
+Warning, segment was ignored. Start codon was not found: g34.t1	406	570	+
+Warning, segment was ignored. Start codon was not found: g34.t1	619	720	+
+Warning, segment was ignored. Start codon was not found: g34.t1	619	720	+
+Warning, segment was ignored. Internal stop codon was found at position 358 for g34.t1	305	391	-
+Warning, segment was ignored. Start codon was not found: g34.t1	718	759	+
+Warning, segment was ignored. Internal stop codon was found at position 643 : g34.t1	641	745	+
+Warning, segment was ignored. Start codon was not found: g35.t1	364	402	-
+Warning, segment was ignored. Start codon was not found: g35.t1	364	402	-
+Warning, segment was ignored. Start codon was not found: g35.t1	309	386	-
+Warning, segment was ignored. Start codon was not found: g35.t1	309	386	-
+Warning, segment was ignored. Internal stop codon was found at position 293 : g35.t1	273	335	+
+Warning, segment was ignored. Start codon was not found: g36.t1	175	235	-
+Warning, segment was ignored. Start codon was not found: g36.t1	175	235	-
+Warning, segment was ignored. Stop codon was not found: g36.t1	200	391	+
+Warning, segment was ignored. Stop codon was not found: g36.t1	200	391	+
+Warning, segment was ignored. Start codon was not found: g36.t1	225	335	+
+Warning, segment was ignored. Start codon was not found: g36.t1	225	335	+
+Warning, segment was ignored. Length of coding sequence is not divisible by three: g36.t1	90	216	+
+Warning, segment was ignored. Length of coding sequence is not divisible by three: g36.t1	144	384	+

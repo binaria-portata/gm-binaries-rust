@@ -1,0 +1,31 @@
+##gff-version 3
+# Eukaryotic GeneMark.hmm version 3.68
+# Sequence name: audit_def8.fa
+# FASTA defline: >short étÿe 3
+# Sequence length: 600 bp
+# G+C content: 43.00%
+# Matrices file: audit_tiny.mod
+# Sun Nov 15 09:34:41 2026
+# FASTA definition line: >short étÿe 3
+##sequence-region short 1 600
+short	GeneMark.hmm3	gene	129	232	.	-	.	ID=gene00001;Name=1;
+short	GeneMark.hmm3	mRNA	129	232	.	-	.	ID=mRNA00001;Parent=gene00001;Name=1;
+short	GeneMark.hmm3	exon	129	192	.	-	.	ID=exon00002;Parent=mRNA00001;Name=1;
+short	GeneMark.hmm3	CDS	129	192	.	-	1	ID=cds00001;Parent=mRNA00001;Name=1;
+short	GeneMark.hmm3	intron	193	227	.	-	2	ID=intron00001;Parent=mRNA00001;Name=1;
+short	GeneMark.hmm3	exon	228	232	.	-	.	ID=exon00001;Parent=mRNA00001;Name=1;
+short	GeneMark.hmm3	CDS	228	232	.	-	0	ID=cds00001;Parent=mRNA00001;Name=1;
+short	GeneMark.hmm3	gene	293	370	.	+	.	ID=gene00002;Name=2;
+short	GeneMark.hmm3	mRNA	293	370	.	+	.	ID=mRNA00002;Parent=gene00002;Name=2;
+short	GeneMark.hmm3	exon	293	300	.	+	.	ID=exon00001;Parent=mRNA00002;Name=2;
+short	GeneMark.hmm3	CDS	293	300	.	+	0	ID=cds00001;Parent=mRNA00002;Name=2;
+short	GeneMark.hmm3	intron	301	360	.	+	2	ID=intron00001;Parent=mRNA00002;Name=2;
+short	GeneMark.hmm3	exon	361	370	.	+	.	ID=exon00002;Parent=mRNA00002;Name=2;
+short	GeneMark.hmm3	CDS	361	370	.	+	1	ID=cds00001;Parent=mRNA00002;Name=2;
+short	GeneMark.hmm3	gene	394	571	.	+	.	ID=gene00003;Name=3;
+short	GeneMark.hmm3	mRNA	394	571	.	+	.	ID=mRNA00003;Parent=gene00003;Name=3;
+short	GeneMark.hmm3	exon	394	464	.	+	.	ID=exon00001;Parent=mRNA00003;Name=3;
+short	GeneMark.hmm3	CDS	394	464	.	+	0	ID=cds00001;Parent=mRNA00003;Name=3;
+short	GeneMark.hmm3	intron	465	525	.	+	2	ID=intron00001;Parent=mRNA00003;Name=3;
+short	GeneMark.hmm3	exon	526	571	.	+	.	ID=exon00002;Parent=mRNA00003;Name=3;
+short	GeneMark.hmm3	CDS	526	571	.	+	1	ID=cds00001;Parent=mRNA00003;Name=3;
